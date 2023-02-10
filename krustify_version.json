@@ -1,6 +1,6 @@
 {
-  "latest": "2.3.0.2",
-  "url": "urlhere",
-  "mandatory": true,
-  "requireAdmin": true
+	"latest": "2.3.0.4",
+	"url": "urlhere",
+	"mandatory": true,
+	"requireAdmin": true
 }
