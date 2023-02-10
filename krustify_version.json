@@ -2,7 +2,7 @@
   "latest": "2.3.0.2",
   "source": "urlhere",
   "config": [
-    "mandatory": true,
-    "requireAdmin": true,
+    "mandatory": "true",
+    "requireAdmin": "true",
   ]
 }
