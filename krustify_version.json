@@ -1,6 +1,6 @@
 {
 	"latest": "2.3.0.4",
-	"url": "urlhere",
+	"url": "https://github.com/AceSilentKill/Utils/blob/main/Krustify.exe?raw=true",
 	"mandatory": true,
 	"requireAdmin": true
 }
