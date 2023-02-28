@@ -1,8 +1,8 @@
 {
-  "blacklistedClans" : [
+  "blacklistedClans":[
     {
       "name":"StaZ",
-      "LO":"false"
+      "LO":false
     }
   ]
 }
