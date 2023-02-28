@@ -1,14 +1,22 @@
 {
-  "users":[
+  "users": [
     {
-      "name":"iisnake",
-      "LO":false
+      "name": "iisnake",
+      "LO": false
+    },
+    {
+      "name": "wishfulness",
+      "LO": false
+    },
+    {
+      "name": "Hashwin",
+      "LO": false
     }
   ],
-  "clans":[
+  "clans": [
     {
-      "name":"StaZ",
-      "LO":false
+      "name": "StaZ",
+      "LO": false
     }
   ]
 }
