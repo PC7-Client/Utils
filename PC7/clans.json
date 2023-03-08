@@ -1,7 +1,8 @@
 {
   "si": {
     "style": {
-      "color": "#FF0000"
+      "color": "#FF0000",
+      "text-shadow": "rgba(255,0,0,0.22) 0px 0px 45px;"
     }
   }
 }
