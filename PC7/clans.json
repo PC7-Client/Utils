@@ -1,7 +1,7 @@
 {
   "si": {
     "style": {
-      "animation": "rainbow .5s linear infinite"
+      "color": "#FF0000"
     }
   }
 }
