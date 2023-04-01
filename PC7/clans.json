@@ -1,12 +1,1 @@
-{
-  "si": {
-    "style": {
-      "color": "#FF0000"
-    }
-  },
-  "Dilf": {
-    "style": {
-      "animation": "rainbow .5s linear infinite"
-    }
-  }
-}
+{"24/7":{"style":"background: -webkit-linear-gradient(#34aed8, #8000FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"},"si":{"style":"background: -webkit-linear-gradient(#ff8282, #f00); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"},"dilf":{"style":"color: #AAE5FF;"}}
