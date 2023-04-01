@@ -1,6 +1,6 @@
 {
   "si": {
-    "style": "background: -webkit-linear-gradient(0.08turn, #f00, #010000); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+    "style": "background: -webkit-linear-gradient(0.08turn, #f00, #150000); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
   "dilf": {
     "style": "color: #AAE5FF;"
