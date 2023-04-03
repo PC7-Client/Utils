@@ -4,5 +4,8 @@
   },
   "dilf": {
     "style": "color: #AAE5FF;"
+  },
+  "cute": {
+    "style": "background: -webkit-linear-gradient(0.08turn, #ff8099, pink); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   }
 }
