@@ -1,9 +1,9 @@
 {
   "AceSilentKill": {
-    "badges": "dev,cool,love"
+    "badges": "dev,css,cool"
   },
   "PokeCuber7": {
-    "badges": "dev,cool,cc,fire"
+    "badges": "dev,cool,fire"
   },
   "Benitto": {
     "badges": "cool,cc"
@@ -57,6 +57,12 @@
     "badges": "booster"
   },
   "dj62": {
-    "badges": "cool"
+    "badges": "css,cool"
+  },
+  "cwsuck": {
+    "badges": "css"
+  },
+  "swij": {
+    "badges": "css"
   }
 }
