@@ -39,16 +39,16 @@
     "badges": "cool,cc,booster,ultimate,vip,supporter,ult_asha,fire,icy,love,money,nuke,skull,watch"
   },
   "KarmaHard": {
-    "badges": "cool,ultimate,ult_karma,nuke,skull"
+    "badges": "mod,cool,ultimate,ult_karma,nuke,skull"
   },
   "Kaga_Exists": {
-    "badges": "cool,ultimate,vip,supporter,ult_karma,fire,icy,love,money,nuke,skull,watch"
+    "badges": "mod,cool,ultimate,vip,supporter,ult_karma,fire,icy,love,money,nuke,skull,watch"
   },
   "-nV": {
-    "badges": "cool,ultimate,ult_karma,nuke,skull"
+    "badges": "mod,cool,ultimate,ult_karma,nuke,skull"
   },
   "doofusthefur": {
-    "badges": "booster"
+    "badges": "mod,booster"
   },
   "FluxFPS" : {
     "badges": "cool,cc,booster,ultimate,vip,supporter,ult_flux,fire,icy,love,money,nuke,skull,watch"
@@ -84,7 +84,7 @@
     "badges": "cc"
   },
   "TTv_KiLlSh0T": {
-    "badges": "cool,cc"
+    "badges": "mod,cool,cc"
   },
   "gottem69": {
     "badges": "cc"
