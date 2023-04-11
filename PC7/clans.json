@@ -9,6 +9,6 @@
     "style": "background: -webkit-linear-gradient(0.08turn, #ff8099, pink); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
   "sway": {
-    "style": "background: -webkit-linear-gradient(#e107ed, #6d00ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+    "style": "background: -webkit-linear-gradient(#d000ff, #7600ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   }
 }
