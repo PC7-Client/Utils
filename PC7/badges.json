@@ -30,7 +30,7 @@
     "badges": "cool,cc,vip,love,nuke"
   },
   "Dub_On_Krunk": {
-    "badges": "cool,cc,booster,fire"
+    "badges": "css,cool,cc,booster,fire"
   },
   "Twitch-Incabi": {
     "badges": "cc,booster"
@@ -117,12 +117,15 @@
     "badges": "cool"
   },
   "Primatixxx": {
-    "badges": "ultimate,vip,supporter,fire,icy,love,money,nuke,skull,watch"
+    "badges": "ultimate,vip,supporter,ult_primatix,fire,icy,love,money,nuke,skull,watch"
   },
   "Input_failed_4": {
-    "badges": "ultimate,vip,supporter,fire,icy,love,money,nuke,skull,watch"
+    "badges": "ultimate,vip,supporter,ult_primatix,fire,icy,love,money,nuke,skull,watch"
   },
   "Inabakumorii": {
-    "badges": "ultimate,vip,supporter,fire,icy,love,money,nuke,skull,watch"
+    "badges": "ultimate,vip,supporter,ult_primatix,fire,icy,love,money,nuke,skull,watch"
+  },
+  "DEVILisOP": {
+    "badges": "money"
   }
 }
