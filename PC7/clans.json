@@ -10,5 +10,8 @@
   },
   "sway": {
     "style": "background: -webkit-linear-gradient(#d000ff, #7600ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+  },
+  "nine": {
+    "style": "background: -webkit-linear-gradient(0.08turn, #DA004E, #970045); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   }
 }
