@@ -99,7 +99,7 @@
     "badges": "cc"
   },
   "WolfmannGames": {
-    "badges": "cc"
+    "badges": "cc,ult_jibnang"
   },
   "au8": {
     "badges": "cc,booster"
@@ -198,6 +198,6 @@
     "badges": "ultimate,ult_jibnang,love,money,nuke,watch"
   },
   "nangwobbler": {
-    "badges": "ultimate,ult_jibnang,love,money,nuke,watch"
+    "badges": "ultimate,love,money,nuke,watch"
   }
 }
