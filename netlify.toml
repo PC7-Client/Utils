@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "pc7client.com"
+  to = "https://pc7client.com/"
   status = 200
 
 [[headers]]
