@@ -1,4 +1,28 @@
 [[redirects]]
+  from = "/badges.json"
+  to = "badges.json"
+  force = true
+  status = 200
+  
+[[redirects]]
+  from = "/badgeUpdater.json"
+  to = "badgeUpdater.json"
+  force = true
+  status = 200
+  
+[[redirects]]
+  from = "/blacklist.json"
+  to = "blacklist.json"
+  force = true
+  status = 200
+  
+[[redirects]]
+  from = "/clans.json"
+  to = "clans.json"
+  force = true
+  status = 200
+  
+[[redirects]]
   from = "/*"
   to = "index.html"
   force = true
