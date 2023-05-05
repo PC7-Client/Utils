@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "https://www.youtube.com/watch?v=xvFZjo5PgG0"
+  to = "index.html"
   force = true
   status = 200
 
