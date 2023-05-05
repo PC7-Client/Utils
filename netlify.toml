@@ -1,6 +1,7 @@
 [[redirects]]
   from = "/*"
-  to = "https://pc7client.com/"
+  to = "https://www.youtube.com/watch?v=xvFZjo5PgG0"
+  force = true
   status = 200
 
 [[headers]]
