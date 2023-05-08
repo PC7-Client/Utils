@@ -13,5 +13,8 @@
   },
   "nine": {
     "style": "background: -webkit-linear-gradient(0.08turn, #DA004E, #970045); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+  },
+  "ㄕ": {
+    "style": "background: -webkit-linear-gradient(270deg, #ed2bff , #ffffff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   }
 }
