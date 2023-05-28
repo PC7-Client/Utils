@@ -408,5 +408,8 @@
         "fire",
         "nuke",
         "skull"
+    ],
+    "StatsCheck": [
+        "cool"
     ]
 }
