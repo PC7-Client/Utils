@@ -19,5 +19,8 @@
   },
   "ax": {
     "style": "background: -webkit-linear-gradient(0.08turn, #000000, #333333); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+  },
+  "rev": {
+    "style": "background: -webkit-linear-gradient(0.08turn, #555555, #000000, #00000000); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   }
 }
