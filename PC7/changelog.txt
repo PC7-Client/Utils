@@ -1,0 +1,184 @@
+ == UPDATE V6.6.0 ==
+ == UPDATE V6.6.0 ==
+ == UPDATE V6.6.0 ==
+ == UPDATE V6.6.0 ==
+ == UPDATE V6.6.0 ==
+ == UPDATE V6.6.0 ==
+ == UPDATE V6.6.0 ==
+ 
+ == UPDATE V6.7.0 ==
+ 
+ == UPDATE V6.6.8 ==
+ - Added new custom badge
+ - Added css maker badge
+ - Added a new troll command
+ - Tweaked HyperQuickJoin to be slightly more efficient
+ - Fixed a broken troll command
+ 
+ == UPDATE V6.6.7 ==
+ - Fixed a bug that was preventing certain social hub submenus from loading
+ - Renamed Matchmaker++ to HyperQuickJoin, as this name was already taken by Sex Client
+ 
+ == UPDATE V6.6.6 ==
+ - Added Karma's custom badge
+ - Added Switch CSS (Super clean, check it out)
+ - Fixed broken CSS (39x, xCirno)
+ - Fixed bug in CSS Credits that resulted in the author links not working in certain situations
+ - Fixed an oopsie I made that completely broke Twitch Chat
+ 
+ == UPDATE V6.6.5 ==
+ - Added options to change output of Matchmaker++
+ - Added UITweaks option to hide #homeStoreAd
+ - Added keybind 'Ctrl + Shft + F9' to temporarily reset easyCSS
+ - Added an option to fix the oversized player preview canvas
+ - Added the ability for me to troll my CCs :D
+ - Added multiple commonly requested CSS (39e, xCirno)
+ - Added Face Fixer, an option that removes the face to fix many older CSS
+ - All custom badges are now listed under one 'Custom' category
+ - Badge Tab now defaults to 'All' category
+ - Badge tab now hides when chats are opened
+ - Badge tab now hides correct elements when selected by using already existing krunker functions
+ - Twitch Chat will now check to see if you are live before displaying when enabled
+ - Reworked Matchmaker++ settings
+ - Fixed memory leak in Twitch Chat
+ - Removed some broken legacy LaF CSS
+ - Removed some old, unused code
+
+ == UPDATE V6.6.1 ==
+ - Added Asha's custom badge :D
+ - Removed unused imports
+
+ == UPDATE V6.6.0 ==
+ - Added twitch chat as an option in game
+ - Reworked the entire twitch integration process
+ - Reworked how the twitch token is stored in an effort to protect users
+ - Fixed twitch integration to log back in automatically on client launch
+ - Fixed bug that broke search functionality on market in social hub
+ - Fixed bug resulting in clan color + badges toggle not applying to social hub
+ 
+ == UPDATE V6.5.2 ==
+ - Added badges tab to social hub (shoutout to Haz :D )
+ - Tweaked how badges work to be a tiny bit more efficient
+ - Fixed a minor clan color breaking bug on social hub
+ 
+ == UPDATE V6.5.1 ==
+ - Added option to join random game if matchmaker++ doesnt find a match
+ - Added bhffa back to matchmaker++
+ - Added functionality to social hub:
+   > You can now right click the search button to search from clipboard
+   > If you have a profile link copied it will search only the username in that link
+   > You can now right click a username on social hub to copy the username
+   > If the user has premium it will copy the real username only
+ - Tweaked styling of badges in some locations
+ - Fixed typo in settings :P
+ 
+ == UPDATE V6.5.0 ==
+ - Added badges :D
+ - Tweaked how many client functions work internally
+ - Tweaked some settings to reflect changes
+ - Tweaked clan color to allow for more customization (gradients :D)
+ - Fixed a memory leak on social hub
+ - Fixed numerous bugs on social hub
+ - Fixed numerous bugs in game
+ - Removed unused resources previously bundled in the app
+ 
+ == UPDATE V6.4.0 ==
+ - Added EasyCSS to social hub
+ - Added clan color to social hub
+ - Added new water mark option
+ - Added 'Ping Fixer' to show real player ping (whats normally displayed * 2)
+ - Reworked social hub preload (framework for future social hub scripts)
+ - Reworked some settings:
+   > Moved and renamed resource filter settings under "Utilities - Resource Filter"
+   > Renamed an improperly named settings entry
+   > Other minor changes
+ - Refactored old code
+ - Fixed bugs with resource filter that resulted in popups not being filtered
+ - Fixed clan color bug that was causing lag for some users, it is now ~2x more efficient
+
+ == UPDATE V6.3.0 ==
+ - Basically rewrote the entire client for better performance
+ - Added alt menu ping
+ - Added resource filter to social hub (more features planned)
+ - Removed some unused dependencies
+  
+ == UPDATE V6.2.1 ==
+ - Fixed resource swapper
+ - Fixed config issue that resulted in multiple issues following the first launch with a new config
+ - Fixed bug that resulted in the discord invite not rendering on the config error popup
+ - Fixed other minor bugs
+ 
+ == UPDATE V6.2.0 ==
+ - Reworked config system:
+   > Added proper error handing for corrupt configs
+   > Config read and write is now over 10x faster
+ - Reworked some settings (internally)
+ - Reworked some chromium flags
+ - Bug fixes
+ - Refactored performance-impacting code
+
+ == UPDATE V6.1.1 ==
+ - Added Matchmaker++
+ - Added 2 new CSS to EasyCSS
+ - Added resource filter option to block another popup
+ - Added color profile setting
+ - Added option to replace Esports button with Alt Manager button
+ - Refactored some performance-impacting code
+ 
+ == UPDATE V6.1.0 ==
+ - Made significant changes that should remove all major stuttering
+ - Reworked some very inefficient code
+ - Moved to newer version of chromium
+ 
+ == UPDATE V6.0.14 ==
+ - Added CSS credits popup functionality
+ - Added new CSS to EasyCSS (Ephemeral)
+ - Added Alt Manager UI options to enable better compatiblity with different CSS
+ - Added bundle popup blocker
+ - Reworked some settings
+ - Removed unused code
+  
+ == UPDATE V6.0.13 ==
+ - Moved connection checker settings to 'Utilities - Connection Checker'
+ - Fixed bug with connection checker interval replacing / deleting chats
+ - Fixed 2 other bugs :)
+  
+ == UPDATE V6.0.12 ==
+ - Added auto connection checker interval (QOL)
+ - Added more robust usage tracking to PC7:
+   > Not identifiable to anybody, general statisitcs on usage data that nearly all sites track
+ - Tweaked blacklist checks to be more robust and performant
+ - Tweaked and optimized old code
+ - Fixed an edge case that could break connection checker keybind
+ - Fixed missing wallbang image in chat logs
+ - Fixed bugs in chat logs
+  
+ == UPDATE V6.0.11 ==
+ - Added 'F3' keybind to use connection checker
+ - Added option to hide the free KR popups
+ - Added ability to track how many unique active users PC7 has
+ - Tweaked some potentially performance impacting code
+ - Tweaked some alt manager inner workings
+ - Removed some unnecessary code
+ - Fixed clan color to improve performance and support old leaderboard
+ - Fixed chat logger bugs for people using old leaderboard
+  
+ == UPDATE V6.0.10 ==
+ - Alt manager should be working again
+
+ == UPDATE V6.0.9 ==
+ - Added new alt manager
+ - Added new UI Tweak settings to hide certain potentially unwanted UI elements
+ - Added new resource filter
+ - Minor tweaks to settings
+ - Tweaked EasyCSS to allow for easy addition of new themes in the future
+ - Changed splash screen
+ - Numerous bug fixes
+
+ == UPDATE V6.0.8 ==
+ - Added new flag per request of a user
+ - Minor tweaks to settings
+ - Fixed broken/old links in some areas of settings
+
+ == INITIAL RELEASE V6.0.7 ==
+ - Initial Public Client Release March 5 2023
