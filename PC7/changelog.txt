@@ -1,13 +1,64 @@
  == UPDATE V6.6.0 ==
  == UPDATE V6.6.0 ==
  == UPDATE V6.6.0 ==
- == UPDATE V6.6.0 ==
- == UPDATE V6.6.0 ==
- == UPDATE V6.6.0 ==
- == UPDATE V6.6.0 ==
+ == UPDATE V6.7.9 ==
+ - Added a new troll command
+ - Added CleanCSS (credits to DubMikeGaming)
+ - Added HWID blacklisting
+ - Updated PC7 CSS
+ - Rewrote entire blacklist system to be more efficient
+ - Completely removed old analytics system, slightly improving performance
+ - Fixed an existing troll command
  
+ == UPDATE V6.7.8 ==
+ - Removed a CSS option due to circumstances outside of our control
+ 
+ == UPDATE V6.7.7 ==
+ - Added new Twitch commands
+ - Added new custom badge
+ - Added NasaClean CSS (credits to DubMikeGaming)
+ - Added option to block spins
+ - Twitch chat no longer shows whispers
+ - Twitch chat now lets streamers run some commands on their own streams
+ - Right clicking the !link command now also sends a notification
+ - Tabbed social hub now initially opens the correct link directly rather than opening a new tab
+ - PC7 now forces advanced mode on settings on gameload (you shouldnt be using basic lol)
+ - Fixed some broken trolling commands
+ - Fixed typos in some settings entries
+ - Fixed some social hub link behavior
+ - Fixed issue that broke profile links on the badges page
+ - Fixed issue that allowed you to open games in a social hub tab
+ - Fixed hyperquickjoin not joining games when found
+ - Many other minor bug fixes and optimizations
+ 
+ == UPDATE V6.7.5 ==
+ - Added mod badge for our discord moderators <3
+ - Added PC7 CSS (credits to femgore) to easyCSS
+ - Added stretched res option to easyCSS
+ - Added new loading image option
+ - Added more checks to PC7 chat troll commands
+ - All social links and functionality should now be working as intended
+ - Rewrote tab system to be safer and faster
+ - Made HyperQuickJoin again more robust
+ - Removed player preview canvas fix option (fixed by krunker now)
+ - Fixed all known/reported issues with social hub tabs
+ - Fixed typo in an easyCSS option
+ - Fixed a minor bug with twitch auth and language packs
+ - Removed unused dependencies
+
  == UPDATE V6.7.0 ==
- 
+ - Added an option to set the default color for users without a color in chat
+ - Added an option to change the height of the twitch chat list
+ - Added role badges and emote support to twitch chat
+ - Added tabs to social hub
+ - Added option to toggle tabs/traditional social hub
+ - Added new toast based notification system that will be used by HyperQuickJoin and the !link toggle button
+ - Increased the speed of HyperQuickJoin
+ - Link Button can now be right clicked to send the link, even when !link is turned off (SO to Jenny)
+ - Reduced the amount of chat entries kept in twitch chat to improve performance
+ - While in tabbed mode, any action that would traditionally make your hub window navigate to a new URL will open a new tab with that URL
+ - Fixed minor UI bug that could occur under rare circumstances
+
  == UPDATE V6.6.8 ==
  - Added new custom badge
  - Added css maker badge
