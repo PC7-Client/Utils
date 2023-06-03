@@ -9,7 +9,23 @@
  == UPDATE V6.9.11 ==
  
  == UPDATE V6.9.10 ==
- - 
+ - Added Spec Util that shows the player you are spectating's ping, your ping, and your combined ping
+ - Added a text field that lets you chat in twitch directly from your game :D
+ - Added a "start" and "stop" command for all of the previous toggles for visual filters
+ - Added buttons to reset the reward that your channel points Twitch commands are linked to
+ - Added the ability to middle click a social hub tab to close it, as tabs behave this way in most browsers
+ - Potentially fixed 2nd bug that resulted in tabbed hub not rendering until resized on some devices
+ - Rewrote entire Twitch command subsettings menu generation yet again
+ - Changed how the "Assign" button works on channel points twitch commands
+ - The "Assign" text and color will now change indicating the reward was successfully linked
+ - Potentially fixed error cause Mac devices to download the new client but not run it properly
+ - Rewrote every js file in the client to fix all eslint issues and ensure type safety moving forward
+ - Moved asset hosting over to our custom site, with fallbacks to original GitHub files should the new domain have any issues
+ - Replaced all references to our old site with the new one
+ - Fixed !link command running even when disabled
+ - Fixed bugs with some visual filters by rewriting all of them
+ - Fixed typo that broke deepfry command
+ - Fixed bug that made the KPD phone fixer not work (I think?)
  
  == UPDATE V6.9.7 ==
  - Added Angel Wings CSS by fem, rin, and cookie
