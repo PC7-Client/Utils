@@ -21,6 +21,6 @@
     "style": "background: -webkit-linear-gradient(0.08turn, #000000, #333333); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
   "rev": {
-    "style": "background: linear-gradient(to right, rgba(85, 85, 85, 1), rgba(85, 85, 85, 0.5), rgba(0, 0, 0, 0)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+    "style": "animation: rainbow .5s linear infinite"
   }
 }
