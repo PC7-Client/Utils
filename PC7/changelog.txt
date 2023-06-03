@@ -1,12 +1,57 @@
  == UPDATE V6.9.24 ==
+ 
+ 
  == UPDATE V6.9.23 ==
+ 
+ 
  == UPDATE V6.9.22 ==
+ 
+ 
  == UPDATE V6.9.21 ==
+ 
+ 
  == UPDATE V6.9.20 ==
+ 
+ 
  == UPDATE V6.9.15 ==
+ - Added custom endUI (shows when a game is over) background options
+ - Added custom "connection lost" popup background options
+ - Added "requires refresh" indicator to client settings
+ - Added separate toggles for clan color and badges
+ - Added a few new troll commands
+ - Tweaked all settings to finally reflect whether they just need a refresh or full restart
+ - Tweaked settings menu header layout
+ - Further improved initial loading speed of client features and UI
+ - Tweaked emote parser to only initialize if you have linked twitch
+ - Tweaked badge parser to only initialize if you have linked twitch
+ - Updated some CSS
+ - Tweaked some CSS credits
+ - Fixed a bug that could result in errors when opening chat logs in rare cases
+ - Fixed a rare, minor bug with auto scroll in twitch chat
+ - Fixed custom loading screen backgrounds and added the options back in settings
+ - Fixed bug in settings generation that could ignore or reset the default values for some color type settings entries
+ 
  == UPDATE V6.9.13 ==
+ - Improved loading time of all client features
+ - Removed now broken loading screen feature
+ - Reduced the frequency of checks on whether you are live so that we dont spam Twitch APIs
+ - Installer will now open the download directory on mac because I refuse to pay a crappy company like apple 100 bucks for basic functionality that should be allowed by default :D
+ - Hopefully fixed bug that prevented mac users from using PC7 with the last update
+ - Fixed broken troll command
+ 
  == UPDATE V6.9.12 ==
+ - Matchmaker options are now sorted alphabetically
+ - You can now click clans in social hub posts to open the clan page :D
+ - Improved perm checking on some commands
+ 
  == UPDATE V6.9.11 ==
+ - Added some new troll commands
+ - Tweaked suffer mode to incorporate some of our troll commands
+ - Made changes to the updater to (hopefully) fix mac support
+ - Made some changes to our application icons that should make them look nicer on most devices
+ - Fixed many minor bugs caused by changes in Krunker
+ - Fixed bug where the filter commands were not properly toggling
+ - Fixed bug where dev commands could not be run from inside of the in-game twitch chat
  
  == UPDATE V6.9.10 ==
  - Added Spec Util that shows the player you are spectating's ping, your ping, and your combined ping
