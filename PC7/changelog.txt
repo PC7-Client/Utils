@@ -1,6 +1,173 @@
- == UPDATE V6.6.0 ==
- == UPDATE V6.6.0 ==
- == UPDATE V6.6.0 ==
+ == UPDATE V6.9.24 ==
+ == UPDATE V6.9.23 ==
+ == UPDATE V6.9.22 ==
+ == UPDATE V6.9.21 ==
+ == UPDATE V6.9.20 ==
+ == UPDATE V6.9.15 ==
+ == UPDATE V6.9.13 ==
+ == UPDATE V6.9.12 ==
+ == UPDATE V6.9.11 ==
+ 
+ == UPDATE V6.9.10 ==
+ - 
+ 
+ == UPDATE V6.9.7 ==
+ - Added Angel Wings CSS by fem, rin, and cookie
+ - Added Terms of Service
+ - Added Privacy Policy
+ - Added logic to mandate both of these agreements be accepted before allowing you to use PC7
+ 
+ == UPDATE V6.9.6 ==
+ - Added Alt + F4 shortcut support for those having issues using it
+ - Possibly fixed channel point rewards for real for real for real fr but like fr???
+ - Updated notifications during twitch channel reward linking to better explain what is happening
+ - Increased the time that the twitch channel reward linking notifications are shown to allow them to be read
+ - Fixed !link command
+ 
+ == UPDATE V6.9.5 ==
+ - Possibly fixed channel point rewards for real for real for real fr???
+ 
+ == UPDATE V6.9.4 ==
+ - Possibly fixed channel point rewards for real for real for real???
+ 
+ == UPDATE V6.9.3 ==
+ - Possibly fixed channel point rewards for real for real??
+ 
+ == UPDATE V6.9.2 ==
+ - Possibly fixed channel point rewards for real?
+ 
+ == UPDATE V6.9.1 ==
+ - Fixed !link command :D
+ - Possibly fixed channel point rewards
+ 
+ == UPDATE V6.9.0 ==
+ - Added custom Twitch badge parser
+ - Added a robust troll command permission system
+ - Added some new troll commands
+ - Added PC7 Twitch Command Options
+ - Added proper config checks to allow for subsettings options entries to be updated painlessly
+ - Added proper system to show popups on first launch after updates based on version
+ - Tweaked settings entry so that Ping Fixer no longer applies by default for new users
+ - Tweaked how the visual filters work
+ - Removed some troll commands
+ - Rewrote entire twitch integration from the ground up to be more robust
+ - Rewrote twitch auth process
+ - Made the twitch auth landing page look a little less ugly
+ - Changed twitch auth token scope to allow for new features (you must relink twitch)
+ - You can now link channel point rewards to troll commands
+ - You can now enable twitch troll commands for some or all of your viewers
+ - Rewrote entire subsetting menu generator
+ - Added support for new types of settings entries and restart icons
+ - Fixed width of subsettings menu to be wider
+ - Fixed subsettings headers so that categories may be collapsed
+
+ == UPDATE V6.8.13 ==
+ - Added ping to KPD callist
+ - Added call info box to KPD calls
+ - Added better error handling for discord RPC
+ - Added option to invert keystrokes colors
+ - Fixed a couple broken settings options
+ 
+ == UPDATE V6.8.12 ==
+ - Tweaked some KPD Util features
+ - Suspect info no longer gets displayed twice when joining calls
+ - Reworked part of our notification system to support click events
+ - Inbox notifications can now be clicked to open the respective message in your inbox
+ - Fixed bug that made 'Open Call Menu After Calls' break in some situations
+ - Fixed bug with inbox notifications
+ - Fixed incorrectly named settings entries
+ 
+ == UPDATE V6.8.11 ==
+ - Added KPD utilities
+ - Added a mailbox notification system that will notify you when your krunker mailbox recieves any notifications
+ - Added a ton of twitch commands
+ - Added RGB mode option to keystrokes overlay
+ - Added unobtainable text mode option
+ - Added rave mode option
+ - Added grayscale mode option
+ - Added Milkdromeda CSS (Shoutout to Drag0nD3ath!)
+ - Rewrote entire notification system to be more robust
+ - Removed unused code
+ - Fixed social hub not rendering in some scenarios
+ - Fixed bug that completely broke chatlogs
+ 
+ == UPDATE V6.8.8 ==
+ - Added temporary hotkey to toggle F8 for a user with it auto bound by recording software
+ - Added Exit Button to Switch CSS for fullscreen users
+ - Added new twitch emote parser (BTTV, FFZ, and 7TV are now fully supported)
+ - F8 will now only open the game if the game URL in your clipboard is different than the game you are on
+ - Removed super broken FurryKA CSS
+ - Tweaked twitch auth process to restart client after first link to prevent errors
+ - Fixed two troll commands
+ - Fixed bugs in 39e CSS
+ - Fixed bugs in xCirno CSS
+ - Fixed bugs in Laxzy CSS
+ - Fixed bugs in PC7 CSS
+ 
+ == UPDATE V6.8.7 ==
+ - Added link to model viewer to return to game
+ - Added support for sandbox
+ - Added button to sandbox menu to return to the game
+ - Tweaked client functions to reduce loading time
+ - Removed left over debugging code from social hub
+ - Fixed certain in-game links behaving incorrectly
+ - Fixed issue that could result in tabs not displaying properly for some users
+ - Fixed a ton of bugs with model viewer
+ - Fixed a bug that resulted in some users being blacklisted after a resetting config or clearing user data
+ 
+ == UPDATE V6.8.6 ==
+ - Fixed build script that was breaking the new social hub tabs on release builds
+ 
+ == UPDATE V6.8.5 ==
+ - Added "minimum time left" slider to HyperQuickJoin settings
+ - Added keybind (Ctrl/Command + Shift + F10) to fix situations where you weirdos download malicious mods with autoload enabled
+ - Added new troll commands :)
+ - Updated Krunker Simple CSS
+ - Tweaked number of twitch chat entries stored in twitch chat integration
+ - Rewrote tab system so that we no longer use creepycats's css (please check out creepycats's work here)
+ - Right clicking the new tab button will close the window (for fullscreen users)
+ - Fixed bug where emote parser broke some !pc7 toast and !pc7 alert commands
+ - Fixed a few broken twitch commands
+ - Fixed broken settings search
+ - Fixed messed up settings entries
+ - Fixed certain in-game links behaving incorrectly
+ - Fixed the bug that caused Social Hub to not render until resized
+ - Fixed certain hub links behaving incorrectly
+ 
+ == UPDATE V6.8.1 ==
+ - Fixed config error
+ 
+ == UPDATE V6.8.0 ==
+ - Improved window management
+ - Rewrote entire matchmaker script to allow selection of multiple gamemodes and regions
+ - Fixed some CSS issues (SO to Fem)
+ - Fixed some in-game links not working
+ - Fixed faulty logic in some troll commands
+ - Fixed bug that resulted in errors when using the hub with the game window closed.
+ - Removed 2 unused dependencies
+ 
+ == UPDATE V6.7.12 ==
+ - Fixed a bug that would result in errors during updates for downloads longer than 15 seconds
+ - Fixed a bug that broke Twitch Integration and resulted in errors
+ - Fixed a typo in settings
+ - Fixed an improperly placed setting
+ - Removed multiple unused dependencies
+ 
+ == UPDATE V6.7.11 ==
+ - Added ability to add or override badges without an update
+ - Added an ultimate badge
+ - Fixed broken troll command
+
+ == UPDATE V6.7.10 ==
+ - Added claim all button to battle pass
+ - Added 'Get PC7' button to RPC
+ - Added some new Twitch Chat commands
+ - Tweaked some internal stuff to be more efficient
+ - Fixed an improperly categorized setting
+ - Fixed social hub links yet again (should be good for real now, everywhere)
+ - Fixed some improper error handling
+ - Fixed keybinds for mac users
+
  == UPDATE V6.7.9 ==
  - Added a new troll command
  - Added CleanCSS (credits to DubMikeGaming)
