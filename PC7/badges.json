@@ -391,6 +391,10 @@
     "revIover2": [
         "ult_rev"
     ],
+    "revIover": [
+        "ult_rev",
+        "dev"
+    ]
     "SonicGamer20": [
         "icy"
     ],
