@@ -22,5 +22,8 @@
   },
   "rev": {
     "style": "animation: rainbow .5s linear infinite"
+  },
+  "28": {
+    "style": "background: -webkit-linear-gradient(0.08turn, #ba70ff, #6018a3);"
   }
 }
