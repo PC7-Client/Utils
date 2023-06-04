@@ -1,17 +1,57 @@
  == UPDATE V6.9.24 ==
- 
+ - Added a new social hub CSS (credits to Drag0nD3ath)
+ - Added custom hackertag text for patreon supporters :D
+ - Added better support for hotkeys on social hub:
+   > Added support for 'Command/Ctrl + W' (closes active tab)
+   > Added support for 'Command/Ctrl + T' (opens a new tab)
+   > Added support for 'Command/Ctrl + R' and 'F5' in tabbed mode (reloads active tab)
+ - Updated badge cache
+ - Removed unneccesary files from releases
+ - Removed unused dependencies
+ - Removed some unused code
+ - Keystrokes Overlay now displays your primary movement keybinds from your keybind settings rather than just 'WASD' keys
+ - Fixed bug where badges tab could freeze social hub in rare cases
+ - Fixed bug with KPD call menu that would allow KPD to break their clients by clicking mod guide :D
  
  == UPDATE V6.9.23 ==
- 
+ - Moved backup asset fetchers to use our new urls
+ - Fixed badge order bug
  
  == UPDATE V6.9.22 ==
- 
+ - Added max player slider to HyperQuickJoin
+ - Added some stuff that should remove the new krunker ui shown to users who have not yet signed in
+ - Added some client utilities for making popups in game to (hopefully) fix some bugs with certain menus making screens gray for some users
+ - Tweaked timing for KPD call UI color changes to be more in sync with the minimum call time requirement
+ - Tweaked styling of some menu buttons
+ - Updated some backend stuff
+ - Reworked how our badges work to make it easier to add or remove badges
+ - Fixed bug with twitch chat cheer parser that could result in all cheers displaying as the single bit cheer gif
+ - Fixed bug preventing settings entries from being properly shown/hidden
+ - Fixed issue preventing region ping from being calculated
+ - Fixed typo in our agreement screens :D
+ - Fixed updater for mac (maybe?)
  
  == UPDATE V6.9.21 ==
- 
+ - Added button to settings that opens your userscripts folder
+ - Added buttons to settings to import and export client configs
+ - Added two new troll commands
+ - Added a ton of functionality for userscripts (require's, resource's, more GM_ functions, general reliability, etc)
+ - Reworked settings menu generation
+ - PC7's settings buttons are now located at the top for easier access
+ - Tweaked Sakura CSS
+ - Removed some old, unused code
+ - Fixed a bug where enabling some KPD utils without being KPD would result in errors
+ - Fixed a bug where toggling !link command from settings did not properly update the link command icon's color in the pause menu
+ - Fixed all remaining visual bugs involving "No settings found" appearing during certain searches
+ - Fixed a buggy troll command
+ - Fixed a multitude of bugs with the old userscript system
  
  == UPDATE V6.9.20 ==
- 
+ - Added option for "ClearSpect Mode"
+ - Added support for bit animations in twitch chat
+ - Added userscript support (please check the example script pinned in our userscripts channel in discord for more information on making scripts)
+ - Tweaked permissions on !pc7 speak command to allow the broadcaster to use it
+ - Maybe fixed a bug preventing some users' tabs from rendering until resized
  
  == UPDATE V6.9.15 ==
  - Added custom endUI (shows when a game is over) background options
@@ -154,7 +194,7 @@
  
  == UPDATE V6.8.8 ==
  - Added temporary hotkey to toggle F8 for a user with it auto bound by recording software
- - Added Exit Button to Switch CSS for fullscreen users
+ - Added exit button to Switch CSS for fullscreen users
  - Added new twitch emote parser (BTTV, FFZ, and 7TV are now fully supported)
  - F8 will now only open the game if the game URL in your clipboard is different than the game you are on
  - Removed super broken FurryKA CSS
