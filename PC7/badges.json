@@ -384,7 +384,8 @@
         "mod",
         "supporter",
         "nuke",
-        "ult_rev"
+        "ult_rev",
+        "nack"
     ],
     "TBDerpo": [
         "cc"
