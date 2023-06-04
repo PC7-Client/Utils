@@ -29,6 +29,12 @@
   status = 200
   
 [[redirects]]
+  from = "/changelog.txt"
+  to = "changelog.txt"
+  force = true
+  status = 200
+  
+[[redirects]]
   from = "/*"
   to = "index.html"
   force = true
