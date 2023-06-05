@@ -1,3 +1,17 @@
+ == UPDATE V6.9.26 ==
+ - Added PC7 changelogs to the game
+ - Added Mumbai region to HyperQuickJoin settings
+ - Added player count to kpd call list
+ - Added two new troll commands
+ - Added a new staff member to our troll command dev perms list
+ - Tweaked some troll commands
+ - Updated badge cache
+ - Made some minor backend changes
+ - Removed some unused dependencies
+ - Fixed auto updater for mac (maybe?)
+ - Fixed time column in kpd banlogs tab so that it now shows proper relative times
+ - Fixed other some minor bugs 
+ 
  == UPDATE V6.9.24 ==
  - Added a new social hub CSS (credits to Drag0nD3ath)
  - Added custom hackertag text for patreon supporters :D
