@@ -13,6 +13,17 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V6.9.27 ==
+ - Keystrokes Overlay now grabs your binds for crouch and jump too
+ - Keystrokes Overlay now displays proper standardized unicode symbols for more keys
+ - Updated badge cache to include our new comp partnership badges :D
+ - Fixed multiple bugs with our RPC that could result in repetitive log outputs
+ - Fixed a bug involving the ordering of some newly added badges
+ - Fixed issues with our badge config having duplicate entries for some users
+ - Fixed a bug that would result in some new badges not being displayed on certain profiles
+ - Fixed some issues with our CDN deploy config that was preventing us from updating badges
+ - Fixed a bug that broke swapper
+ 
  == UPDATE V6.9.26 ==
  - Added PC7 changelogs to the game
  - Added Mumbai region to HyperQuickJoin settings
