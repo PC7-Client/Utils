@@ -387,7 +387,8 @@
     "Error430": [
         "dev",
         "ult_rev",
-        "nack"
+        "nack",
+        "kpc"
     ],
     "TBDerpo": [
         "cc"
