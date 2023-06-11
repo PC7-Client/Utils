@@ -28,5 +28,11 @@
   },
   "24/7": {
     "style": "background: -webkit-linear-gradient(#009090, #00ffff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" 
+  },
+  "BIue": {
+    "style": "background: -webkit-linear-gradient(0.08deg, #2788e9 , #00ffff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+  },
+  "c4": {
+    "style": "background: -webkit-linear-gradient(bottom, #2788e9, #00ffff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   }
 }
