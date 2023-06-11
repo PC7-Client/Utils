@@ -33,6 +33,6 @@
     "style": "background: -webkit-linear-gradient(0.08deg, #2788e9 , #00ffff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
   "c4": {
-    "style": "background: -webkit-linear-gradient(top, #ffffeb3b, #00ffff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+    "style": "background: -webkit-linear-gradient(#ffca00,#000000); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   }
 }
