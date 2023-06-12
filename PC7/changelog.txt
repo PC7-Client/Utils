@@ -12,6 +12,18 @@
  - If the game doesn't run for you check this link: https://get.webgl.org/
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
+ 
+ == UPDATE V6.9.28 ==
+ - Added new feature for devs + titan :D
+ - Updated Privacy Policy and Terms Of Service
+ - Social Tabs now auto mute when they are no longer the active tab
+ - Made subsettings menu generation more robust
+ - Increased the amount of time that some popups are displayed while linking twitch channel rewards to PC7
+ - Modified 39e css to show the police button again for KPD users and fix badge alignment on some leaderboards
+ - Removed HWID logging
+ - Fixed a bug with subsettings menu generation
+ - Fixed a bug involving social hub tabs not switching tab contents properly
+ - Fixed a bug where having userscripts without proper meta info would result in error popups
 
  == UPDATE V6.9.27 ==
  - Keystrokes Overlay now grabs your binds for crouch and jump too
