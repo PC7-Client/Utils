@@ -1,6 +1,6 @@
  == FIXING LAG/FPS Issues ==
  - Enable Hardware Acceleration and try different graphics settings
- - Use PC7 Client
+ - Use PC7 Client :D
  - Reset User Data
  - If you are on a Laptop: Make sure its not in Power-Saver Mode
  - Use Performance Settings & Set Saturation to 1.0
