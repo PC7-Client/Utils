@@ -9,10 +9,10 @@
         "nuke"
     ],
     "Error430": [
-    "dev",
-    "ult_rev",
-    "nack",
-    "kpc"
+        "dev",
+        "ult_rev",
+        "nack",
+        "kpc"
     ],
     "Benitto": [
         "cool",
@@ -539,6 +539,9 @@
         "cc"
     ],
     "abfljabefio": [
-      "cc"  
-    ]
+        "cc"
+    ],
+    "605388525717684225": {
+        "ign": "Error430"
+    }
 }
