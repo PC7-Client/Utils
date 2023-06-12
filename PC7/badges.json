@@ -8,6 +8,12 @@
         "dev",
         "nuke"
     ],
+    "Error430": [
+    "dev",
+    "ult_rev",
+    "nack",
+    "kpc"
+    ],
     "Benitto": [
         "cool",
         "cc"
@@ -381,12 +387,6 @@
         "love",
         "cool",
         "nack"
-    ],
-    "Error430": [
-        "dev",
-        "ult_rev",
-        "nack",
-        "kpc"
     ],
     "TBDerpo": [
         "cc"
