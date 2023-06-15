@@ -12,7 +12,12 @@
  - If the game doesn't run for you check this link: https://get.webgl.org/
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
-  
+ 
+ == UPDATE V6.9.30 ==
+ - Fixed bug in Mac updater
+ - Fixed bug with linking Twitch
+ - Fixed two other minor bugs
+
  == UPDATE V6.9.29 ==
  - Added a toggle to restrict twitch trolling 😄
  - Fixed bug with client badge ordering
