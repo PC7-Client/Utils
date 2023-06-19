@@ -216,7 +216,7 @@
         "ult_clqws",
         "money"
     ],
-    "catblood": [
+    "Rixacutable": [
         "css",
         "cc",
         "ult_flux",
@@ -550,5 +550,13 @@
     "Resolve.": [
         "vip",
         "cc"
+    ],
+    "catblood": [
+        "css",
+        "cc",
+        "vip",
+        "cool",
+        "booster",
+        "money"
     ]
 }
