@@ -261,7 +261,9 @@
         "money"
     ],
     "mastenik000": [
-        "booster"
+        "booster",
+        "cool",
+        "supporter"    
     ],
     "apple______": [
         "cool"
@@ -410,7 +412,8 @@
         "supporter",
         "fire",
         "nuke",
-        "skull"
+        "skull",
+        "nack"
     ],
     "StatsCheck": [
         "cool",
@@ -558,5 +561,6 @@
         "cool",
         "booster",
         "money"
-    ]
+    ],
+    
 }
