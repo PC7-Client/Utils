@@ -12,6 +12,18 @@
  - If the game doesn't run for you check this link: https://get.webgl.org/
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
+
+ == UPDATE V6.10.0 ==
+ - Added badges back to Twitch integration (broke due to the deletion of a twitch api)
+ - Added better error handling to a semi-broken dependency
+ - Changed the design of some internal functionality in an effort to prevent further false detections from windows defender's poorly made machine learning based "detections"
+ - Updated many dependencies
+ - Twitch chat integration now reflects chats being cleared and messages being deleted
+ - Changed mac updater to hopefully work better?
+ - Rewrote much of the twitch integration to be more efficient
+ - Fixed poke's client dev mode :D
+ - Fixed a bug with auto muting social hub tabs
+ - Removed a dependency previously used for twitch badges
  
  == UPDATE V6.9.30 ==
  - Fixed bug in Mac updater
