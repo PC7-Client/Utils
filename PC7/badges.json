@@ -572,7 +572,11 @@
         "ult_flux"
     ],
     "MattCS": [
-        "booster"
+        "booster",
+        "supporter",
+        "vip",
+        "skull",
+        "ultimate"
     ],
     "Not_Guppy": [
         "cool",
