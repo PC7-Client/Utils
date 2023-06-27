@@ -12,7 +12,17 @@
  - If the game doesn't run for you check this link: https://get.webgl.org/
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
- 
+
+ == UPDATE V6.10.2 ==
+ - Added new experimental resource filter option to block fullscreen video ads and other ad related elements
+ - Added an experimental option to disable all CSS animations
+ - Added Thaddeuz CSS
+ - Tweaked multiple client functions to not use alerts, as this breaks text inputs (shoutout to Lombre Blanche :D)
+ - Tweaked how watermarks are applied to fix some situations that could result in watermarks not showing up
+ - Updated badge cache
+ - Fixed bug preventing swapper from swapping videos
+ - Removed unob animation from watermarks on dev mode
+
  == UPDATE V6.10.1 ==
  - Added support for custom channel badges in twitch chat integration
  - Added better error handling to twitch chat integration
