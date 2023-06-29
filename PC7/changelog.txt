@@ -13,6 +13,14 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V6.10.3 ==
+ - Added MiniMap tweaks
+ - Added additional elements to the resource filter for social hub (for the new ads between social posts)
+ - Fixed clan color, badges, spec util and kpd util features that broke after the game update
+ - Fixed a multitude of other bugs related to changes from the game update
+ - Tweaked styling of some client UI to match new krunker UI
+ - Removed #voiceDisplay UI hider
+
  == UPDATE V6.10.2 ==
  - Added new experimental resource filter option to block fullscreen video ads and other ad related elements
  - Added an experimental option to disable all CSS animations
