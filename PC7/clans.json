@@ -34,5 +34,8 @@
   },
   "arae": {
     "style": "background: -webkit-linear-gradient(0.8deg, #A836EE, #000000); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+  },
+  "Jump": {
+    "style": "background: -webkit-linear-gradient(0deg, #ffffff, #69F4EE); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" 
   }
 }
