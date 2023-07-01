@@ -611,6 +611,7 @@
     "money"
   ],
   "revIover": [
-    "ult_rev"
+    "ult_rev",
+    "nack"
   ]
 }
