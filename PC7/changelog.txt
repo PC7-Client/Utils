@@ -13,6 +13,28 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V6.11.0 ==
+ - Added a new feature 'Nuke Counter Overlay'
+ - Added better error handling to many client functions
+ - Added refresh indicator to some settings missing it
+ - Added two new CSS to easyCSS: 'Old Krunker' and 'Shotzz'
+ - Added a new feature 'External Resource Swapper' (config file located in PC7Swap\externalResourceSwapper.json):
+   > This feature can be used to swap out specific resources with remotely hosted resources rather than local files
+   > You should fill the object only with key-value pairs containing URL strings
+   > You must specify exact URLs you wish to be targeted as the keys, traditional URL match patterns are not supported
+   > Any request made that matches a key URL string will be redirected to its respective value URL string in the config file
+ - Tweaked how Resource Swapper initializes
+ - Tweaked some client utils to better handle errors
+ - Tweaked 'Get PC7' RPC button to link to our client site rather than our github repo
+ - Tweaked dev mode checks to be more efficient
+ - Tweaked many existing CSS:
+   > Switch CSS - fixed chat ui, removed KPD button hover effect
+   > xCirno CSS - KPD button is now visible
+   > Thaddeuz CSS - fixed chat ui, added KPD button back
+   > Laxzy CSS - fixed chat UI
+   > Krunker Simple CSS appears to be broken at the moment
+ - Fixed typo in a settings entry (SO to Andy :D)
+
  == UPDATE V6.10.3 ==
  - Added MiniMap tweaks
  - Added additional elements to the resource filter for social hub (for the new ads between social posts)
