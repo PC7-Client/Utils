@@ -203,8 +203,7 @@
   ],
   "WolfmannGames": [
     "cool",
-    "cc",
-    "ult_jibnang"
+    "cc"
   ],
   "au8": [
     "cc",
@@ -618,5 +617,8 @@
   "revIover": [
     "ult_rev",
     "nack"
+  ],
+  "MaxRuffles": [
+    "ult_jibnang"
   ]
 }
