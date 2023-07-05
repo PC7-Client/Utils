@@ -13,6 +13,15 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V6.11.1 ==
+ - Added custom loading images back :D
+ - Added experimental graphics setting to disable Off-Main-Thread CSS Paint (SO to bobbbbbb)
+ - Updated badge cache
+ - Reworked MiniMap Tweaks:
+   > Replaced 'Disable MiniMap' option with 'Smart Hide'
+   > You can now use 'Smart Hide' to hide the MiniMap without causing the freezing/ping spike bug
+ - Refactored parts of settings generation to be more efficient
+
  == UPDATE V6.11.0 ==
  - Added a new feature 'Nuke Counter Overlay'
  - Added better error handling to many client functions
