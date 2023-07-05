@@ -14,6 +14,10 @@
  - If you have connection issues at school or work, Try using browserfps.com
 
  == UPDATE V6.11.1 ==
+ - Tweaked the styling of the Nuke Counter Overlay to force it to display for users having issues with it
+ - Fixed a bug that resulted in many CSS related things (such as resource filters) and internal functions to break for some users in production versions of the client
+
+ == UPDATE V6.11.1 ==
  - Added custom loading images back :D
  - Added experimental graphics setting to disable Off-Main-Thread CSS Paint (SO to bobbbbbb)
  - Updated badge cache
