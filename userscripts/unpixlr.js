@@ -4,7 +4,7 @@
 // @description  Unlimited Pixlr Saves
 // @author       AceSilentKill
 // @match        https://pixlr.com/*
-// @icon         https://lh3.googleusercontent.com/u/4/drive-viewer/AFGJ81qkNA-QN15kLJkeNURDlJVZCvXlIuK8-kJWSCJwNySBhHqMKV1Nzw1X0xehGZofEfU-Il6iflDza5AhQnUZMI9fHamm=w2560-h1293
+// @icon         https://pixlr.com/favicon-32x32.png
 // @grant        unsafeWindow
 // @grant        GM_addStyle
 // @run-at       document-start
