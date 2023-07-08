@@ -639,5 +639,11 @@
   ],
   "StatsCheck": [
     "ult_jacoby"
+  ],
+  "SCP-2400": [
+    "vip",
+    "supporter",
+    "watch",
+    "skull"
   ]
 }
