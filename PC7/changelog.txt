@@ -7,11 +7,25 @@
  - Disable Speed Lines
  - Enable Performance Settings
  - Close other Tabs/Programs
-
+ 
  == HELP ==
  - If the game doesn't run for you check this link: https://get.webgl.org/
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
+ 
+ == UPDATE V6.11.3 ==
+ - Added option to tweak the Esports button:
+   > Open Trades
+   > Open Alt Manager
+   > Default Behavior
+ - Added follow alerts to twitch integration (requires you to relink twitch to work!)
+ - Added !profile command to twitch integration
+ - Added !nukes command to twitch integration
+ - Added nuke goal setting to nuke count overlay
+ - Editor will now open externally
+ - Tweaked client build process
+ - Removed MiniMap Tweaks
+ - Fixed two minor bugs
 
  == UPDATE V6.11.2 ==
  - Tweaked the styling of the Nuke Counter Overlay to force it to display for users having issues with it
