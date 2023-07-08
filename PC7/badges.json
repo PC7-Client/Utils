@@ -12,7 +12,8 @@
     "dev",
     "ult_rev",
     "nack",
-    "kpc"
+    "kpc",
+    "rev"
   ],
   "Benitto": [
     "cool",
@@ -423,8 +424,8 @@
     "nack"
   ],
   "StatsCheck": [
-    "cool",
-    "cc"
+    "ult_jacoby",
+    "cool"
   ],
   "notskiiiz": [
     "cool",
@@ -637,10 +638,6 @@
   ],
   "Codex9000": [
     "ult_jibnang"
-  ],
-  "StatsCheck": [
-    "ult_jacoby",
-    "cool"
   ],
   "JustRacc": [
     "ult_jacoby"
