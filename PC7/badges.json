@@ -12,7 +12,9 @@
     "dev",
     "ult_rev",
     "nack",
-    "kpc"
+    "kpc",
+    "test",
+    "hello"
   ],
   "Benitto": [
     "cool",
