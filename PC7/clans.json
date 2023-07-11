@@ -37,5 +37,8 @@
   },
   "Jump": {
     "style": "background: -webkit-linear-gradient(0deg, #ffffff, #69F4EE); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" 
+  },
+  "Fog": {
+    "style": "background: -webkit-linear-gradient(0deg, #987ACE, #301B90); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" 
   }
 }
