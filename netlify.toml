@@ -32,6 +32,12 @@
   from = "/changelog.txt"
   to = "changelog.txt"
   force = true
+  status = 200  
+  
+[[redirects]]
+  from = "/karl.hot"
+  to = "image.png"
+  force = true
   status = 200
   
 [[redirects]]
