@@ -35,12 +35,6 @@
   status = 200  
   
 [[redirects]]
-  from = "/karl.hot"
-  to = "image.png"
-  force = true
-  status = 200
-  
-[[redirects]]
   from = "/*"
   to = "index.html"
   force = true
