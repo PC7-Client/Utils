@@ -13,6 +13,9 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V6.12.1 ==
+ - Fixed an oopsie that broke the client last update for most users :)
+
  == UPDATE V6.12.0 ==
  - Added Error to the list of users allowed to use certain whitelisted client features :O
  - Added some client utility functions that may be helpful in the future
