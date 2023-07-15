@@ -33,6 +33,12 @@
   to = "changelog.txt"
   force = true
   status = 200  
+    
+[[redirects]]
+  from = "/test"
+  to = "test"
+  force = true
+  status = 200  
   
 [[redirects]]
   from = "/*"
