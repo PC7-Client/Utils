@@ -12,6 +12,37 @@
  - If the game doesn't run for you check this link: https://get.webgl.org/
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
+
+ == UPDATE V6.12.0 ==
+ - Added Error to the list of users allowed to use certain whitelisted client features :O
+ - Added some client utility functions that may be helpful in the future
+ - Added an additional element to a resource filter
+ - Added 5 new troll commands
+ - Added right click functionality to the KPD button: 
+   > You can now right click the button with a profile name or profile URL copied to clipboard to open the profile on hub
+ - Added some new chat tweaks optoins:
+   > Default behavior
+   > Copy chat usernames on right click
+   > Open user profiles on right click
+ - Tweaked esports button tweaks:
+   > Added an option to add the esports button back now that krunker has removed it
+   > Tweaked the already-existing options to work again
+ - Tweaked Nuke Counter Overlay goal setting to allow values up to 20000
+ - Tweaked Nuke Counter Overlay to hide the same way keystrokes do
+ - Tweaked Nuke Counter Overlay to allow clicking through it
+ - Tweaked some Userscript GM Util functions to work closer to the equivalent tampermonkey functions do
+ - Renamed some settings entries to be more clear
+ - Refactored some old code to be more efficient
+ - Made some significant changes in preparation for a rework of many client features
+ - Completely rewrote chat logger:
+   > Chats are now logged live
+   > Chats are automatically put inside separate lists based on the game ID that the chats occurred in
+   > Chats in the logger window can now be filtered with toggles
+   > Added new restrictions on the number of logs stored in memory to prevent a memory leak
+ - Moved the new chat related settings under 'Utilities - Chat'
+ - Tweaked F2 hotkey to run '/suspect' for KPD while in calls
+ - Updated badge cache
+ - Fixed a bug that could result in some errors if users did not spawn in fast enough after loading into a game
  
  == UPDATE V6.11.3 ==
  - Added option to tweak the Esports button:
