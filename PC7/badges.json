@@ -681,5 +681,14 @@
     "ultimate",
     "vip",
     "supporter"
+  ],
+  "BlinksGone": [
+    "fire",
+    "icy",
+    "love",
+    "money",
+    "nuke",
+    "skull",
+    "watch"
   ]
 }
