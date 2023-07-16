@@ -13,6 +13,13 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V6.12.2 ==
+ - Added better error handling to some UI-related client functions
+ - Added auto-spawn for KPD during calls :) (SO to raven)
+ - Attempted to fix a bug resulting in errors for mac users when updates are available
+ - Fixed bug that could break some in-game functionality after client settings are displayed
+ - Fixed bug that broke many of the newly added features on production versions of PC7
+ 
  == UPDATE V6.12.1 ==
  - Fixed an oopsie that broke the client last update for most users :)
 
