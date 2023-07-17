@@ -689,5 +689,8 @@
     "skull",
     "watch",
     "ult_blink"
+  ],
+  "HeartlessDaze": [
+    "cc"
   ]
 }
