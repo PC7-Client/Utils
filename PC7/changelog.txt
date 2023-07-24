@@ -13,6 +13,13 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V6.12.3 ==
+ - Added new element to resource filter
+ - Added new twitch command (!mod)
+ - Added new troll commands (for bestbuy only)
+ - Updated UI hider during calls to hide #infoHolder
+ - Removed silly first time user experience (FTUE)
+
  == UPDATE V6.12.2 ==
  - Added better error handling to some UI-related client functions
  - Added auto-spawn for KPD during calls :) (SO to raven)
