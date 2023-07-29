@@ -13,6 +13,20 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V6.13.0 ==
+ - Added new twitch troll command
+ - Added some more options to the twitch troll command subsettings menu
+ - Added new feature 'smartTrading' that will help warn players against common scams while trading (SO to ando <3)
+ - Tweaked how badges are applied to reduce issues with certain usernames
+ - Tweaked some settings to show the 'refresh toggles' they were missing
+ - Tweaked RPC to enable it to function properly on FlatPak and Snap Discord installations (maybe?)
+ - Tweaked keystrokes overlay to grab your secondary bind if your primary is unset
+ - Tweaked keystrokes overlay to leave completely unbound keys blank rather than displaying 'undefined'
+ - Fixed bugs preventing click listeners being added to non premium usernames with chat tweaks 
+ - Fixed minor performance impacting bug with the previous design of chat tweaks
+ - Fixed bug related to certain visual tweaks for the keystrokes overlay
+ - Fixed a long standing bug that resulted in settings in some subsettings menus being reset on client launch
+ 
  == UPDATE V6.12.3 ==
  - Added new element to resource filter
  - Added new twitch command (!mod)
