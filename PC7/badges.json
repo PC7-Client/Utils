@@ -10,11 +10,10 @@
     "nack"
   ],
   "error430": [
-   "dev",
+    "dev",
     "ult_rev",
     "nack",
     "kpc"
-    
   ],
   "benitto": [
     "cool"
@@ -384,7 +383,8 @@
     "money"
   ],
   "banforpre-fire": [
-    "cc"
+    "cc",
+    "booster"
   ],
   "lombre_blanche": [
     "cc"
