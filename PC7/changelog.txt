@@ -13,6 +13,24 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V6.14.0 ==
+ - Added support for custom client keybinds
+ - Added a new settings type to get keybinds
+ - Added support for devtools hotkey (F12) in social hub tabs
+ - Added Jump tab to social hub (WIP)
+ - Added support for trade chat logs
+ - Tweaked experimental resource filter to also hide the reCaptcha banner
+ - Tweaked smartTrading to show a toast notification for trades rather than add the text to the trades menu
+ - Tweaked some call auto-joining functionality
+ - Tweaked the categories of many settings
+ - Reworked much of how chatlogs functions
+ - Fixed a rare bug with subsettings menu generation
+ - Fixed a bug that sometimes broke our settings hook while searching
+ - Fixed a bug that broke a recently added troll command
+ - Fixed a bug where having chatlogs disabled could result in errors when pressing F1
+ - Fixed a bug where social hub tabs could cause errors when closed with a middle click
+ - Removed some unused code
+
  == UPDATE V6.13.0 ==
  - Added new twitch troll command
  - Added some more options to the twitch troll command subsettings menu
