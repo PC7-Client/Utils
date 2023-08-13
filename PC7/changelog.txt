@@ -12,7 +12,25 @@
  - If the game doesn't run for you check this link: https://get.webgl.org/
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
-
+ 
+ == UPDATE V6.15.0 ==
+ - Added the ability to search the banlogs tab in the kpd call menu
+ - Updated Shotzz CSS
+ - Updated the old yendis support email provided in an alt manager menu with the new email.
+ - Reworked the alt manager to move all alt account info out of localStorage:
+   > Your accounts will be automatically migrated
+   > Your accounts will now be stored in your config file, encrypted
+   > All account data previously kept in localStorage will be removed
+ - Reworked twitch integration:
+   > Follow botting no longer results in notification spam when using follow notifications
+   > You will need to relink your twitch account after this update
+   > Twitch OAuth tokens will now be stored in a more secure manner
+   > Sharing your config file with your twitch linked is no longer risky
+ - Reworked some of PC7's internals to protect against malicious manipulation
+ - Refactored some old code
+ - Removed some unused code
+ - Fixed some bugs
+ 
  == UPDATE V6.14.1 ==
  - Reworked FTUE bypass to work after Krunker update
  - Fixed JUMP tab in social hub to work on smaller screens more aspect ratios
