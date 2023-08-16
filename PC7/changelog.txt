@@ -12,7 +12,13 @@
  - If the game doesn't run for you check this link: https://get.webgl.org/
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
- 
+
+ == UPDATE V6.15.1 ==
+ - Added some helper functions in preparation for upcoming JUMP integration :)
+ - Reworked all of alt manager's internals
+ - Fixed the bug resulting in protected config entries (alt manager data & twitch tokens) being wiped on launch
+ - Fixed some bugs that resulted in popup errors for some users
+
  == UPDATE V6.15.0 ==
  - Added the ability to search the banlogs tab in the kpd call menu
  - Updated Shotzz CSS
