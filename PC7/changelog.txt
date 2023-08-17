@@ -12,7 +12,15 @@
  - If the game doesn't run for you check this link: https://get.webgl.org/
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
-
+ 
+ == UPDATE V6.15.2 ==
+ - Added Jitchu CSS :D
+ - Added two new experimental flags (SO to bobbbbbb)
+ - Tweaked default settings for resource filter to be enabled by default
+ - Tweaked 'Auto Spawn In Calls' logic to work properly again
+ - Tweaked flag logic to no longer ignore your setting for autoplay policy
+ - Tweaked mac updater (these changes may cause some errors next time we release an update)
+ 
  == UPDATE V6.15.1 ==
  - Added some helper functions in preparation for upcoming JUMP integration :)
  - Reworked all of alt manager's internals
