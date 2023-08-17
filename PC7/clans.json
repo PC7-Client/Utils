@@ -1,6 +1,21 @@
 {
   "ㄕ": {
-    "style": "background: -webkit-linear-gradient(0.8deg, #A836EE, #000000); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+    "style": "@keyframes gradientAnimation {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(0.8deg, #A836EE, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 5s linear infinite;
+}
+"
   },
   "28": {
     "style": "background: -webkit-linear-gradient(0.08turn, #ba70ff, #6018a3); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
