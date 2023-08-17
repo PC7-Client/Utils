@@ -1,6 +1,5 @@
 {
-  "ㄕ": {
-    "style": "background: .gradient-text { background: linear-gradient(90deg, #A836EE, #000000); -webkit-background-clip: text; color: transparent; animation: slide 5s linear infinite; } @keyframes slide { to { background-position: -200% 0; } }"
+  "ㄕ": { "style": "animation: rainbow .8s linear infinite" },
   "28": {
     "style": "background: -webkit-linear-gradient(0.08turn, #ba70ff, #6018a3); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
