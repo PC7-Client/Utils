@@ -12,7 +12,20 @@
  - If the game doesn't run for you check this link: https://get.webgl.org/
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
- 
+
+ == UPDATE V6.16.0 ==
+- Added new utilities to userscripts:
+  > You may now interact with the client config
+  > You may now use the SettingsUtil function to create settings entries
+  > More detailed documentation on userscripts may be found in our client github repo
+- Added better error handling to many parts of the client
+- Reworked alignment of PC7 badges to be compatible with far more CSS
+- Reworked ordering of certain PC7 badges
+- Refactored large parts of the client
+- Updated Thaddeuz CSS
+- Fixed some minor bugs with nuke counter
+- Fixed formatting of the nuke logo in chat logs
+
  == UPDATE V6.15.2 ==
  - Added Jitchu CSS :D
  - Added two new experimental flags (SO to bobbbbbb)
