@@ -1,6 +1,6 @@
 {
-  "ㄕ": { 
-    "style": "background: linear-gradient(90deg, #ba70ff 0%, #ba70ff 50%, #000000 50%, #000000 100%); background-clip: text; -webkit-background-clip: text; color: transparent; animation: slide 0.8s linear infinite; } @keyframes slide { 0%, 100% { background-position: -200% 0; } 50% { background-position: 200% 0; }" 
+  "ㄕ": {
+    "style": "background: linear-gradient(90deg, #ba70ff 0%, #ba70ff 50%, #000000 50%, #000000 100%); background-clip: text; -webkit-background-clip: text; color: transparent; animation: slide 0.8s linear infinite; @keyframes slide { 0%, 100% { background-position: -200% 0; } 50% { background-position: 200% 0; }}"
   },
   "28": {
     "style": "background: -webkit-linear-gradient(0.08turn, #ba70ff, #6018a3); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
