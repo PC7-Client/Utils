@@ -12,7 +12,13 @@
  - If the game doesn't run for you check this link: https://get.webgl.org/
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
-
+ 
+ == UPDATE V6.17.0 ==
+ - Added toggle for client changelogs :D
+ - Lots of backend work :)
+ - Changed some client internals to be more reliable
+ - Fixed minor bug
+ 
  == UPDATE V6.16.1 ==
  - Did some minor refactoring of the existing updater logic for windows and linux:
    > The installer now silently updates on windows so it doesnt feel like you have to reinstall after each update
