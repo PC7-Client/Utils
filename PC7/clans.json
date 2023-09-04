@@ -37,5 +37,8 @@
   },
   "gore": { 
     "style": "background: -webkit-linear-gradient(#9258c6, #000000); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" 
+  },
+  "one": {
+    "style": "background: -webkit-linear-gradient(90deg, #ba70ff, #ff6cc1); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   }
 }
