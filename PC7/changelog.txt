@@ -13,6 +13,9 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V6.17.3 ==
+ - Fixed some minor bugs
+
  == UPDATE V6.17.2 ==
  - Minor Refactor
  - Removed unused dependency
