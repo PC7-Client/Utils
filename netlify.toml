@@ -35,8 +35,8 @@
   status = 200  
     
 [[redirects]]
-  from = "/test/*"
-  to = "test"
+  from = "/userscripts/*"
+  to = "userscripts/*"
   force = true
   status = 200  
   
