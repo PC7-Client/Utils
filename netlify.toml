@@ -35,8 +35,8 @@
   status = 200  
     
 [[redirects]]
-  from = "/userscripts/*"
-  to = "userscripts/*"
+  from = "/userscripts/userscripts.json"
+  to = "userscripts/userscripts.json"
   force = true
   status = 200  
   
