@@ -4,7 +4,7 @@
 // @author       DuneDude
 // @match        *://krunker.io/*
 // @grant        none
-// @version      1.1
+// @version      1.2
 // @run-at       document-start
 // ==/UserScript==
 
@@ -40,9 +40,10 @@ const settingsName = SettingsUtil({
         },
         supportLink: {
             title: 'Contact',
-            desc: 'Got suggestions or issues? Join the rootkitten discord!',
+            desc: 'Got suggestions or issues? Join the rootkitten(); discord!',
+            type: 'button',            
             buttonText: 'Discord Link',
-            type: 'button',
+            onclick: 'window.open("https://discord.gg/wEBvg4pGyz");',
             val: true,
         },
     },
@@ -147,7 +148,6 @@ const playAudio = (i) => {
 const getKSText = (i) => { return `You're on a ${i} Kill Streak`; };
 const getMessageType = (messageElement) => {
     const messageText = String(messageElement?.children[0]?.textContent).replaceAll('‎', '');
-    console.log(messageText);
 
     switch (messageText) {
         case getKSText(5):
