@@ -4,7 +4,7 @@
 // @author       DuneDude
 // @match        *://krunker.io/*
 // @grant        none
-// @version      1.2
+// @version      1.0
 // @run-at       document-start
 // ==/UserScript==
 
