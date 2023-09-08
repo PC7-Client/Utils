@@ -4,7 +4,7 @@
 // @author       DuneDude
 // @match        *://krunker.io/*
 // @grant        none
-// @version      1.0
+// @version      1.1
 // @run-at       document-start
 // ==/UserScript==
 
@@ -35,8 +35,15 @@ const settingsName = SettingsUtil({
                 halo3KS: 'Halo Reach Announcer',
             },
             val: 'default',
-            desc: 'Select your favorite color out of the options provided',
+            desc: 'Choose a sound pack to play for your killstreaks.',
             refresh: true,
+        },
+        supportLink: {
+            title: 'Contact',
+            desc: 'Got suggestions or issues? Join the rootkitten discord!',
+            buttonText: 'Discord Link',
+            type: 'button',
+            val: true,
         },
     },
 });
@@ -114,16 +121,16 @@ const setKSText = (onA, msg, style) => {
 };
 
 const fadeOut = () => {
-    let opacity = 1; // Initial opacity
+    let opacity = 1;
     const intervalID = setInterval(() => {
         if (opacity > 0) {
             opacity -= 0.1;
             ksShower.style.opacity = opacity;
 
         } else {
-            clearInterval(intervalID); // Stop the interval when opacity reaches 0
-            ksShower.style.display = 'none'; // Hide the element
-            ksShower.remove();
+            clearInterval(intervalID);
+            ksShower.style.display = 'none';
+            //ksShower.remove();
         }
     }, 50);
 };
