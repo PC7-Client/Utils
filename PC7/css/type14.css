@@ -1,17 +1,3 @@
 /* This css was made by DubMikeGaming, any and all code WILL not be used without first getting permission from DubMikeGaming */
 /* Enjoy Krunker Simple css! */
-
-/* fonts */
-@import url(https://benittocss.will-morgan.repl.co/Krunker_Simple.css);
-
-#mainLogo {
-    content: url(https://cdn.discordapp.com/attachments/1071624143688179794/1099780620609130556/Krunker_Simples_Krunker_Logo.PNG);
-}
-
-#mainLogoFace {
-    display: none;
-}
-
-#policeButton {
-    border: none !important;
-}
+@import url(https://benittocss.will-morgan.repl.co/Krunker_Simple.css);#mainLogo{content: url(https://cdn.discordapp.com/attachments/1071624143688179794/1099780620609130556/Krunker_Simples_Krunker_Logo.PNG)}#mainLogoFace{display: none}#policeButton{border: none !important}
