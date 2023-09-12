@@ -41,8 +41,8 @@
   status = 200  
 
 [[redirects]]
-  from = "/css/type*.css"
-  to = "css/type*.css"
+  from = "/css/type*"
+  to = "css/type*"
   force = true
   status = 200  
   
