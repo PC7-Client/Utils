@@ -4,7 +4,7 @@
 // @author       DuneDude
 // @match        *://krunker.io/*
 // @grant        none
-// @version      1.0
+// @version      1.1
 // @run-at       document-start
 // ==/UserScript==
 
@@ -61,6 +61,7 @@ const ksShower = Object.assign(document.createElement('div'), {
     id: 'KSshower',
     style: 'text-align:center; margin-top:3%; margin-left:auto; margin-right:auto; font-size: 200%;',
 });
+document.getElementById('inGameUI').appendChild(ksShower);
 
 const SOUNDS = {
     default: [
@@ -118,20 +119,19 @@ const SOUNDS = {
 /* Util Functions */
 const setKSText = (onA, msg, style) => {
     ksShower.innerHTML = `<span style='background-color:rgba(0, 0, 0, 0.5); border-radius:10px; background-size: 110% 120%'><span style='color:red;'>&nbsp;You </span> <span style='color:white; font-family:gamefont;'>are ${onA === true ? 'on a ' : ''}</span><span style='${style}'>${msg}&nbsp;</span></span>`;
-    document.getElementById('inGameUI').appendChild(ksShower);
 };
 
 const fadeOut = () => {
+    ksShower.style.display = '';
+
     let opacity = 1;
     const intervalID = setInterval(() => {
         if (opacity > 0) {
             opacity -= 0.1;
             ksShower.style.opacity = opacity;
-
         } else {
             clearInterval(intervalID);
             ksShower.style.display = 'none';
-            //ksShower.remove();
         }
     }, 50);
 };
