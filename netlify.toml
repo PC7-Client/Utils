@@ -42,7 +42,7 @@
 
 [[redirects]]
   from = "/css/*.css"
-  to = "/css/*.css"
+  to = "css/*.css"
   force = true
   status = 200  
   
