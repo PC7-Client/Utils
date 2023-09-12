@@ -1,0 +1,498 @@
+@import url(https://envyxyz.github.io/removal/removal.css);
+
+@font-face {
+    font-family: hpammo;
+    src: url(https://raw.githubusercontent.com/South-Paw/typeface-vag-rounded/master/files/vag-rounded-400.woff2);
+}
+
+@font-face {
+    font-family: gamefont;
+    src: url(https://dl.dropboxusercontent.com/s/hi2sp9a5nq9t9ml/kaorigel.medium.ttf?dl=0)
+}
+
+#mainLogo {
+    content: url(https://media.discordapp.net/attachments/952001891942948866/997607584511037500/logo.png);
+}
+
+/* health */
+
+#healthValueHolder {
+    position: fixed;
+    right: calc(50% + 128px);
+    bottom: 30px;
+    background-color: transparent;
+    padding: 0;
+}
+
+#healthValue {
+    color: #fff;
+    font-size: 70px;
+    text-shadow: 2px 2px 2px black;
+    font-family: hpammo;
+}
+
+#healthBar {
+    display: none;
+}
+
+#hudClassIcon {
+    display: none;
+}
+
+#maxHP {
+    display: none
+}
+
+#challIcon {
+    transform: translateY(-12px);
+    margin-left: 9px;
+    filter: brightness(5);
+}
+
+/* ammo */
+
+#ammoDisplay {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 40px;
+    left: calc(50% + 150px);
+    background-color: transparent;
+    width: 90px;
+    height: 80px;
+}
+
+#ammoVal {
+    font-size: 70px !important;
+    color: #fff !important;
+    text-shadow: 2px 2px 2px black;
+    font-family: hpammo;
+}
+
+#ammoIcon {
+    filter: brightness(5);
+    transform: scale(0.6);
+    position: fixed;
+    bottom: 4px;
+    left: 87px;
+}
+
+#ammoMax {
+    display: none;
+}
+
+.weapIcon {
+    margin-right: 0 !important;
+    transition-duration: 0.5s;
+    filter: drop-shadow(3px 3px #000);
+}
+
+.weapIcon[style*="opacity: 0.7"],
+.weapIcon[style*="opacity:0.7"] {
+    position: fixed;
+    right: calc(50% - 64px);
+    bottom: -140px;
+    opacity: 0 !important;
+}
+
+.weapIcon[style*="opacity:1"],
+.weapIcon[style*="opacity: 1"] {
+    position: fixed;
+    bottom: 40px;
+    right: calc(50% - 63px);
+}
+
+.weapItem:last-child .weapIcon {
+    transform: translateY(16px);
+}
+
+.weapKey {
+    display: none;
+}
+
+#reloadMsg {
+    background: transparent !important;
+    bottom: 160px !important;
+    font-size: 16px;
+    border: none !important;
+}
+
+/* remove */
+
+#seasonLabel {
+    display: none;
+}
+
+#newsHolder {
+    display: none;
+}
+
+#voiceDisplay {
+    display: none;
+}
+
+#editorBtnM {
+    display: none;
+}
+
+.imageButton {
+    display: none !important;
+}
+
+#aContainer {
+    display: none !important;
+}
+
+#aHolder {
+    display: none !important;
+}
+
+#endAContainer {
+    display: none !important;
+}
+
+#aMerger {
+    display: none !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#ot-sdk-btn-floating .ot-floating-button__front svg,
+.ot-floating-button__open,
+#ot-sdk-btn-floating .ot-floating-button__front {
+    display: none !important;
+}
+
+#youNewDiv {
+    display: none;
+}
+
+#instructionHolder {
+    backdrop-filter: blur(5px);
+}
+
+.menuItem[onclick="SOUND.play(`select_0`,0.15);showWindow(5)"]::after {
+    content: "個人";
+    /* profile */
+    color: grey !important;
+}
+
+.menuItem[onclick="SOUND.play(`select_0`,0.15);showWindow(14)"]::after {
+    content: "お店";
+    /* shop */
+    color: grey !important;
+}
+
+.menuItem[onclick="SOUND.play(`select_0`,0.15);showWindow(33)"]::after {
+    content: "チャル";
+    /* chall */
+    color: grey !important;
+}
+
+.menuItem[onclick="SOUND.play(`select_0`,0.15);window.open('/social.html', '_blank')"]::after {
+    content: "ハブ";
+    /* social/hub */
+    color: grey !important;
+}
+
+.menuItem[onclick="SOUND.play(`select_0`,0.15);showWindow(10)"]::after {
+    content: "ゲーム";
+    /* games */
+    color: grey !important;
+}
+
+.menuItem[onclick="SOUND.play(`select_0`,0.15);showWindow(4)"]::after {
+    content: "モッド";
+    /* mods */
+    color: grey !important;
+}
+
+.menuItem[onclick="showWindow(1);SOUND.play(`select_0`,0.15);"]::after {
+    content: "旅立ち";
+    /* settings */
+    color: grey !important;
+}
+
+.menuItemTitle {
+    display: none !important;
+}
+
+.menuItem {
+    font-size: 23px;
+    background: none;
+}
+
+.headerBarLeft {
+    background-color: transparent;
+}
+
+#mLevelCont {
+    background-color: transparent !important;
+}
+
+.progressBarInner {
+    background: white;
+}
+
+#subLogoButtons {
+    background-color: transparent;
+}
+
+.buttonB,
+.buttonPI,
+.buttonR,
+.buttonP,
+.buttonO,
+.buttonG,
+.buttonCL {
+    background-color: var(--transp) !important;
+    box-shadow: inset 0 -7px 0 0 var(--transp) !important
+}
+
+.buttonB:hover,
+.buttonPI:hover,
+.buttonR:hover,
+.buttonP:hover,
+.buttonO:hover,
+.buttonG:hover,
+.buttonCL:hover {
+    background-color: var(--transp) !important;
+    box-shadow: inset 0 -7px 0 0 var(--transp) !important
+}
+
+#menuClassName {
+    display: none;
+}
+
+#menuClassSubtext {
+    display: none;
+}
+
+#chatInputHolder {
+    background-color: transparent;
+    border: transparent;
+    color: transparent;
+}
+
+#chatInput {
+    background-color: transparent;
+    border: transparent;
+}
+
+#chatList {
+    background-color: transparent;
+}
+
+#termsInfo {
+    background-color: transparent;
+}
+
+.headerBar {
+    background-color: transparent;
+}
+
+#timerIcon {
+    display: none;
+}
+
+.topRightCounters {
+    position: unset;
+    bottom: unset;
+    right: unset;
+}
+
+.countIcon {
+    background-color: transparent;
+    border-radius: 0;
+    margin-left: 20px;
+    margin-bottom: 0;
+    padding: 7px;
+}
+
+#deathsVal,
+#killsVal,
+#livesDisp,
+#streakVal,
+#myScoreVal {
+    color: white !important;
+    bottom: 7px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+}
+
+#deathsVal::after,
+#killsVal::after,
+#streakVal::after,
+#myScoreVal::after,
+#livesDisp::after {
+    display: block;
+    position: fixed;
+    margin-top: 45px;
+    font-size: 14px;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+}
+
+#deathsVal::after {
+    content: 'Deaths';
+}
+
+#killsVal::after {
+    content: 'Kills';
+}
+
+#streakVal::after {
+    content: 'Streak';
+}
+
+#myScoreVal::after {
+    content: 'Score';
+}
+
+#livesDisp::after {
+    content: 'Lives';
+}
+
+#killsIcon,
+#deathsIcon,
+#streakIcon,
+#scoreCount .material-icons,
+#livesCount .material-icons {
+    display: none;
+}
+
+#streakCount {
+    position: fixed;
+    transform: translateX(-50%);
+    top: 85%;
+    left: 49.4%;
+    background-color: transparent;
+}
+
+#killCount {
+    position: fixed;
+    transform: translateX(-50%);
+    top: 85%;
+    left: 44.4%;
+    background-color: transparent;
+}
+
+#deathCount {
+    position: fixed;
+    transform: translateX(-50%);
+    top: 85%;
+    left: 54.4%;
+    background-color: transparent;
+}
+
+#leaderDisplay {
+    background-color: transparent;
+}
+
+#policeButton {
+    border: none !important;
+}
+
+#timerDisplay {
+    background-color: transparent;
+}
+
+.menuItemIcon {
+    filter: brightness(1000%) !important;
+}
+
+#customizeButton {
+    text-shadow: none !important;
+}
+
+#customizeButton .material-icons {
+    display: none;
+}
+
+[src="./img/vic.png"] {
+    content: url(https://cdn.discordapp.com/attachments/562712954651279366/871778082686636032/vic.png);
+}
+
+[src="./img/def.png"] {
+    content: url(https://cdn.discordapp.com/attachments/562712954651279366/871778083777150986/def.png);
+}
+
+[src="./img/dra.png"] {
+    content: url(https://cdn.discordapp.com/attachments/562712954651279366/871778087614947348/dra.png);
+}
+
+#fpsDisplay {
+    visibility: hidden;
+}
+
+#ingameFPS {
+    visibility: visible;
+    color: #fff !important;
+}
+
+#ingameFPS:before {
+    content: 'FPS: ';
+    color: var(--accent1);
+}
+
+#pingText {
+    color: #fff;
+}
+
+#pingText:before {
+    content: 'PING: ';
+    color: var(--accent1);
+}
+
+#pingText:after {
+    content: ' ms';
+    color: var(--accent1);
+}
+
+#pingIcon {
+    display: none;
+}
+
+/*
+#chatHolder {
+    position: absolute;
+    bottom: 10px !important;
+} 
+*/ /* PC7 Edit*/
+
+#menuItemContainer {
+    background-color: transparent;
+}
+
+.material-icons-outlined,
+span.material-symbols-outlined.menBtnIcn {
+    color: #fff !important
+}
+
+.verticalSeparator {
+    background: rgba(255, 255, 255, 0) !important;
+}
+
+#menuKRCount {
+    margin-top: 11px;
+}
+
+#menuAccountUsername {
+    margin-bottom: 3px;
+}
+
+.skinCard {
+    white-space: initial !important;
+}
+
+#mainLogoFace {
+    display: none;
+}
+
+/* Add #clientExit back */
+#clientExit {
+    display: flex !important;
+}

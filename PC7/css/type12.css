@@ -1,0 +1,1139 @@
+/*CSS made for PC7 client by femgore*/
+.youNewDiv,
+#newsHolder,
+#editorBtnM,
+#rankedSoonTm,
+#streamContainer,
+#seasonLabel,
+#gameNameHolder,
+.youNewDiv,
+#aHolder,
+.krSocial,
+.menuSocialB,
+.voteHint,
+#androidDB,
+#iosDB,
+#steamDB,
+#hubBox,
+#recTimer,
+#faceItIconM,
+#endAContainer,
+#challIcon {
+  display: none !important;
+}
+
+:root {
+  --fpsping: #FFFFFF;
+  /* color value for the FPS/Ping display on top left, #000000 by default.*/
+
+  --watermark: 'PC7 Client';
+  /* text to display below the FPS/Ping, also on top left */
+
+  --watermarkcolor: #FFFFFF;
+  /* color value for the text above, #FFAFFA by default.*/
+
+  --watermarkfont: 19px;
+  /* font size value for the text above, 19px by default.*/
+
+  --customreload: 'reload!';
+  /*custom reload message. keep the brackets when changing*/
+
+  --reloadcolor: #ff8099;
+  /*custom reload message color. #ff8099 by default*/
+
+  --loadingbg: url(https://cdn.discordapp.com/attachments/997798565378265159/1005040202512875550/unknown.png);
+  /* loading background image. paste your url in between the brackets. url(https://cdn.discordapp.com/attachments/997798565378265159/1005040202512875550/unknown.png) by default. */
+
+  --loadinggif: url(https://cdn.discordapp.com/attachments/628964831529140254/995845829392875581/LOOK_AT_THIS_FUCKING_CAT.gif);
+  /* that tiny ass gif on the loading shit idfk lmao*/
+
+  --mainc: #FFF;
+  /* main color value for main-menu elements. I suggest you keep it at default because it tends to look ugly. #FFFFFF by default. */
+
+  --xpbarcolor: #FFAFFA;
+  /* changes the color of the xp stat bars in the class picker. very vague i know but i didnt wanna hook it to --mainc cuz mainc is UGLY. #FFAFFA by default. */
+
+  --ammocolor: #FFFFFF;
+  /* color for the ammo on bottom right corner. #FFF by default. */
+
+  --color-team: #9eeb56;
+  /* color value for your teammates in the leaderboards/killfeed (killfeed might be fucked up :pray:). #ff8099 by default */
+
+  --color-self: #FFFFFF;
+  /* color value for yourself in the leaderboards/killfeed. #FFFFFF by default. */
+
+  --color-enemy: #eb5656;
+  /* color value for the enemies in the leaderboards/killfeed. #ff7d8e by default. */
+
+}
+
+[style*="font-size:20px;color:#fff;display:inline-block;"] {
+  color: var(--accent-color) !important;
+}
+
+[style*="margin-top:10px;font-size:20px;color:rgba(255,255,255,0.4)"] {
+  display: none !important;
+}
+
+option {
+  background-color: #000;
+  color: var(--accent-color);
+}
+
+a {
+  color: var(--accent-color);
+}
+
+a:active {
+  color: var(--accent-color);
+}
+
+a:visited {
+  color: var(--accent-color);
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#termsInfo {
+  background: transparent;
+}
+
+.terms {
+  color: var(--mainc);
+}
+
+#instructionHolder {
+  backdrop-filter: blur(5px);
+}
+
+.headerBar {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.headerBarLeft {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#menuItemContainer {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#mLevelCont {
+  display: none !important;
+}
+
+.progressBar {
+  width: 100%;
+  margin-top: 0;
+  height: 10px;
+  padding: 2px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 3px;
+}
+
+.progressBarInner {
+  background-image: linear-gradient(to right,
+      #ff7aaf,
+      #ff7af6,
+      60%,
+      #ffffff);
+}
+
+#termsInfo {
+  background-color: transparent;
+
+}
+
+#subLogoButtons>div {
+  border: none !important;
+  color: var(--mainc);
+  background-color: rgba(0, 0, 0, 0);
+  top: 135px;
+}
+
+#chatInput::placeholder {
+  color: transparent;
+
+}
+
+#chatList {
+  overflow: auto;
+  scrollbar-width: none;
+  border-radius: 0;
+  background: transparent
+}
+
+#menuClassContainer {
+  position: absolute;
+  right: 2px;
+  bottom: 90px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 99999;
+  text-align: right
+}
+
+#menuClassName {
+  display: none !important;
+  color: #fff;
+  font-size: 30px;
+  z-index: 101;
+  text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020, -3px -3px 0 #202020, 3px -3px 0 #202020, -3px 3px 0 #202020, 3px 3px 0 #202020, -4px -4px 0 #202020, 4px -4px 0 #202020, -4px 4px 0 #202020, 4px 4px 0 #202020
+}
+
+#menuClassSubtext {
+  display: none !important;
+  z-index: 100;
+  color: rgba(255, 255, 255, .5);
+  font-size: 17px;
+  margin-bottom: -3px;
+  text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020, -3px -3px 0 #202020, 3px -3px 0 #202020, -3px 3px 0 #202020, 3px 3px 0 #202020
+}
+
+#menuClassIcn {
+  display: none !important;
+  margin-left: 10px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 4px solid rgb(255 255 255/40%);
+  width: 85px;
+  height: 85px;
+  vertical-align: bottom;
+  position: relative
+}
+
+#customizeButton {
+  text-align: center;
+  visibility: hidden !important;
+  font-size: 0px;
+  border: none !important;
+  background: none !important;
+  display: inline-block;
+  opacity: 10
+}
+
+#customizeButton:before {
+  content: "CUSTOMIZE";
+  visibility: visible !important;
+  text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020, -3px -3px 0 #202020, 3px -3px 0 #202020, -3px 3px 0 #202020, 3px 3px 0 #202020;
+  position: absolute
+}
+
+#menuClassNameTag {
+  display: none !important;
+  align-self: center;
+  right: 35%;
+  bottom: 80%
+}
+
+#uiBase.onMenu #chatHolder {
+  left: 50px !important;
+  bottom: 20px
+}
+
+#uiBase.onMenu #voiceDisplay {
+  left: 400px !important;
+}
+
+#VoiceDisplay {
+  display: none !important;
+}
+
+#menuFPSDisplay {
+  visibility: hidden;
+}
+
+#VoiceIcon {
+  display: none !important;
+}
+
+#menuRegionLabel {
+  display: none !important;
+}
+
+#menuPingIcon {
+  display: none !important;
+}
+
+#menuPingDisplay {
+  display: none !important;
+}
+
+#headerRightSocial>div.verticalSeparator {
+  display: none !important;
+}
+
+
+#mapInfo:before {
+  content: " aaaaaaaaaaaaaaa ";
+  color: transparent !important;
+  visibility: visible !important;
+}
+
+#mapInfo {
+  margin-right: -10% !important;
+}
+
+#mapInfoHld {
+  display: block !important;
+  position: fixed;
+  top: 102% !important;
+}
+
+#infoHolder>* {
+  z-index: 1;
+}
+
+/* Sexy health bar*/
+
+#healthValueHolder {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, .0);
+  border-radius: 5px;
+  padding: 3px;
+  margin-bottom: 60px;
+  padding-right: 7px;
+  padding-left: 9px;
+  transform: translate(0, 123%);
+}
+
+#healthValue {
+  color: #FFF;
+  font-size: 24px;
+  will-change: transform;
+  display: inline-block;
+  text-shadow: 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000;
+}
+
+#challIcon {
+  width: 28px;
+  height: 28px;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  display: none;
+}
+
+#maxHP {
+  color: rgba(255, 255, 255, 1);
+}
+
+#healthBar {
+  display: inline-flex;
+  background: rgba(0, 0, 0, .4);
+  height: 50px;
+  width: 332px;
+}
+
+.healthBarSeg {
+  margin-right: -1px;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  background-color: unset;
+}
+
+.hpBSeg {
+  border-radius: unset;
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+}
+
+#spectButton {
+
+  top: 44% !important;
+}
+
+#menuWindow.dark {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: 2px 2px 8px rgb(0 0 0 / 50%);
+}
+
+#timerDisplay {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#curGameInfo {
+  font-size: 0;
+}
+
+#curGameInfo::after {
+  content: var(--watermark);
+  font-size: var(--watermarkfont);
+  color: var(--watermarkcolor);
+  opacity: 100%;
+}
+
+.lC-cube {
+  display: none !important;
+}
+
+#loadEditrBtn {
+  display: none;
+}
+
+#lC-cont::before {
+  content: " ";
+  display: block;
+  width: 128px;
+  height: 119px;
+  background-color: transparent;
+  background-image: var(--loadinggif);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#initLoader {
+  background-image: var(--loadingbg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#ammoDisplay {
+  margin-right: -15px;
+  display: inline-block;
+  padding: 7px;
+  padding-top: 8px;
+  padding-left: 20px;
+  font-size: 200;
+  letter-spacing: -2px;
+  border-radius: 6px;
+  border-color: black;
+  height: 65px;
+  background-color: rgba(0, 0, 0, 1)
+}
+
+#ammoVal {
+  color: var(--ammocolor);
+  outline: 2px;
+  outline-width: 2px !important;
+  outline-color: black;
+  display: inline-block;
+}
+
+#ammoMax {
+  color: var(--ammocolor);
+}
+
+#ammoIcon {
+  display: none !important;
+}
+
+#timerIcon {
+  display: none !important;
+}
+
+/* weapon display */
+
+.weapKey {
+  display: none !important;
+}
+
+.weapIcon {
+  transform: translate(-50%, -50%);
+  position: fixed;
+  left: 97%;
+  bottom: 4%;
+  opacity: 0 !important;
+  transition-duration: .15s;
+  scale: 150%;
+}
+
+.weapIcon[style="opacity: 1;"] {
+  opacity: 1 !important;
+}
+
+.weapIcon[style="opacity: 1; margin-right: 25px;"] {
+  opacity: 1 !important;
+}
+
+.weapIcon[style="opacity: 0.7;"] {
+  transform: translate(-50%, -50%) translateX(100px);
+}
+
+.weapIcon[style="opacity: 0.7; margin-right: 25px;"] {
+  transform: translate(-50%, -50%) translateX(100px);
+  filter: drop-shadow(0px 0px 5px black);
+}
+
+
+#weapDisplay {
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  bottom: 83px
+}
+
+.weapItem {
+  position: relative;
+  text-align: right;
+  margin-top: -12px
+}
+
+.weapKey {
+  display: none !important;
+}
+
+#timerIcon {
+  display: none;
+}
+
+#timerDisplay {
+  position: fixed;
+  left: 47.17%;
+  bottom: 87%;
+  scale: 135%;
+  text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 0.7px 0.7px black, -0.7px -0.7px 0 black, 0.7px -0.7px 0 black, -0.7px 0.7px 0 black !important;
+}
+
+#menuPingIcon {
+  display: none;
+}
+
+#menuPingText {
+  display: none;
+}
+
+#pingText:after {
+  content: ' Ping'
+}
+
+#ingameFPS:after {
+  content: ' FPS'
+}
+
+#pingIcon {
+  display: none;
+}
+
+#pingIcon {
+  color: var(--fpsping) !important;
+  visibility: visible;
+}
+
+#ingameFPS {
+  visibility: visible !important;
+}
+
+#fpsDisplay {
+  visibility: hidden !important;
+}
+
+#ingameFPS {
+  color: var(--fpsping) !important;
+  visibility: visible;
+}
+
+#pingText {
+  color: var(--fpsping) !important;
+
+}
+
+#pingIcon {
+  color: var(--fpsping) !important;
+}
+
+#leaderDisplay {
+  background-color: transparent !important;
+}
+
+.countIcon {
+  background-color: transparent !important;
+}
+
+.UIB,
+.leftUIB {
+  background-color: transparent !important
+}
+
+.newLeaderContainer {
+  background-color: transparent !important;
+}
+
+#setBod_interface>div:nth-child(1)>label>input[type=checkbox]+.slider {
+  background: grey
+}
+
+/*class card thing*/
+
+#classPreviewCanvas {
+  color: transparent
+}
+
+.classCard {
+  background-color: transparent;
+  text-shadow: none;
+}
+
+.classWeap {
+  text-shadow: none !important;
+  transition-duration: 0.3s;
+}
+
+.classLvl {
+  color: var(--accent-color) !important;
+  transition-duration: 0.3s;
+}
+
+.classHP {
+  color: var(--accent-color) !important;
+  transition-duration: 0.3s;
+}
+
+.classHP span {
+  color: var(--accent-color) !important;
+}
+
+.classCard:hover .classHP {
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+
+.classCard:hover .classLvl {
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+
+.classCard:hover .classWeap {
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+
+.classImgC {
+  border-radius: 10px;
+}
+
+.classXPBar {
+  background-color: #141414;
+  border-radius: 10px;
+}
+
+.clsXPBarC {
+  margin: 0;
+  background-color: var(--xpbarcolor);
+  height: 26px;
+  border-radius: 10px;
+}
+
+.classCard:hover img {
+  opacity: 1;
+  transform: scale(1);
+  transition-duration: 0.3s;
+}
+
+.classCard img {
+  opacity: 0.7;
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+}
+
+.menuItem {
+  gap: 0px !important;
+  background-color: transparent !important;
+  font-size: 23px;
+  width: -100px;
+  padding: 0;
+  margin: 0;
+}
+
+.menuItem:hover {
+  border-left: none !important;
+  transform: scale(1.1);
+}
+
+#menuItemContainer {
+  display: flex !important;
+  flex-direction: row !important;
+  width: 1000px !important;
+  position: absolute !important;
+  transform: translate(-50%, -50%);
+  top: 7% !important;
+  left: 50% !important;
+  height: 40px !important;
+  position: absolute !important;
+  background-color: transparent !important;
+  gap: -20px !important;
+}
+
+.menuItemTitle,
+.menuItemIcon {
+  display: none !important;
+}
+
+.menuItem[onclick="SOUND.play(`select_0`,0.15);showWindow(5)"]::after {
+  content: "個人";
+  /* profile */
+  color: #ffb7c5 !important;
+}
+
+.menuItem[onclick="SOUND.play(`select_0`,0.15);showWindow(14)"]::after {
+  content: "お店";
+  /* shop */
+  color: #ffb7c5 !important;
+}
+
+.menuItem[onclick="SOUND.play(`select_0`,0.15);showWindow(33)"]::after {
+  content: "チャル";
+  /* chall */
+  color: #ffb7c5 !important;
+}
+
+.menuItem[onclick="SOUND.play(`select_0`,0.15);window.open('/social.html', '_blank')"]::after {
+  content: "ハブ";
+  /* social/hub */
+  color: #ffb7c5 !important;
+}
+
+.menuItem[onclick="SOUND.play(`select_0`,0.15);showWindow(10)"]::after {
+  content: "ゲーム";
+  /* games */
+  color: #ffb7c5 !important;
+}
+
+.menuItem[onclick="SOUND.play(`select_0`,0.15);showWindow(4)"]::after {
+  content: "モッド";
+  /* mods */
+  color: #ffb7c5 !important;
+}
+
+.menuItem[onclick="showWindow(1);SOUND.play(`select_0`,0.15);"]::after {
+  content: "旅立ち";
+  /* settings */
+  color: #ffb7c5 !important;
+}
+
+/*class picker and menu timer*/
+
+
+#hiddenClasses {
+  display: flex !important;
+  flex-direction: column;
+  position: fixed;
+  right: 0px;
+  top: unset;
+  height: calc(100% - 100px);
+  bottom: 50%;
+  transform: translate(0, 50%);
+  margin-right: 10px;
+  width: unset;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.2;
+  transition-duration: 0.2747s;
+}
+
+#hiddenClasses:hover {
+  opacity: 1;
+  transition-delay: 0.1747s;
+  transition-duration: 0.0747s;
+}
+
+#menuClassPicker0[onclick="selectClass(0)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: scale(1);
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_0.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker0[onclick="selectClass(0)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#menuClassPicker1[onclick="selectClass(1)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: scale(1);
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_1.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker1[onclick="selectClass(1)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#menuClassPicker2[onclick="selectClass(2)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: scale(1);
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_2.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker2[onclick="selectClass(2)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#menuClassPicker3[onclick="selectClass(3)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: scale(1);
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_3.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker3[onclick="selectClass(3)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#menuClassPicker4[onclick="selectClass(4)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: scale(1);
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_4.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker4[onclick="selectClass(4)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#menuClassPicker5[onclick="selectClass(5)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: scale(1);
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_5.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker5[onclick="selectClass(5)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#menuClassPicker6[onclick="selectClass(6)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: scale(1);
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_6.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker6[onclick="selectClass(6)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#menuClassPicker7[onclick="selectClass(7)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: scale(1);
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_7.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker7[onclick="selectClass(7)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#menuClassPicker8[onclick="selectClass(8)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: scale(1);
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_8.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker8[onclick="selectClass(8)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#menuClassPicker9[onclick="selectClass(9)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: scale(1);
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_9.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker9[onclick="selectClass(9)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#menuClassPicker10[onclick="selectClass(10)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_10.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker10[onclick="selectClass(10)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#menuClassPicker11[onclick="selectClass(11)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: scale(1);
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_11.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker11[onclick="selectClass(11)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#menuClassPicker12[onclick="selectClass(12)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: scale(1);
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_12.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker12[onclick="selectClass(12)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#menuClassPicker13[onclick="selectClass(13)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: scale(1);
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_13.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker13[onclick="selectClass(13)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#menuClassPicker14[onclick="selectClass(14)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: scale(1);
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_14.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker14[onclick="selectClass(14)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#menuClassPicker15[onclick="selectClass(15)"] {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: scale(1);
+  content: url(https://storage.googleapis.com/assets.krunker.io/textures/classes/icon_15.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+  transition-duration: 0.0747s;
+  opacity: var(--idleclassopacity);
+}
+
+#menuClassPicker15[onclick="selectClass(15)"]:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.0747s;
+  opacity: 1;
+}
+
+#uiBase.onMenu #spectateUI {
+  display: block !important;
+  position: fixed;
+  bottom: 48.5%;
+  top: unset;
+  left: 50%;
+  right: unset;
+  transform: translate(-50%, 50%);
+  z-index: 1;
+  width: 10px;
+  height: 10px;
+}
+
+#uiBase.onMenu #spectateHUD {
+  display: flex;
+  justify-content: center;
+  transform: unset;
+  left: unset;
+}
+
+#uiBase.onMenu #specTeam0,
+#uiBase.onMenu #spec0,
+#uiBase.onMenu #spec1,
+#uiBase.onMenu #specNames,
+#uiBase.onMenu #specStats,
+#uiBase.onMenu #specContr,
+#uiBase.onMenu #specKPDContr,
+#uiBase.onMenu #specSus,
+#uiBase.onMenu #specTeam1,
+#uiBase.onMenu #specGMessage,
+#uiBase.onMenu #specGameInfo {
+  display: none !important
+}
+
+
+#uiBase.onMenu #specTimer {
+  display: block !important;
+  font-size: 35px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, .55)
+}
+
+#reloadMsg {
+  border: transparent;
+  background: transparent;
+  font-size: 0;
+  top: 52%;
+}
+
+#reloadMsg::before {
+  content: var(--customreload);
+  font-size: 20px;
+  left: 50%;
+  top: 52%;
+  color: var(--reloadcolor);
+  text-shadow: 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+}
+
+/* BestBuy Edits */
+#mapInfo,
+#specMapOverlay {
+  visibility: hidden;
+}
+
+#mapInfoHld {
+  display: none !important;
+}

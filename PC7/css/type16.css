@@ -1,0 +1,165 @@
+#curGameInfo {
+    font-size: 0
+}
+
+#curGameInfo::after {
+    content: "PC7 Client";
+    font-size: 20px;
+    color: #f70101;
+}
+
+#healthValueHolder {
+    padding: 0 10px 0 5px;
+    margin-bottom: 10px;
+}
+
+#healthValueHolder::before {
+    content: var(--name);
+    visibility: visible;
+    font-size: 30px;
+    text-align: left;
+    padding: 0px 0px 0 10px;
+    border-radius: 4px;
+    color: white
+}
+
+#healthBar {
+    height: 40px;
+    width: 350px;
+    display: inline-flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+}
+
+.healthBarSeg {
+    width: -webkit-fill-available;
+    margin-right: -1px;
+    background-color: transparent;
+}
+
+.hpBSeg {
+    border-radius: 0;
+    box-shadow: unset;
+}
+
+#healthBar .healthBarSeg:first-child .hpBSeg {
+    border-radius: 6px 0 0 6px !important
+}
+
+#healthBar .healthBarSeg:last-child .hpBSeg {
+    border-radius: 0 6px 6px 0 !important
+}
+
+.headShotChatIcon {
+    filter: brightness(0) drop-shadow(-2px 0px 1px #ff0000) drop-shadow(0px 0px 1px #ff0000) drop-shadow(2px 0px 1px #ff0000);
+}
+
+.thrownChatIcon {
+    filter: brightness(0) drop-shadow(-2px 0px 1px #ff0000) drop-shadow(0px 0px 1px #ff0000) drop-shadow(2px 0px 1px #ff0000);
+}
+
+.fistChatIcon {
+    filter: brightness(0) drop-shadow(-2px 0px 1px #ff0000) drop-shadow(0px 0px 1px #ff0000) drop-shadow(2px 0px 1px #ff0000);
+}
+
+.weaponChatIcon {
+    filter: brightness(0) drop-shadow(-2px 0px 1px #ff0000) drop-shadow(0px 0px 1px #ff0000) drop-shadow(2px 0px 1px #ff0000);
+}
+
+.meleeChatIcon {
+    filter: brightness(0) drop-shadow(-2px 0px 1px #ff0000) drop-shadow(0px 0px 1px #ff0000) drop-shadow(2px 0px 1px #ff0000);
+}
+
+#accName {
+    color: rgb(255, 0, 0) !important;
+}
+
+#accName {
+    color: rgb(255, 0, 0) !important;
+}
+
+#accPass {
+    color: rgb(255, 0, 0) !important;
+}
+
+/* Logged in Profile */
+span.material-icons {
+    color: rgb(255, 0, 0) !important;
+}
+
+.xpBarV {
+    display: none;
+}
+
+.xpBar {
+    display: none;
+}
+
+.setHed {
+    background: gray;
+}
+
+strong {
+    color: rgb(255, 0, 0) !important;
+}
+
+.pSt {
+    width: 100px;
+    height: 100px;
+}
+
+.clsStatCard {
+    display: none;
+}
+
+#statTab3 {
+    display: none;
+}
+
+#leaderDisplay::before {
+    content: "LEADERBOARD";
+    display: flex;
+    font-size: 24px;
+    color: #fff;
+    border-bottom: 4px solid var(--accent2);
+    border-image-slice: 1;
+    margin-bottom: 8px;
+    padding-left: 50px;
+    padding-bottom: 4px;
+}
+
+/*--weapon-icon-brightness: 2;*/
+/*0 = Black | 8 = Red*/
+
+#timerDisplay {
+    text-align: center;
+    position: fixed;
+    transform: translateX(-50%);
+    top: 0;
+    left: 50%;
+    width: 150px;
+    height: 35px;
+    padding: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: rgb(255, 255, 255);
+    will-change: unset;
+}
+
+#timerVal {
+    font-size: 15px;
+    padding-left: 0;
+    will-change: unset;
+}
+
+#timerIcon {
+    display: none;
+}
