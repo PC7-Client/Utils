@@ -1,0 +1,318 @@
+:root {
+    	--Watermark: "itserror430";
+}
+
+    /* Removal */
+
+#aHolder,
+#topRightAdHolder,
+.endAHolder,
+#merchImg,
+#onetrust-consent-sdk,
+#braveWarning,
+#newsHolder,
+#streamContainer,
+#newUserGuide,
+#krDiscountAd,
+#updateAd, 
+#editorBtnM,
+.verticalSeparator,
+.terms.standout,
+.verticalSeparatorInline,
+.terms,
+#termsInfo,
+.menuWindowSideL,
+.windowHeader,
+.menuSocialB,
+#menuBtnProfile,
+#menuBtnShop,
+#menuBtnChall,
+#menuBtnSocial, 
+#policeButton,
+#menuBtnMaps,
+#menuBtnMods,
+#menuBtnSettings,
+#mainLogo,
+#freeKRAd,
+#rankedBlog,
+#doubleXPAd,
+#seasonLabel,
+#menuClassNameTag,
+#doubleClassXPAd,
+#mainLogoFace,
+.menuItem[onclick$="showWindow(49)"],
+#tlInfHold,
+.newsItem,
+#bottomLeftChallIcon,
+#pingDisplay,
+#timerIcon,
+#recTimer,
+.weapKey, 
+.weapSkin,
+.weapStreak, 
+.weapStreakHolder,
+#bottomLeftTeamType, 
+#voiceIcon,
+#classPreviewCanvas,
+#chatSwitchHolder,
+#bottomLeftTeamName,
+#menuClassIcn,
+#myScoreVal,
+#kdVal,
+#ammoMax,
+#killsIcon,
+#ammoIcon,
+#deathsIcon,
+#streakIcon,
+#scoreCount .material-icons,
+#livesCount .material-icons,
+#reloadMsg {
+   	display: none !important;
+}
+
+
+    /* Removal V2 */
+
+.button,
+#menuItemContainer,
+#mLevelCont,
+#bottomLeftPlayer,
+#bottomLeftPlayerLeft,
+#bottomLeftPlayerRight,
+#bottomLeftTeamType,
+#bottomLeftTeamName,
+#chatInputHolder,
+.greyInner, 
+.greyInlineInner, 
+.greyInlineInnerMid,
+ #mLevelCont,
+.headerBarLeft,
+.headerBarRight,
+.weapItemInner,
+.weapItem,
+#leaderContainer,
+#bottomLeftHealthBar {
+	background-color: transparent;
+}
+
+    /* Removal V3 */
+.button, 
+.button:hover { 
+    border: hidden ! important;
+}
+
+    /* Removal V4 */
+
+#matchInfo {
+	visibility: hidden !important;
+}
+    
+    /* Useless Change */
+
+#instructions {
+    position: absolute;
+    font-size: 15px;
+    animation: none;
+}
+
+    /* Game Font */
+
+@font-face {
+    font-family: gamefont;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2);
+}
+
+
+	/* Weapon */
+
+#weapHolder {
+	display: flex;
+    bottom: 40%;
+    transform: translateY(50%);
+}
+
+
+	/* Health */
+
+
+#bottomLeftHealthBar {
+	width: 300px;
+	height: 33px;
+	display: inline-flex;
+	justify-content: center;
+	background-color: transparent;
+	border-radius: 1;
+	position: fixed;
+	left: calc(50% - 160px);
+	bottom: 50px;
+	outline: 9px solid var(--hp-ammo);
+	filter: drop-shadow(7px 7px 3px rgba(30, 30, 30, .5));
+    visibility: visible !important;
+}
+
+.nHealthBarSeg {
+	width: -webkit-fill-available;
+	height: 30px;
+	margin: 0 -5px;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+.nHpBSeg {
+	border-radius: 0;
+	box-shadow: none;
+}
+
+
+#bottomLeftHealth {
+    color: #fff;
+    font-size: 125px;
+    will-change: transform;
+    display: inline-block;
+	text-shadow: 7px 7px 3px rgba(30, 30, 30, .5);
+	letter-spacing: 2px;
+    visibility: visible !important;
+	background-color: transparent;
+	position: fixed;
+	left: calc(35%);
+	bottom: 5px;
+}
+
+
+	/* Ammo */
+
+#ammoHolder {
+	position: fixed;
+	background-color: transparent;
+	background-image:linear-gradient(to right,white,white);
+	transform: unset;
+	width: 35px;
+	height: 4px;
+	size: 20px;
+	top: calc(50% + 25px);
+	left: calc(49%);
+
+	
+}
+
+#ammoVal {
+	text-shadow: 7px 7px 3px rgba(30, 30, 30, .5);
+	position: fixed;
+	font-size: 125px;
+	left: calc(57%);
+	bottom: 5px;
+	color: white;
+	letter-spacing: 2px;
+}
+
+    /* Leader */
+
+.leaderScore,
+.leaderCounter {
+    	color: white;
+} 
+
+#leaderboardHolder::before {
+    content: "leaderboard";
+    text-transform: capitalize;
+    display: flex;
+    font-size: 20px;
+   	color: #fff;
+	margin-top: 8px;
+	margin-left: calc(30%);
+    background-color: transparent;
+}
+    /* Counters */
+
+#killsVal,
+#deathsVal,
+#streakVal {
+    color: white !important;
+    bottom: 7px;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    border-radius: 5px 5px 5px 5px;
+    padding: 0px 5px 0px 0px;
+}
+
+
+#deathsVal::after {
+    content: 'D';
+    transform: translateX(25%);
+    color: gray;   
+}
+
+#killsVal::after {
+   	content: 'K';
+   	transform: translateX(25%);
+    color: gray;
+}
+
+#streakVal::after {
+    content: 'S';
+    transform: translateX(25%);
+    color: gray;
+}
+
+    /* Timer */
+
+#timerInner.topLeftOld {
+    background-color: transparent;
+} 
+
+#timerHolder.topLeftOld {
+    background-color: rgba(0,0,0,.5);
+    border-radius: 5px 5px 5px 5px;
+}
+
+#timerVal.topLeftOld {
+	font-size: 45px !important;
+    text-shadow: -1px -1px 0 #202020,1px -1px 0 #202020,-1px 1px 0 #202020,1px 1px 0 #202020
+}
+
+
+
+
+    /* Chat */
+
+#chatInput {
+    font-size: 25px;
+    max-width: 275px;
+    transform: translateX(-31%);
+    background-color: transparent;
+    border: transparent;
+}
+
+
+.chatItem {
+    font-size: 15px;
+    padding-right: 5px;
+    max-width: 275px;
+    background-color: transparent;
+    border: transparent;
+}
+
+#chatList {
+    background-color: transparent;
+}
+
+
+/*Matchinfo*/
+
+#matchInfo {
+	visibility: hidden !important;
+}
+#matchInfo:after {
+	font-size:12px;
+	content: var(--Watermark);
+	color: #ffffff;
+	opacity: 100%;
+	text-shadow: 0 0 2px #000000;
+    visibility: visible !important;
+    position: fixed;
+    top: 100px;
+    left: calc(1%);
+    text-shadow: -1px -1px 0 #202020,1px -1px 0 #202020,-1px 1px 0 #202020,1px 1px 0 #202020
+}
