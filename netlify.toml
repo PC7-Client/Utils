@@ -39,6 +39,12 @@
   to = "userscripts/userscripts.json"
   force = true
   status = 200  
+
+[[redirects]]
+  from = "/css/*.css"
+  to = "/css/*.css"
+  force = true
+  status = 200  
   
 [[redirects]]
   from = "/*"
