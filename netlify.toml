@@ -33,6 +33,12 @@
   to = "changelog.txt"
   force = true
   status = 200  
+
+[[redirects]]
+  from = "/_"
+  to = "_"
+  force = true
+  status = 200  
     
 [[redirects]]
   from = "/userscripts/userscripts.json"
