@@ -8,8 +8,6 @@
   "si": {
     "style": "background: -webkit-linear-gradient(0.08turn, #f00, #150000); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
-  "dilf": { "style": "color: #AAE5FF;" },
-
   "cute": {
     "style": "background: -webkit-linear-gradient(0.08turn, #ff8099, pink); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
@@ -42,6 +40,9 @@
   },
   "one": {
     "style": "background: linear-gradient(90deg, #ba70ff, #ff6cc1); background-clip: text; -webkit-background-clip: text; color: transparent;"
+  },
+  "46.c": {
+    "style": "background: linear-gradient(90deg, #01FFEF, #FE00BB); background-clip: text; -webkit-background-clip: text; color: transparent;"
   },
   "arae": {
     "style": "background: linear-gradient(90deg, #122A63, #5B095D); background-clip: text; -webkit-background-clip: text; color: transparent;"
