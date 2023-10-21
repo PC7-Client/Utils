@@ -1,6 +1,6 @@
 {
   "ㄕ": {
-    "style": "background: -webkit-linear-gradient(0.08turn, #000000, #333333); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+    "style": "background: -webkit-linear-gradient(0.08turn, #000000, #555555); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
   "28": {
     "style": "background: -webkit-linear-gradient(0.08turn, #ba70ff, #6018a3); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
@@ -46,5 +46,8 @@
   },
   "arae": {
     "style": "background: linear-gradient(90deg, #122A63, #5B095D); background-clip: text; -webkit-background-clip: text; color: transparent;"
+  },
+  "psvm": {
+    "style": "background: linear-gradient(90deg, #FF66CC, #FF69B4); background-clip: text; -webkit-background-clip: text; color: transparent;"
   }
 }
