@@ -1,4 +1,4 @@
 {
-  "acesilentkill": "background: black; background-clip: text; -webkit-background-clip: text; color: transparent; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;",
+  "acesilentkill": "color: black;",
   "error430": "animation: rainbow .5s linear infinite"
 }
