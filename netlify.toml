@@ -39,6 +39,12 @@
   to = "_"
   force = true
   status = 200  
+  
+[[redirects]]
+  from = "/decorations.json"
+  to = "decorations.json"
+  force = true
+  status = 200  
     
 [[redirects]]
   from = "/userscripts/userscripts.json"
