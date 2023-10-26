@@ -1,6 +1,6 @@
 {
   "acesilentkill": "color: #0585f5;",
   "error430": "animation: rainbow .5s linear infinite;",
-  "probiemat1c": "animation: rainbow .5s linear infinite;",
+  "probiemat1c": "background: black; background-clip: text; -webkit-background-clip: text; color: transparent; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;",
   "zoosi": "color: transparent; background: linear-gradient(to top, purple, black); -webkit-background-clip: text; background-clip: text; background-size: 100% 100%;"
 }
