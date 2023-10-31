@@ -53,6 +53,12 @@
   status = 200  
 
 [[redirects]]
+  from = "/userscripts/:file"
+  to = "userscripts/:file"
+  force = true
+  status = 200  
+
+[[redirects]]
   from = "/css/:type"
   to = "css/:type"
   force = true
