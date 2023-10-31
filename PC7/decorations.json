@@ -1,5 +1,6 @@
 {
   "acesilentkill": "color: #0585f5;",
   "error430": "animation: rainbow .5s linear infinite;",
-  "probiemat1c": "background: black; background-clip: text; -webkit-background-clip: text; color: transparent; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;"
+  "probiemat1c": "background: black; background-clip: text; -webkit-background-clip: text; color: transparent; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;",
+  "lcs_error": "background: black; background-clip: text; -webkit-background-clip: text; color: transparent; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;"
 }
