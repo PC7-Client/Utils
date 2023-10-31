@@ -13,6 +13,20 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+== UPDATE V7.0.0 ==
+- Added chat width fixer option (Thx Jitchu <3)
+- Added option to auto screenshot leaderboards after game end (Useful in comp)
+- Added hotkey to take screenshot (Default shift + f2 can be reassigned)
+- Rewrote a large portion of the client resulting in a much smoother feeling user experience 
+- Refactored countless client internals to be more efficient
+- Removed some old, unused, and uselessly repetitive code
+- Added additional checks to some existing troll commands
+- Fixed some broken troll commands
+- Fixed some minor bugs with username decorations
+- Added new troll commands
+- Updated Old Krunker CSS (Thanks Qwest500 <3)
+- Reworked most of our internals and backend 
+
  == UPDATE V6.18.5 ==
  - Added Profile Decorations
  - Updated some client internals
