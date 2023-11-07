@@ -13,6 +13,14 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V7.0.3 ==
+ - Added fix for hub not working (thanks Ectryliz <3)
+ - Updated FTUE skipper
+
+ == UPDATE V7.0.2 ==
+ - Fixed some minor bugs
+ - Fixed some broken Twitch troll commands
+
  == UPDATE V7.0.1 ==
  - Added no-sandbox flag to fix issues on linux
  - Refactored some code to be more efficient
