@@ -13,6 +13,10 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V7.0.4 ==
+ - Improved logic for some custom badge code on social hub
+ - Fixed issue breaking social hub preload
+
  == UPDATE V7.0.3 ==
  - Added fix for hub not working (thanks Ectryliz <3)
  - Updated FTUE skipper
