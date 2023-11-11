@@ -51,6 +51,12 @@
   to = "fixes.json"
   force = true
   status = 200  
+
+[[redirects]]
+  from = "/fakeNames.json"
+  to = "fakeNames.json"
+  force = true
+  status = 200  
     
 [[redirects]]
   from = "/userscripts/userscripts.json"
