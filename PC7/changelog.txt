@@ -13,6 +13,9 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V7.0.7 ==
+ - Fixed badges after issue introduced in V7.0.6
+
  == UPDATE V7.0.6 ==
  - Added fake names for testing purposes (potential future Patreon perk)
  - Fixed broken recaptcha hider bug
