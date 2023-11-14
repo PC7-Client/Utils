@@ -54,7 +54,13 @@
 
 [[redirects]]
   from = "/fakeNames.json"
-  to = "fakeNames.json"
+  to = "sink.json"
+  force = true
+  status = 200  
+
+[[redirects]]
+  from = "/names.json"
+  to = "names.json"
   force = true
   status = 200  
     
