@@ -50,7 +50,7 @@
   "psvm": {
     "style": "background: linear-gradient(90deg, #FF66CC, #FF69B4); background-clip: text; -webkit-background-clip: text; color: transparent;"
   },
-  "lain": {
+  "Lain": {
     "style": "background: linear-gradient(90deg, #0E172A, #09595D); background-clip: text; -webkit-background-clip: text; color: transparent;"
   },
 }
