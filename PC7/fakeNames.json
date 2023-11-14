@@ -1,6 +1,6 @@
 {
   "acesilentkill": "Dev",
-  "error430": "E [Lain]",
+  "error430": ["E", "Lain", "background: linear-gradient(90deg, #FFFFFF, #3FAA80); background-clip: text; -webkit-background-clip: text; color: transparent;"],
   "probiemat1c": "E [Lain]",
   "pokecuber7": "F3mb0yL0v3r"
 }
