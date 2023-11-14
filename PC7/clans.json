@@ -51,6 +51,6 @@
     "style": "background: linear-gradient(90deg, #FF66CC, #FF69B4); background-clip: text; -webkit-background-clip: text; color: transparent;"
   },
   "lain": {
-    "style": "background: linear-gradient(90deg, #FFFFFF, #3FAA80); background-clip: text; -webkit-background-clip: text; color: transparent;"
+    "style": "background: linear-gradient(90deg, #0E172A, #09595D); background-clip: text; -webkit-background-clip: text; color: transparent;"
   }
 }
