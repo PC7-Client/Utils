@@ -1,5 +1,5 @@
 {
-  "error430": {"animation": "colorChange 1s linear infinite","@keyframes colorChange": {"0%": { "background-color": "red" },"50%": { "background-color": "green" },"100%": { "background-color": "red" }}},
+  "error430": "animation: rainbow .5s linear infinite;",
   "lunar": "background: black; background-clip: text; -webkit-background-clip: text; color: transparent; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;",
   "43o": "animation: rainbow .5s linear infinite;"
 }
