@@ -1,7 +1,7 @@
 /* holiday css by thaddeuz */
 /* Please credit me if you want to redistribute this code as part of your code. */
 
-/* Updated 26 November 2023 */
+/* Updated 28 November 2023 */
 
 :root {
     --div-grey: rgb(0 0 0 / 0%);
@@ -97,10 +97,7 @@
 
 #menuItemContainer {
   margin-left: -25px;
-  height: unset;
-  top: unset;
   bottom: unset;
-  width: unset;
   display: flex;
   flex-direction: column;
   top: 80px;
@@ -108,9 +105,9 @@
 }
 
 .menuItem {
-  height: 100px;
-  width: 100px;
-    margin-left: 40px;
+  height: 88px;
+  width: 88px;
+  margin-left: 40px;
   margin-top: 12px;
   margin-bottom: 10px;
   background: var(--accent-color);
@@ -127,7 +124,7 @@
 .menuItem .material-icons-outlined {
   position: absolute;
   top: 50%;
-  left: calc(100% - 50px);
+  left: calc(100% - 43.5px);
   transform: translate(-50%, -50%);
 }
 
