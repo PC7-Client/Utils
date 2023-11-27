@@ -1,0 +1,352 @@
+/* holiday css by thaddeuz */
+/* Please credit me if you want to redistribute this code as part of your code. */
+
+/* Updated 26 November 2023 */
+
+:root {
+    --div-grey: rgb(0 0 0 / 0%);
+    --div-black: rgb(0 0 0 / 0%);
+    --accent-color: #a5d8ed;
+}
+  
+   /* fonts */
+
+@font-face {
+    font-family: gamefont;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2);
+}
+
+/* menu css */
+
+   /* bottom */
+
+#subLogoButtons {
+      bottom: 90px;
+      text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+}
+
+.button, .button:hover { 
+      background-color: transparent !important;
+      border: hidden ! important;
+}
+
+#subLogoButtons>.button {
+      background-color: transparent !important;
+      border: hidden ! important;
+      box-shadow: 2px 2px 5px #a5d8ed;
+}
+
+   /* top left */
+
+#mLevelCont,
+      .headerBarLeft,
+      .headerBarRight {
+      background-color: transparent;
+}
+
+#menuAccountUsername {
+      font-size  : 23px;
+      padding-top: 4px;
+      padding-left: 6px;
+}
+
+.verticalSeparator {
+      opacity:0
+}
+
+.progressBar {
+      height: 9px;
+      margin-top: -4px;
+      background-color: rgba(0, 0, 0, 0.15);
+}
+
+.progressBarInner {
+      background-image: linear-gradient(to right,white, lightgrey);
+}
+
+#mailContainer {  
+      padding-bottom: 4px;
+}
+
+#mLevelContV {
+      font-size  : 60px;
+}
+
+.krInfo {
+      font-size: 20px !important;
+      position : fixed;
+      top      : 89px;
+      left     : 20px;
+}
+
+.junkInfo {
+      font-size: 20px !important;
+      position : fixed;
+      top      : 94px;
+      left     : 140px;
+}
+
+   /* left cred Sakura Theme v1.0.0 */
+
+.material-icons-outlined, span.material-symbols-outlined {
+      color: #fff !important
+}
+
+#menuItemContainer {
+  margin-left: -25px;
+  height: unset;
+  top: unset;
+  bottom: unset;
+  width: unset;
+  display: flex;
+  flex-direction: column;
+  top: 80px;
+  background: transparent;
+}
+
+.menuItem {
+  height: 100px;
+  width: 100px;
+    margin-left: 40px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  background: var(--accent-color);
+  border-radius: 999px;
+  border-right: 0px solid var(--border-color);
+  display: block;
+  position: relative;
+}
+
+.menuItem:hover {
+  width: 300px;
+}
+
+.menuItem .material-icons-outlined {
+  position: absolute;
+  top: 50%;
+  left: calc(100% - 50px);
+  transform: translate(-50%, -50%);
+}
+
+.menuItem .menuItemTitle {
+  margin-top: unset;
+  position: absolute;
+  top: 50%;
+  left: calc(0%);
+  transform: translate(-50%, -50%);
+  font-size: 20px !important;
+  opacity: 0;
+}
+
+.menuItem:hover .menBtnIcn {
+
+  position: absolute;
+  top: 50%;
+  left: calc(100% - 150px);
+  transition: unset;
+  transform: translate(-50%, -50%);
+      color: #eda5a5 !important
+}
+
+   /* hud class popup */
+
+#menuClassContainer:hover #classPreviewCanvas {
+      transform: unset !important;
+}
+
+  #classPreviewCanvas {
+      transform: translateY(5000000px);
+      margin-bottom: -135px;
+      margin-right: -113px;
+}
+
+  .bigShadowT {
+      text-shadow: none !important
+}
+
+   /* remove click to play animation */
+
+#instructions {
+      animation: none
+}
+
+   /* removal */
+#timerIcon, 
+#bottomLeftClassImg, 
+#bottomLeftTeamHolder,
+#bottomLeftChallIcon,
+#bottomLeftHealth,
+#voiceIcon,
+#recTimer, 
+#ammoMax,
+#ammoIcon,
+.weapKey,
+.weapSkin,
+#menuClassSubtext,
+#menuClassName,
+#menuClassIcn,
+#customizeButton .material-icons,
+.menuItem .menuItemTitle,
+#chatSwitch {
+      display: none !important;
+}
+
+#mainLogoFace,
+#tlInfHold,
+.menuSocialB,
+#aHolder,
+.endAHolder,
+#topRightAdHolder, 
+#seasonLabel,
+#termsInfo,
+#streamContainer,
+#editorBtnM {
+      display: none !important;
+}
+
+.weapIcon {
+    width: 140px;
+    height: 70px
+}
+
+   /* health bar */
+
+#bottomLeftHealthBar {
+      width: 340px;
+      position: fixed;
+      left: calc(0% + 19px);
+      bottom: calc(0% + 20px);
+
+}
+
+.nHealthBarSeg {
+      display: flex;
+      height: 30px;
+      width: -webkit-fill-available;
+      margin: 0 -3.88px;
+      background:transparent
+  
+}
+
+.nHpBSeg {
+      border-radius: 3;
+}
+
+#bottomLeftHealthBar::after {
+    content: " ";
+    background: url(https://cdn.discordapp.com/attachments/731415583073239065/1177880995794530324/image_20.png?ex=65741e29&is=6561a929&hm=023c3ab4586712ea43b03d824b1ef66be33f97d924028e856d257512cfb93675&);
+    background-size: 374px;
+    width: 374px;
+    height: 200px;
+    position: fixed;
+    bottom: -67px;
+  left:11px;
+      -webkit-font-smoothing: antialiased;
+}
+
+   /* ammo */
+
+#ammoVal {
+      font-size: 50px;
+      position: fixed;
+      left: calc(50% - 80px);
+      bottom: 6px;
+      text-shadow: 3px 3px 3px #a5d8ed;
+}
+
+   /* timer */
+
+#timerVal {
+      font-size: 25px;
+      text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+}
+
+   /* counters */
+
+#killsVal,#deathsVal,#streakVal,#myScoreVal,#kdVal {
+      color: white;
+      font-size: 30px;
+      text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+}
+
+#killsIcon,#deathsIcon,#streakIcon,#kdIcon {
+      width: 25px;
+      height: 25px;
+}
+
+   /* fps and ping */
+#menuFPSDisplay,#menuFPS,#ingameFPS,#fpsDisplay,
+#menuPingText,#menuPingDisplay .material-icons,#pingDisplay,#pingText {
+      color: rgb(255, 255, 255) !important;
+      text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+}
+
+/* chat */
+
+#chatInput {
+        opacity:0
+}
+
+#chatList {
+      background-color: rgba(0, 0, 0, 0);
+}
+
+.chatItem {
+      font-size: 18px;
+      max-width: 265px;
+          text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+}
+  
+.chatItem span[style="color:#fc03ec"] {
+      color: skyblue !important;
+}
+
+#uiBase.onGame #chatHolder {
+      left: 1150px;
+      bottom: 16px
+}
+
+.settName,.settNameSmall {
+    color: white !important;
+}
+
+#menuWindow.dark,
+.settingsHeader,
+.settingsBtn{
+    background-color: black;
+}
+
+input[type=color],
+.setHed {
+    border: 4px solid #a5d8ed;
+    background-color: black;
+}
+
+input:checked+.slider {
+    background-color: #ffa0a0
+}
+
+
+#mainLogo {
+    width: 1050px;
+  height: 350px;
+   content: url(https://cdn.discordapp.com/attachments/731415583073239065/1178229380397400065/New_Project_10.png?ex=6575629e&is=6562ed9e&hm=fafb0abb84d4b1b28f7004aada84340c8c0015dcaf01eb15eb7543b8f947791c&)
+}
+
+#instructionHolder{
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 50 50' style='enable-background:new 0 0 50 50%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st1%7Bopacity:0.7%3Bfill:%23FFFFFF%3B%7D.st3%7Bopacity:0.1%3Bfill:%23FFFFFF%3B%7D%3C/style%3E%3Ccircle class='st3' cx='4' cy='14' r='1'/%3E%3Ccircle class='st3' cx='43' cy='3' r='1'/%3E%3Ccircle class='st3' cx='31' cy='30' r='2'/%3E%3Ccircle class='st3' cx='19' cy='23' r='1'/%3E%3Ccircle class='st3' cx='37' cy='22' r='1'/%3E%3Ccircle class='st3' cx='43' cy='16' r='1'/%3E%3Ccircle class='st3' cx='8' cy='45' r='1'/%3E%3Ccircle class='st3' cx='29' cy='39' r='1'/%3E%3Ccircle class='st3' cx='13' cy='37' r='1'/%3E%3Ccircle class='st3' cx='47' cy='32' r='1'/%3E%3Ccircle class='st3' cx='15' cy='4' r='2'/%3E%3Ccircle class='st3' cx='9' cy='27' r='1'/%3E%3Ccircle class='st3' cx='30' cy='9' r='1'/%3E%3Ccircle class='st3' cx='25' cy='15' r='1'/%3E%3Ccircle class='st3' cx='21' cy='45' r='2'/%3E%3Ccircle class='st3' cx='42' cy='45' r='1'/%3E%3C/svg%3E");
+  background-position: 0px 0px;
+  animation: animatedBackground 1000s linear infinite;
+}
+
+@keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0px 400000px;
+  }
+
+}
