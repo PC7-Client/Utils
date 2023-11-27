@@ -13,6 +13,13 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+== UPDATE V7.2.0 ==
+- Added Christmas CSS by Thaddeuz
+- Added MTZ Theme CSS by Incessant 
+- Added 2 new badges, helper and contributor which can be given to people who assist in the development of pc7
+- Added Christmas2023 badge which will automatically be given to you on December 25 at 12:00 pm your time (You MUST be playing for this to be given to you)
+- Fixed minor bug and syntax errors
+
  == UPDATE V7.1.0 ==
  - Added Shikkoku CSS :)
  - Reworked fake names feature (WIP) to be significantly more robust
