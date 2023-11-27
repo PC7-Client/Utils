@@ -98,3 +98,9 @@
   for = "/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"
+
+[[redirects]]
+  from = "/pc7vid.mp4"
+  to = "pc7vid.mp4"
+  force = true
+  status = 200
