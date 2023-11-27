@@ -1,0 +1,396 @@
+/*	MTZ CLIENT CSS	    	*/
+
+/*	CREDS: incessantvs	*/
+
+       /* Leader Shit */
+
+#leaderContainer, #leaderboardHolder {
+    background-color: #0000001f !important;
+}
+
+/* TIMER */
+
+#timerInner.topLeftOld {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 3px;
+    background-color: rgb(108 108 108 / 0%) !important;
+    display: inline-block;
+}
+
+#timerHolder.topLeftOld {
+    text-align: left!important;
+    margin-right: 10px;
+    margin-bottom: 10px!important;
+    border-radius: 4px;
+    vertical-align: top!important;
+    width: unset!important;
+    background-color: #14141459 !important;
+}
+
+#timerVal.topLeftOld {
+	font-size: 45px !important;
+    text-shadow: -1px -1px 0 #202020,1px -1px 0 #202020,-1px 1px 0 #202020,1px 1px 0 #202020
+}
+ 
+        /* Weapon Shit */
+
+#ammoHolder {
+    border-radius: 4px;
+    background-color: rgb(20 20 20 / 38%);
+    display: inline-block;
+    font-size: 29px;
+    letter-spacing: -2px;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+}
+.weapItemInner, .weapItem {
+    background-color: transparent;
+    transform: translate(5px, 0px);
+}
+       /* Removal */
+
+#aHolder,
+.endAHolder,
+#topRightAdHolder,
+#merchImg,
+#onetrust-consent-sdk,
+#braveWarning,
+#newsHolder,
+#streamContainer,
+#newUserGuide,
+#krDiscountAd,
+#updateAd, 
+#editorBtnM,
+.verticalSeparator,
+.terms.standout,
+.verticalSeparatorInline,
+.terms,
+#termsInfo,
+.menuWindowSideL,
+.windowHeader,
+.menuSocialB,
+#menuBtnProfile,
+#menuBtnShop,
+#menuBtnChall,
+#menuBtnSocial, 
+#menuBtnMaps,
+#menuBtnMods,
+#menuBtnSettings,
+#mainLogo,
+#freeKRAd,
+#rankedBlog,
+#doubleXPAd,
+#seasonLabel,
+#menuClassNameTag,
+#doubleClassXPAd,
+#mainLogoFace,
+.menuItem[onclick$="showWindow(49)"],
+#tlInfHold,
+.weapStreak, 
+.weapSkin,
+.weapStreakHolder {
+    display : none !important;
+}
+
+        /* Useless General Gray Shit */
+
+.greyInner, .greyInlineInner {
+    background-color: transparent !important;
+   
+}
+
+
+        /* Health */
+
+#bottomLeftHealthBar {
+    background-color: rgba(0,0,0,.5);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px 5px 5px 5px;
+    position: fixed;
+    width: 300px;
+	height: 48px;
+   	bottom: -5px;
+   	left: 95px;
+    
+}
+
+.nHealthBarSeg {
+	width: -webkit-fill-available;
+	height: 28px;
+	margin: 0 -5px;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+.nHpBSeg {
+	border-radius: 0;
+	box-shadow: none;	
+}
+
+.nHealthBarSeg:first-child > * {
+    border-radius: 5px 0 0 5px
+}
+
+.nHealthBarSeg:last-child > * {
+    border-radius: 0 5px 5px 0
+}
+
+
+#bottomLeftHealth {
+	background-color: transparent;
+	position: fixed;
+	bottom: 55px;
+	left: 115px;
+	font-size: 35px;
+     
+}
+
+
+
+        /* Counters Shit */
+
+.statIcon {
+    background-color: transparent;
+}
+
+        /* MatchInfo Shit */
+
+#topLeftBottom::after {
+    content: var(--Watermark);
+	font-size:20px;
+    color: #33193e;
+}
+
+#topLeftBottom {
+    transform: translate(7px, -60px);
+}
+
+#matchInfo {
+	visibility: hidden !important;
+}
+
+
+.weapKey {
+    left: 115px;
+    top: 19px;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    background-color: transparent;
+    padding: 12px 8px;
+    text-align: center;
+    border-bottom-right-radius: 4px;
+}
+
+
+.greyInner, .greyInlineInner, .greyInlineInnerMid {
+    margin: 3px;
+    background-color: rgb(27 27 27 / 60%);
+    padding: 5px;
+    border-radius: 4px;
+}
+#chatInputHolder {
+    width: 413px;
+    font-size: 9px;
+    box-sizing: border-box;
+    background-color: rgb(14 14 14 / 32%);
+    pointer-events: all;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    display: inline-grid;
+    grid-template-columns: auto 270px auto;
+    padding-top: 0!important;
+    box-shadow: unset!important;
+}
+#chatInput {
+    width: 255px;
+    padding: 6px!important;
+    padding-left: 10px!important;
+    color: #fff;
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: rgb(0 0 0 / 0%);
+    border: 2px solid rgba(0,0,0,.1);
+    pointer-events: all;
+    border-radius: 4px;
+}
+
+#menuItemContainer {
+    position: absolute;
+    left: 0px;
+    top: 1190px;
+    bottom: -1px;
+    margin: auto;
+    width: 2800px;
+    display: flex;
+    flex-direction: row;
+    background: rgb(0 0 0);
+}
+
+#uiBase.onMenu #chatHolder {
+    left: 15px;
+    bottom: 150px;
+}
+
+  /* Game Font */
+
+@font-face {
+    font-family: gamefont;
+    src: url(https://fonts.gstatic.com/s/aldrich/v21/MCoTzAn-1s3IGyJMVacY37H6D_A.woff2);
+}
+               /* R1 */
+#bottomLeftTeamName,
+#bottomLeftChallIcon,
+#bottomLeftTeamType
+ {
+    display: none !important;
+}
+ 
+
+               /* R2 */
+#bottomLeftTeamType,
+#bottomLeftTeamName,
+#bottomLeftPlayer,
+#bottomLeftPlayerLeft,
+#bottomLeftPlayerRight,
+#chatInputHolder,
+.greyInner, 
+.greyInlineInner, 
+.greyInlineInnerMid,
+ #mLevelCont,
+.headerBarLeft,
+.headerBarRight,
+#leaderContainer,
+#bottomLeftHealthBar {
+    background-color: transparent;
+}
+
+         /*  MENU */
+
+
+input:checked+.slider {
+    background-color: #ff4100;
+}
+
+input:checked+.advancedSlider {
+    background-color: #ff4100;
+}
+#menuWindow.dark {
+    background-color: #000000;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.5);
+}
+.xpBarB {
+    height: 100%;
+    background-image: linear-gradient(to right,#ff6300,#ff0707);
+}
+
+
+#bottomLeftClassImg {
+   
+    background-color: rgba(0,0,0,.5);
+    height: 90%;
+    width: 23%;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    border-radius: 9px;
+}
+.setHed {
+    border: 4px solid rgb(0 0 0 / 0%);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: rgb(255 255 255 / 15%);
+    margin-top: 40px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.settingsHeader {
+    width: 100%;
+    padding-top: 19px;
+    padding-bottom: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    z-index: 999999999;
+    background-color: #000;
+    padding-left: 20px;
+    margin-left: -20px;
+}
+#selectorContainer {
+    position: sticky;
+    display: table;
+    width: calc(100% + 40px);
+    background-color: #000000;
+    margin: -20px;
+    top: -20px;
+    margin-bottom: 20px;
+    text-align: center;
+    table-layout: fixed;
+    z-index: 6;
+}
+.classCard {
+    text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #000000, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020, -3px -3px 0 #202020, 3px -3px 0 #202020, -3px 3px 0 #202020, 3px 3px 0 #202020;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 12px;
+    margin-left: 6px;
+    margin-right: 7px;
+    padding: 10px;
+    width: 246px;
+    height: 95px;
+    vertical-align: top;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 24px;
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 0.5rem #000;
+    background-color: #000000;
+}
+.clsXPBarC {
+    margin: 4px;
+    background-color: #f36121;
+    height: 18px;
+}
+.loadoutBtn {
+    color: rgba(255,255,255,.7);
+    text-align: center;
+    display: inline-block;
+    width: 75px;
+    cursor: pointer;
+    background-color: #f35721;
+    font-size: 15px;
+    padding: 4px;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: right;
+    border-radius: 6px;
+}
+#menuClassContainer {
+    position: absolute;
+    right: 21px;
+    bottom: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    z-index: 99999;
+    text-align: right;
+}
+
+ #chatInputHolder {
+   background-color: #00000059;
+}
