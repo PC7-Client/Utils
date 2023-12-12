@@ -2,5 +2,6 @@
   "error430": "animation: rainbow .5s linear infinite;",
   "lunar": "background: black; background-clip: text; -webkit-background-clip: text; color: transparent; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;",
   "43o": "animation: rainbow .5s linear infinite;",
-  "twipss": "color:#00FFF9"
+  "zrkl": "color:#00FFF9",
+  "twipss": "color:#FA66FC"
 }
