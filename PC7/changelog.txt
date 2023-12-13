@@ -13,6 +13,13 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V7.4.0 ==
+ - Added feature that shows you who is on PC7
+ - Updated badge cache
+ - Refactored some client internals
+ - Fixed Mac updater
+ - Fixed some minor bugs
+
  == UPDATE V7.3.1 ==
  - Updated badge cache
  - Fixed minor bug
