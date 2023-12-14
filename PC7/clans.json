@@ -49,8 +49,5 @@
   },
   "psvm": {
     "style": "background: linear-gradient(90deg, #FF66CC, #FF69B4); background-clip: text; -webkit-background-clip: text; color: transparent;"
-  },
-  "lain": {
-    "style": "background: linear-gradient(90deg, #0E172A, #0F5149); background-clip: text; -webkit-background-clip: text; color: transparent;"
   }
 }
