@@ -1,0 +1,1354 @@
+
+@font-face {
+    font-family: gamefont;
+    src: url(https://sh1r0n3k0.github.io/WorkSans-SemiBold.ttf);
+}
+
+
+/* メインロゴ */
+
+
+#mainLogo {
+    position: absolute;
+    /* 画像のURLを指定 */
+    content: url(https://cdn.discordapp.com/attachments/823344681328836618/1178188267338862612/186_20231126131847.PNG?ex=65753c54&is=6562c754&hm=ed7abddc8d4d7c3dd18b409a0ce7793793b8fb67fac76a7d634ac859dcf7da0e&);
+    width: 1000px; /* 大きさ変更 */
+    height: auto;
+    top: 300px;
+}
+
+
+/* ミニプロフィール画像 */
+
+
+#menuMiniProfilePic {
+    /* 画像のURLを指定 */
+    content: url(https://cdn.discordapp.com/attachments/823344681328836618/1177495807621070968/185_20231124152716.png?ex=6572b76d&is=6560426d&hm=a9050543c72da6b728ffe8fe811ad14114ef759f99f963980c8ee3152c297d12&);
+    filter: brightness(1);
+    border-radius: 0;
+    width: 40px; /* 大きさ変更 */
+    height: auto;
+}
+
+
+/* プロフィール画像 */
+
+
+#profilePicM {
+    /* 画像のURLを指定 */
+    content: url(https://cdn.discordapp.com/attachments/823344681328836618/1177495807621070968/185_20231124152716.png?ex=6572b76d&is=6560426d&hm=a9050543c72da6b728ffe8fe811ad14114ef759f99f963980c8ee3152c297d12&);
+    filter: brightness(1);
+    border-radius: 0;
+    border: none;
+    filter: drop-shadow(3px 3px #b60033); /* 影の追加 */
+}
+
+
+/*✅アニメーション*/
+
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0); /* 0%の位置で translateY(0) にする */
+    }
+    25% {
+        transform: translateY(-5px); /* 25% の位置で上に 5px 移動 */
+    }
+    75% {
+        transform: translateY(5px); /* 75% の位置で下に 5px 移動 */
+    }
+}
+
+
+/*メニューUI*/
+
+
+/*✅消す*/
+
+
+/* タイムライン情報とマップ情報を非表示 */
+
+
+#tlInfHold, #mapInfoHld {
+    display: none !important;
+}
+
+
+/* 特定のクラス名が付与された要素を非表示 */
+
+
+.youNewDiv {
+    display: none !important;
+}
+
+
+/* インストラクションを非表示 */
+
+
+#instructions {
+    display: none;
+}
+
+
+/* インストラクションアップデートの背景を透明に */
+
+
+#instructionsUpdate {
+    background-color: transparent;
+}
+
+
+/* ヘッダー右部分、ストア広告、各種広告、利用規約情報を非表示 */
+
+
+#headerRight, #homeStoreAd, #aContainer, #topRightAdHolder, #streamContainer, #homeStoreAd, #bundlePop, #termsInfo {
+    display: none;
+}
+
+
+/* 警察ボタンを非表示 */
+
+
+#policeButton {
+    display: none;
+}
+
+
+/* メニューのクラスアイコンを非表示 */
+
+
+#menuClassIcn {
+    display: none;
+}
+
+
+/* メニューのクラス名タグ、サブテキスト、クラス名を非表示 */
+
+
+#menuClassNameTag, #menuClassSubtext, #menuClassName {
+    display: none;
+}
+
+
+/* カスタマイズボタンのマテリアルアイコンを非表示 */
+
+
+#customizeButton > .material-icons {
+    display: none;
+}
+
+
+/* メニューボタンアイコンを非表示 */
+
+
+.menBtnIcn {
+    display: none !important;
+}
+
+
+/*✅背景*/
+
+
+/* バックドロップフィルターを使用して背景をぼかし */
+
+
+#instructionHolder {
+    backdrop-filter: blur(6px);
+
+    /* 背景をラジアルグラデーションに設定（中心が中心で、透明から濃い黒にかけてのグラデーション） */
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+
+    /* バックドロップフィルターがサポートされていない場合のフォールバックとして、透明な赤い色を設定 */
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+
+/*✅左上*/
+
+
+#signedInHeaderBar.headerBarLeft.headerBar{
+width:1000px;
+height:auto;
+}
+
+
+/*背景*/
+
+
+.headerBarLeft, #mLevelCont{
+    background-color: transparent;
+}
+
+
+/*名前、数字*/
+
+
+#menuAccountUsername, #menuKRCount, #menuJNKCount{
+    font-size:35px;
+    text-shadow: 2px 2px 0px #000;
+    color: #b60033;
+}
+
+ #mLevelContV{
+    font-size:70px;
+    text-shadow: 3px 3px 0px #000;
+    color: #b60033;
+}
+
+
+/*画像*/
+
+
+#menuKRCount span, #menuJNKCount span, #mailIcon{
+    filter: brightness(0) drop-shadow(1px 1px #b60033);
+}
+
+#mailIcon{
+filter: brightness(0) drop-shadow(2px 2px #b60033);
+ transform: none;
+}
+
+
+/*レベルバー色(中)*/
+
+
+#menuLevelBar.progressBarInner {
+    filter: brightness(0) grayscale(1) contrast(100);
+    border-radius: 0;
+}
+
+
+/*レベルバー色(外)*/
+
+
+#menuLvlHold.progressBar {
+    background-color: #b60033;
+    border-radius: 0;
+}
+
+
+/*✅右上*/
+
+
+/* サブロゴボタン全体のスタイル設定 */
+
+
+#subLogoButtons {
+    bottom: unset;
+    top: 10px;
+    left: unset;
+    right: 40px;
+    transform: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: flex-end;
+}
+
+
+/* サブロゴボタン内の各ボタンのスタイル設定 */
+
+
+#subLogoButtons > .button {
+    width: fit-content;
+    align-items: baseline;
+    flex-grow: unset;
+    transform: none;
+    background-color: transparent;
+    border: none !important;
+    font-size: 70px !important;
+    padding: 0 !important;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 0; 
+    text-align: right;
+    text-shadow: 2px 2px 0px #000;
+    color: #b60033;
+    transition: color 0.2s ease; /* カーソルホバー時に色が変化するアニメーション設定 */
+}
+
+
+/* サブロゴボタンホバー時のスタイル設定 */
+
+
+#subLogoButtons > .button:hover {
+    color: rgba(0, 0, 0, 0) !important; /* カーソルホバー時、色を透明にする */
+}
+
+
+/*✅右下*/
+
+
+/* メニューアイテムコンテナ全体に関するスタイル設定 */
+
+
+#menuItemContainer {
+    width: unset;
+    height: 480px;
+    background-color: transparent;
+    right: 30px;
+    bottom: 40px;
+    top: unset;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+/* メニューアイテムに関するスタイル設定 */
+
+
+.menuItem {
+    align-items: baseline;
+    flex-grow: unset;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 1px);
+    width: fit-content;
+}
+
+
+/* メニューアイテムタイトルに関するスタイル設定 */
+
+
+.menuItem .menuItemTitle {
+    color: #b60033;
+    margin: 0;
+    font-size: 48px !important;
+    text-transform: uppercase;
+    mix-blend-mode: exclusion;
+    padding: 0 12px;
+    transition: color 0.2s ease; /* カーソルホバー時に色が変化するアニメーション設定 */
+    text-shadow: 2px 2px 0px #000;
+}
+
+
+/* メニューアイテムタイトルホバー時のスタイル設定 */
+
+
+.menuItem .menuItemTitle:hover {
+    color: rgba(0, 0, 0, 0) !important; /* カーソルホバー時、色を透明にする */
+}
+
+
+/*✅真ん中下*/
+
+
+/* メニュークラスコンテナ全体に関するスタイル設定 */
+
+
+#menuClassContainer {
+    right: unset;
+    left: unset;
+    position: fixed;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* プレイヤーの見た目に関するスタイル設定 */
+
+
+#classPreviewCanvas {
+    width: 500px !important;
+    height: auto !important;
+    position: absolute;
+    transform: none;
+    left: unset;
+    bottom: unset;
+    top: 160px;
+    right: -20px;
+    filter: drop-shadow(-3px -1px 0px #000) drop-shadow(3px -1px 0px #000) drop-shadow(0px 3px 0px #000) drop-shadow(3px 3px #b60033);
+}
+
+#classPreviewCanvas .img {
+    border: 2px solid #000; /* 枠線の設定（太さ、スタイル、色） */
+}
+
+
+/* カスタマイズボタンに関するスタイル設定 */
+
+
+#customizeButton {
+    position: absolute;
+    transform: none;
+    left: unset;
+    bottom: unset;
+    top: 500px;
+    left: 10px;
+    background-color: transparent;
+    border: none !important;
+    font-size: 55px !important;
+    padding: 0 !important;
+    width: 270px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 0; 
+    text-shadow: 2px 2px 0px #000 !important;
+    color: #b60033;
+    transition: color 0.2s ease; /* 背景色の変化をアニメーション化 */
+}
+
+#customizeButton:hover {
+    color: rgba(0, 0, 0, 0) !important; /* カーソルホバー時、色を透明にする */
+}
+
+
+/*✅スペクテイターボタン*/
+
+
+#uiBase.onMenu #spectButton {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 440px;
+    right: 992px;
+    left: unset;
+    transform: unset;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+}
+
+#spectButton span {
+    font-size: 0 !important;
+}
+
+
+/* スペクテイターボタンのアイコンに関するスタイル設定 */
+
+
+.sliderSml::before {
+    content: "visibility_off";
+    font-size: 44px;
+    color: #fff;
+    width: max-content;
+    height: auto;
+    background-color: transparent;
+    text-align: center;
+    transition-duration: 0.25s;
+    font-family: 'Material Icons';
+    left: unset;
+    bottom: unset;
+    filter: brightness(0);
+}
+
+
+/* スペクテイターボタンがONのときのアイコンと背景に関するスタイル設定 */
+
+
+input:checked + .sliderSml::before {
+    content: "visibility";
+    transform: unset;
+}
+
+input:checked + .sliderSml {
+    background-color: transparent !important;
+}
+
+
+/* スペクテイターボタン全体に関するスタイル設定 */
+
+
+.sliderSml {
+    opacity: 1;
+    background-color: transparent;
+}
+
+
+/*✅チャットボックス*/
+
+
+/* メニュー時のチャットホルダーに関するスタイル設定 */
+
+
+#uiBase.onMenu #chatHolder {
+    background: transparent;
+    top: 100px;
+    left: 10px;
+    width: 300px;
+}
+
+/* メニュー時のチャットインプットに関するスタイル設定 */
+
+
+#uiBase.onMenu #chatInput {
+    position: absolute;
+    left: 10px;
+    background-color: #000;
+    filter: drop-shadow(2px 2px #b60033);
+    border-radius: 0;
+}
+
+
+/*✅プレイヤーページ*/
+
+
+/* ウィンドウクローザーのスタイル設定 */
+
+
+#windowCloser {
+    background: linear-gradient(to bottom, rgba(182, 0, 51, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+
+/* メニューウィンドウのスタイル設定 */
+
+
+#menuWindow.dark {
+    background-color: transparent !important;
+    border: 2px solid #b60033;
+    box-shadow: 3px 3px 0px #000;
+    border-radius: 0;
+}
+
+
+/* ビッグメンタブのスタイル設定 */
+
+
+.bigMenTab {
+    background-color: #b60033 !important;
+    box-shadow: 3px 3px 0px #000;
+    border-radius: 0;
+}
+
+
+/* セットヘッダーとセットヘッダースモールのスタイル設定 */
+
+
+.setHed, .setHedS {
+    border: none;
+    background-color: #b60033;
+    box-shadow: 3px 3px 0px #000;
+    border-radius: 0;
+}
+
+/* セットヘッダーのホバー時のスタイル設定 */
+
+
+.setHed:hover {
+    background-color: #b60033;
+}
+
+/*レベルバー色(中)*/
+
+
+.xpBarB {
+    border-radius: 0;
+    background-image: linear-gradient(to right,#b60033,#b60033);
+}
+
+
+/*レベルバー色(外)*/
+
+
+.xpBar {
+    background-color:#000;
+}
+
+/*✅設定ページ*/
+
+
+/* 設定ヘッダーのスタイル設定 */
+
+
+.settingsHeader {
+    background-color: transparent;
+}
+
+
+/* 設定タブのスタイル設定 */
+
+
+.settingTab {
+    background-color: #b60033 !important;
+    box-shadow: 3px 3px 0px #000;
+    border-radius: 0;
+}
+
+
+/*✅クラスページ*/
+
+
+/* スタイル設定 */
+
+
+#selectorContainer, .classXPBar, .clsXPBarC{
+    background-color: transparent;
+}
+
+.selectorItem.selectedItem, .selectorItem, .selectorItem:hover{
+    background-color: transparent ;
+    color:transparent;
+    border:none !important;
+}
+
+.classImgH,.className{
+display:none;
+}
+
+.classCard{
+    width: 250px;
+    height: 115px;
+    box-shadow:3px 3px 0px #000;
+}
+
+ .selectorItem:hover{
+filter: brightness(0.3);
+}
+
+
+/*クラスレベルxp配置*/
+
+
+.classWeap{
+   color:#000 !important;
+   font-size: 23px;
+   left:5px;
+   top:5px;
+   text-shadow: 
+        -1px -1px 0 #fff,  
+         1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+         1px  1px 0 #fff;
+}
+
+.classLvl{
+   font-size: 20px;
+   color:#fff !important;
+   bottom:20px;
+   text-shadow: 1px 1px 0px #000;
+}
+
+
+.clsXPBarV{
+    left:3px;
+    font-size: 18px;
+    text-border:none;
+    text-align: left;
+    text-shadow: 1px 1px 0px #000;
+}
+
+
+/*それぞれのクラス背景*/
+
+
+.classCard[onclick="selectClass(0)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179201602565984256/194_20231129082317.PNG?ex=6578ec12&is=65667712&hm=26f3f13778c4fbc2a91271fa64b93ab3327586c1b1acda4a79ebc1bf3e4c4c14&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+.classCard[onclick="selectClass(1)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179201605216780349/194_20231129081719.PNG?ex=6578ec13&is=65667713&hm=3a669bd785d2d61d26f7bf11434950da7caa089ae7a732c3b3a87262d4168018&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+.classCard[onclick="selectClass(2)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179201605464236062/194_20231129081724.PNG?ex=6578ec13&is=65667713&hm=ab14953412d28e7a80cfee25b3b573c4ac2b1efaafc498632a14fd70c6ff5b50&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+.classCard[onclick="selectClass(3)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179201605527142471/194_20231129081728.PNG?ex=6578ec13&is=65667713&hm=9d4f642682e28c05bbabfb772d5e73077183965b0521d4e971907aa7e282f750&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+.classCard[onclick="selectClass(4)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179201605854298174/194_20231129081755.PNG?ex=6578ec13&is=65667713&hm=730eb5ec2b454bca08b629f48b7a17bc6eb4bb0573c10d98ea845919f78a8db8&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+.classCard[onclick="selectClass(5)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179201606068215968/194_20231129081853.PNG?ex=6578ec13&is=65667713&hm=367c3d4d6f604b3223d68e285044ed51bad14b15768e325da100560fefc68308&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+.classCard[onclick="selectClass(6)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179201606051430420/194_20231129082413.PNG?ex=6578ec13&is=65667713&hm=5d50de4da90d17c0c5b9c878e03de0918bf49e8d1274e7bc7f8d736085d4522f&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+.classCard[onclick="selectClass(7)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179201605934010518/194_20231129081823.PNG?ex=6578ec13&is=65667713&hm=e3d29bd553f49f582108d44d4ecae09392d19f77885b0905a01b5747e39a4f35&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+.classCard[onclick="selectClass(8)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179201607301337088/194_20231129082443.PNG?ex=6578ec13&is=65667713&hm=a4da8a09790b942cb6bf97d20def54a006dd52ffb592aad9ca869a76c7014dbb&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+.classCard[onclick="selectClass(9)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179201607741743235/194_20231129082430.PNG?ex=6578ec13&is=65667713&hm=3624119afec91f681eb7893168268de8e3dc7049df84b1b2e528006c5117c6ce&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+.classCard[onclick="selectClass(10)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179201607741743235/194_20231129082430.PNG?ex=6578ec13&is=65667713&hm=3624119afec91f681eb7893168268de8e3dc7049df84b1b2e528006c5117c6ce&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+.classCard[onclick="selectClass(11)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179201607712395415/194_20231129082246.PNG?ex=6578ec13&is=65667713&hm=b33991c084638c92c1399bd45ac94c957a693fca0ab126d88c25f60cc2f0c7a8&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+.classCard[onclick="selectClass(12)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179201608005976085/194_20231129082521.PNG?ex=6578ec13&is=65667713&hm=f2db3126b8f3aafb3f575c023e42ccbbd31ce7c4791c6f1db97ea77ec6e0aec3&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+.classCard[onclick="selectClass(13)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179201608647712788/194_20231129082501.PNG?ex=6578ec14&is=65667714&hm=24641fcfcd3f1177861a0e2f5429b4b8ec177b43d8e858157c00b8eff8a40ec1&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+.classCard[onclick="selectClass(14)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179324738116517898/194_20231129163517.png?ex=65795ec0&is=6566e9c0&hm=f011bbc2f0920c69efa80e803904ab7c2dbb4a30044c4049b72e4af33da18c5f&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+.classCard[onclick="selectClass(15)"] {
+    background-image: url(https://cdn.discordapp.com/attachments/823344681328836618/1179328218243813438/194_20231129164905.png?ex=657961fe&is=6566ecfe&hm=0df599627ccdd6dbb18df59217b75bf23086fbb4ffffdf51a22ab7d49a335f42&);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    filter: brightness(1);
+    border-radius: 0;
+}
+
+
+/*ホバー*/
+
+
+.classCard:hover{
+filter: brightness(0.3);
+}
+
+
+/*✅エンド*/
+
+
+#endUI{
+ background: linear-gradient(to bottom, rgba(182, 0, 51, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+.endCard{
+background-color: transparent;
+    border: 2px solid #b60033;
+    box-shadow: 3px 3px 0px #000;
+    border-radius: 0;
+}
+
+.matchVote{
+    background-color: transparent;
+    border: 2px solid #b60033;
+    box-shadow: 3px 3px 0px #000;
+    border-radius: 0;
+}
+
+
+/*ゲームUI*/
+
+
+/*✅消す*/
+
+
+:root {
+    --healthbar-opacity: 100; /* HPバーを完全に表示する */
+
+    --div-grey: transparent;
+    --div-black: transparent;
+    --div-shadow: transparent;
+}
+
+#seasonLabel,
+#mainlogo,
+#mainLogoFace{
+    display: none; /* メインロゴやシーズンラベル、メインロゴの顔を非表示にする */
+}
+
+#matchInfo.topLeftOld {
+    display: none !important; /* 重要度を強調してマッチ情報を非表示にする */
+}
+
+#bottomLeftTeamType,
+#bottomLeftTeamName,
+#bottomLeftTeamHolder,
+#bottomLeftClassImg{
+    display: none; /* 下部の左側にある特定のチーム関連要素を非表示にする */
+}
+
+#recTimer{
+    display: none; /* レコードタイマーを非表示にする */
+}
+
+#ammoMax, 
+#maxHP{
+    display: none; /* 弾薬と最大HPを非表示にする */
+}
+
+.weapSkin,
+#timerIcon.topLeftOld  {
+    display: none; /* 武器のスキンとタイマーアイコンを非表示にする */
+}
+
+.weapKey {
+    display: none; /* 武器のキーを非表示にする */
+}
+
+.weapStreakHolder {
+    display: none !important; /* 重要度を強調して武器の連続キルを非表示にする */
+}
+
+.classHP {
+    display: none; /* クラスのHPを非表示にする */
+}
+
+
+
+/*✅時間*/
+
+
+#timerVal.topLeftOld {
+    font-size: 80px !important; /* タイマーのフォントサイズを80pxに設定 */
+    top: 100px; /* 上部からの位置を100pxに設定 */
+    color: #b60033; /* カラーを#b60033（赤色）に設定 */
+    filter: drop-shadow(3px 3px #000); /* ドロップシャドウを3px右下に黒色で設定 */
+}
+
+
+/*✅左下*/
+
+
+#bottomLeftPlayerRight {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    margin: 5px;
+    background-color: var(--div-black); /* 背景色を --div-black に設定 */
+}
+
+#bottomLeftChallIcon {
+    width: 50px; /* アイコンの幅を50pxに設定 */
+    height: 50px; /* アイコンの高さを50pxに設定 */
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    display: inline-block;
+    filter: brightness(0) drop-shadow(3px 3px #b60033); /* アイコンにドロップシャドウと明るさ調整を適用 */
+    margin-bottom: -3px; /* マージンを調整して位置を微調整 */
+}
+
+
+/*✅体力*/
+
+
+#bottomLeftHolder {
+    bottom: 50px;
+    left: 350px;
+}
+
+#bottomLeftHealthBar {
+    position: fixed;
+    background-color: transparent;
+    width: 22%;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: visible !important;
+}
+
+#bottomLeftHealth {
+    color: #b60033;
+    font-size: 120px; /* フォントサイズを120pxに変更 */
+    will-change: transform;
+    margin-left: 20px;
+    text-shadow: 3px 3px 0px #000;
+}
+
+.nHealthBarSeg {
+    width: -webkit-fill-available;
+    height: 30px;
+    margin: 0 -5px;
+    border-radius: 0;
+    background-color: #000;
+}
+
+.nHpBSeg {
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #b60033 !important; /* HPバーセグメントの背景色を #b60033 に設定 */
+}
+
+
+/*✅弾*/
+
+
+#ammoHolder {
+   position: relative;
+   bottom: 35px;
+   right: 630px;
+}
+
+#ammoIcon {
+   position: relative;
+   bottom: 25px;
+   left :-45px;
+}
+
+
+/*見た目*/
+
+
+#ammoHolder {
+    background-color:  transparent;
+    display: inline-block;
+    font-size: 120px;		/*大きさ変更*/
+    letter-spacing: -2px;
+    transform: translateZ(0);
+}
+
+
+#ammoIcon {
+    width: 50px;     /* 大きさ変更 */
+    height: 50px;    /* 大きさ変更 */
+    margin-left: 3px;
+    margin-bottom:12px;
+    filter:brightness(0) drop-shadow(3px 3px #b60033);
+}
+
+#ammoVal{
+     color: #b60033;
+     text-shadow: 3px 3px 0px #000;
+}
+
+
+/*✅武器表示*/
+
+
+/* 武器アイコンのスタイル設定 */
+
+
+.weapIcon {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    transition-duration: 0.5s;
+    filter: brightness(0) drop-shadow(3px 3px #b60033);
+}
+
+
+/* 最後の武器アイテムのアイコンに対するスタイル */
+
+
+.weapItem:last-child .weapIcon {
+    transform: translateY(16px);
+}
+
+
+
+/* リロードメッセージのスタイル設定 */
+
+
+#reloadMsg {
+    background: transparent !important;
+    bottom: 160px !important;
+    font-size: 16px;
+    border: none !important;
+}
+
+
+/* 武器ホルダーの位置調整 */
+
+
+#weapHolder {
+    bottom: 10px;
+}
+
+
+/* 武器アイテムとその内部要素の背景色を透明にする */
+
+
+.weapItemInner, .weapItem {
+    background-color: transparent;
+}
+
+
+/*✅チャットボックス*/
+
+
+/* ゲーム中のチャット入力を非表示にする */
+#uiBase.onGame #chatInput {
+    display: none;
+}
+
+/* ゲーム中のチャットホルダーのスタイル設定 */
+#uiBase.onGame #chatHolder {
+    background: transparent;
+    top: 300px;
+    width: 300px;
+}
+
+/* チャットスイッチと音声オフアイコンの表示を非表示にする */
+#chatSwitch:after, .voiceOff:after {
+    display: none;
+}
+
+/* チャットリストのスクロールバーを非表示にする */
+#chatList::-webkit-scrollbar {
+    display: none;
+}
+
+/* チャットリストのスタイル設定 */
+#chatList {
+    background-color: transparent;
+    font-size: 10px !important;
+}
+
+/* 敵のチャットメッセージの文字色を設定 */
+.chatMsg span[style*="#eb5656"] {
+    color: #000 !important;
+}
+
+/* 味方のチャットメッセージの文字色を設定 */
+.chatMsg span[style*="#9eeb56"] {
+    color: #fff !important;
+}
+
+/* その他のチャットメッセージの文字色とテキストシャドウを設定 */
+.chatMsg[style*="color"] {
+    color: #b60033 !important;
+    text-shadow: 1px 1px 0px #000;
+}
+
+
+/*✅リーダーボード*/
+
+
+/* リーダーコンテナのスタイル設定 */
+
+
+#leaderContainer {
+    border: 2px solid #b60033;  
+    box-shadow: 3px 3px 0px #000;
+}
+
+
+/* センターリーダーコンテナのスタイル設定 */
+
+
+.centerLeaderContainer {
+    border: 2px solid #b60033;  
+}
+
+
+/* 新しいリーダーアイテムのフォントサイズ設定 */
+
+
+.newLeaderItem {
+    font-size: 20px;
+}
+
+
+/* リーダーアイテムのフォントサイズ設定 */
+
+
+.leaderItem {
+    font-size: 22px;
+}
+
+
+/* 自分のリーダー名、テキストのスタイル設定 */
+
+
+.newLeaderNameM, .leaderNameM, .endTableM {
+    color: #b60033;
+}
+
+
+/* 味方のリーダー名、テキストのスタイル設定 */
+
+
+.newLeaderNameF, .leaderNameF, .endTableN {
+    color: #fff;
+}
+
+
+/* 敵のリーダー名、テキストのスタイル設定 */
+
+
+.newLeaderName, .leaderName, .endTableN[style*="#eb5656"] {
+    color: #000;
+}
+
+
+/* トップライトのカウンターのスタイル設定 */
+
+
+topRightCounters {
+    color: #b60033;
+    text-shadow: 2px 2px 0px #000;
+}
+
+
+/* 各種カウンターの数値のスタイル設定 */
+
+
+#killsVal, #deathsVal, #streakVal, #myScoreVal, #kdVal {
+    color: #b60033;
+    text-shadow: 1px 1px 0px #000;
+}
+
+
+/* 各種カウンターのアイコンのスタイル設定 */
+
+
+#killsIcon, #deathsIcon, #streakIcon, #kdIcon {
+    filter: brightness(0) drop-shadow(1px 1px #b60033);
+}
+
+
+/*コンプメニュー*/
+
+
+/*✅透明*/
+
+
+#compClassPHolder, #compBtnLst, #compT1Scr, #compT2Scr{
+   background-color :transparent;
+}
+
+
+/*✅スコア*/
+
+
+/*全体*/
+
+
+#compTScrsB{
+   top:80px;
+   left:50%;
+   transform: translateX(-50%);
+   background-color: #b60033;
+   box-shadow: 3px 3px 0px #000;
+   border-radius: 0;
+   width: fit-content; 
+}
+
+
+/*左(Alpha)*/
+
+
+#compT1Scr{
+   color:#fff !important;
+   text-shadow: none;
+   filter: drop-shadow(3px 3px #000);
+}
+
+
+/*真ん中(vs)*/
+
+
+.compTScrB{
+   background: rgba(0,0,0,0) !important ;
+   filter: drop-shadow(2px 2px #fff);
+}
+
+.compTScrB span{
+   color:#000 !important;
+}
+
+
+/*右(Bravo)*/
+
+
+#compT2Scr{
+   color:#fff !important;
+   text-shadow: none;
+   filter: drop-shadow(3px 3px #000);
+}
+
+
+/*✅左下*/
+
+
+/*位置*/
+
+
+ #compBtnLst{
+    top: 450px;
+    left:30px;
+    width: 100px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*見た目*/
+
+
+.compMenBtnS{
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent !important;
+    border: 0;
+    margin-top:17px;
+}
+
+.compMenBtnS span{
+    font-size: 60px !important;
+    filter: drop-shadow(-3px -1px 0px #000) drop-shadow(3px -1px 0px #000) drop-shadow(0px 3px 0px #000) drop-shadow(3px 3px #b60033);
+}
+
+
+/*✅クラス選択*/
+
+
+/*位置*/
+
+
+#compClassPHolder{
+    top:-18px;
+    right:50px;
+    width: 100px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*見た目*/
+
+.compClassPItm{
+    width: 80px;
+    height: auto;
+    background-color: transparent;
+    border: 0;
+    margin-top:17px;
+    filter: drop-shadow(-3px -1px 0px #000) drop-shadow(3px -1px 0px #000) drop-shadow(0px 3px 0px #000) drop-shadow(3px 3px #b60033);
+}
+
+
+/*✅マップ情報*/
+
+
+#cmpDatBox{
+   border-left: none;
+   left:50%;
+   transform: translateX(-50%);
+   bottom:70px;
+   text-align: center;
+   text-shadow: 3px 3px 0px #000;
+   color: #b60033;
+   font-size:40px;
+}
+
+#cmpDatSub{
+    font-size:30px;
+}
+
+
+/*✅waiting*/
+
+
+#compTimBox{
+top:20px;
+}
+
+
+/*✅チーム名*/
+
+
+.cmpTmHed{
+   text-shadow: 3px 3px 0px #000;
+   color: #b60033;
+   font-size:70px
+}
+
+
+
+/*✅joinボタン*/
+
+
+.compSwpTmB{
+   background-color: #b60033 !important;
+   border:none;
+   box-shadow: 3px 3px 0px #000;
+   border-radius: 0;
+}
+
+
+/*✅アイコンまわり*/
+
+
+.compPLstIcn{
+   border:3px solid #b60033 !important;
+   box-shadow: 3px 3px 0px #000;
+   border-radius: 0;
+}
