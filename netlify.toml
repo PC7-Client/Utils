@@ -83,6 +83,12 @@
   status = 200  
 
 [[redirects]]
+  from = "/badges/:file"
+  to = "badges/:file"
+  force = true
+  status = 200
+
+[[redirects]]
   from = "/img/:file"
   to = "img/:file"
   force = true
