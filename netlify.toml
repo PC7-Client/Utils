@@ -93,6 +93,12 @@
   to = "img/:file"
   force = true
   status = 200  
+
+[[redirects]]
+  from = "/settings/:file"
+  to = "settings/:file"
+  force = true
+  status = 200  
   
 [[redirects]]
   from = "/*"
