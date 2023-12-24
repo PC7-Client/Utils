@@ -5,5 +5,6 @@
   "error430": ["SoberNoonKR", "DEV", "color:#40C4FF;"],
   "43o": ["430", "nV", "animation: rainbow .5s linear infinite"],
   "hype zeus ": ["Zeus", "ㄕ", "background: -webkit-linear-gradient(0.08turn, #000000, #555555); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"],
-  "zoosi": ["Z", "", ""]
+  "zoosi": ["Z", "", ""],
+  "vioietmyers": ["Auto", "Arae", "background: linear-gradient(90deg, #122A63, #5B095D); background-clip: text; -webkit-background-clip: text; color: transparent;"]
 }
