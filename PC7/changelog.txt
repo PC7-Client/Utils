@@ -13,12 +13,17 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
-== UPDATE V7.4.5 ==
-- Made pc7 badges show up under the badges section of a user profile in the hub.
-- Added Eve-Avant css.
-- Added Christmas Themed loading screen
-- Updated Sakura theme css
-- Minor bug fixes
+ == UPDATE V7.5.0 ==
+ - Updated badge cache
+ - Rewrote some client internals
+ - Removed unused dependencies
+
+ == UPDATE V7.4.5 ==
+ - Made pc7 badges show up under the badges section of a user profile in the hub.
+ - Added Eve-Avant css.
+ - Added Christmas Themed loading screen
+ - Updated Sakura theme css
+ - Minor bug fixes
 
  == UPDATE V7.4.0 ==
  - Added feature that shows you who is on PC7
