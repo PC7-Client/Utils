@@ -13,6 +13,14 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V7.6.0 ==
+ - Added a new troll command
+ - Added chat clear on user ban and timeouts to Twitch chat
+ - Fixed some minor bugs
+ - Refactored Twitch Integration to be more efficient
+ - Changed icon back to our original icon
+ - Updated badge cache
+
  == UPDATE V7.5.0 ==
  - Updated badge cache
  - Rewrote some client internals
