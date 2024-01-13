@@ -12,6 +12,16 @@
  - If the game doesn't run for you check this link: https://get.webgl.org/
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
+ 
+ == UPDATE V7.7.0 ==
+ - Added a new graphics option intended for mac users (Thanks bobbbbbb <3)
+ - Added proper hover tooltips to client badges on social hub profile badge tabs
+ - Tweaked social hub to display a max of two client badges per user on hub leaderboards
+ - Tweaked Spec Util to always show real ping (2x) for the user you spectate
+ - Fixed some minor bugs
+ - Fixed issues resulting in client badges not showing on social hub profile badge tabs
+ - Refactored some old social hub code
+ - Removed a graphics option
 
  == UPDATE V7.6.0 ==
  - Added a new troll command
