@@ -110,7 +110,7 @@
   for = "/*"
     [headers.values]
       Access-Control-Allow-Origin = "*"
-      X-Asset-Key = __ASSETKEY_
+      X-Asset-Key = _ASSETKEY
 
 [build]
-command = "sed -i \"s|__ASSETKEY_|${ASSET_KEY}|g\" netlify.toml && yarn build"
+command = "sed -i \"s|_ASSETKEY|${ASSET_KEY}|g\" netlify.toml && yarn build"
