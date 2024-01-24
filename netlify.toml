@@ -109,10 +109,8 @@
 [[headers]]
   for = "/*"
     [headers.values]
-    Access-Control-Allow-Origin = "*"
+      Access-Control-Allow-Origin = "*"
+      X-Asset-Key = __ASSETKEY_
 
-[[redirects]]
-  from = "/pc7vid.mp4"
-  to = "pc7vid.mp4"
-  force = true
-  status = 200
+[build]
+command = "sed -i \"s|__ASSETKEY_|${ASSET_KEY}|g\" netlify.toml && yarn build"
