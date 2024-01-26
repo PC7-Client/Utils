@@ -12,6 +12,20 @@
  - If the game doesn't run for you check this link: https://get.webgl.org/
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
+
+ == UPDATE V8.0.0 ==
+ - Added sub and raid notifications to Twitch integration
+ - Added support for userscripts on social hub (WIP)
+ - Fixed some minor bugs with hub internals
+ - Fixed auto spawn in calls for KPD
+ - Fixed some out of date license information for some libraries used
+ - Fixed bug that could result in an excessive amount of end game screenshots to be taken
+ - Removed all uses of HWIDs from the client (will wipe alt manager + twitch integration data from older versions)
+ - Removed "PC7 CSS" by fem per request
+ - Refactored many client internals
+ - Reworked how some built-in loading screen images and backgrounds are applied
+ - Tweaked where swapper, userscripts, and leaderboard screenshots are kept
+ - Updated badge cache
  
  == UPDATE V7.7.0 ==
  - Added a new graphics option intended for mac users (Thanks bobbbbbb <3)
