@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ZyBook Watch-It Solver
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      2.0.0
 // @description  Plays through all of the watch-it activities in the background :D
 // @author       BestBuy
 // @match        https://learn.zybooks.com/zybook/*/chapter/*/section/*
@@ -12,7 +12,7 @@
 (function() {
     'use strict';
     const refreshButtons = () => {
-        [...document.querySelectorAll('input[aria-label="2x speed"]')].forEach(x => {
+        [...document.querySelectorAll('div[class*="speed-control"] > * > input')].forEach(x => {
             if (typeof x?.click !== 'function') return;
             if (x.dataset?.isEnabled !== '1') {
                 x.click();
@@ -25,7 +25,7 @@
             const startBtn = containerEl.querySelector('button.start-button');
             if (!!startBtn && typeof startBtn?.click === 'function') startBtn.click();
 
-            const playBtn = containerEl.querySelector('button[aria-label="Play"]');
+            const playBtn = containerEl.querySelector('div.play-button').parentElement;
             if (!!playBtn && typeof playBtn?.click === 'function') playBtn.click();
         });
     };
