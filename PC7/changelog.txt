@@ -13,6 +13,15 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V8.1.0 ==
+ - Added more robust error handling
+ - Changed method for fixing broken ISRG X1 certificate chain validation
+ - Fixed minor bug on social hub profile badge tabs
+ - Fixed bug that could result in errors with Mailbox Notifications when signed out
+ - Refactored Twitch OAuth / linking process to be more reliable
+ - Refactored some client internals to be more reliable
+ - Removed unused dependency
+
  == UPDATE V8.0.0 ==
  - Added sub and raid notifications to Twitch integration
  - Added support for userscripts on social hub (WIP)
