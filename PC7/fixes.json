@@ -1,3 +1,4 @@
 {
-  "fixHub": false
+  "fixHub": false,
+  "joinMatchWarning": true,
 }
