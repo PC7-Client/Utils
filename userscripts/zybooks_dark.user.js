@@ -457,6 +457,8 @@ pre {
 .highlight .p {
     color: #a335f3;
 }
+
+#ember6 { color: transparent }
     `);
 })();
 
