@@ -29,12 +29,6 @@
   "jump": {
     "style": "background: -webkit-linear-gradient(0deg, #ffffff, #69F4EE); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
-  "fog": {
-    "style": "background: -webkit-linear-gradient(0deg, #987ACE, #301B90); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
-  },
-  "rev": { 
-    "style": "animation: rainbow .5s linear infinite" 
-  },
   "gore": { 
     "style": "background: -webkit-linear-gradient(#9258c6, #000000); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" 
   },
@@ -49,5 +43,8 @@
   },
   "psvm": {
     "style": "background: linear-gradient(90deg, #FF66CC, #FF69B4); background-clip: text; -webkit-background-clip: text; color: transparent;"
+  },
+  "omen": {
+    "style": "color #e7b52f;"
   }
 }
