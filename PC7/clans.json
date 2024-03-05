@@ -39,7 +39,7 @@
     "style": "background: -webkit-linear-gradient(#9258c6, #000000); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" 
   },
   "one": {
-    "style": "background: linear-gradient(90deg, #147dff, #05b2ff); background-clip: text; -webkit-background-clip: text; color: transparent;"
+    "style": "color: #000001;"
   },
   "46.c": {
     "style": "background: linear-gradient(90deg, #01FFEF, #FE00BB); background-clip: text; -webkit-background-clip: text; color: transparent;"
