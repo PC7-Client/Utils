@@ -21,6 +21,22 @@
  - Removed some unused code
  - Updated badge cache
 
+ == UPDATE V8.3.0 ==
+ - Added new loading screen (thanks prevail)
+ - Refactored Twitch integration
+ - Updated badge cache
+ - Updated dependencies
+ - Removed unused dependency
+ - Remoded portable windows builds
+
+ == UPDATE V8.2.0 ==
+ - Added temporary warning about the Krunker matchmaking server being broken
+ - Fixed bug with Twitch integration not working for some users
+ - Fixed bug with Alt Manager losing data in certain situations
+ - Replaced method used to encode alt manager data and Twitch OAuth tokens to be more reliable
+ - Removed some unused code
+ - Updated badge cache
+
  == UPDATE V8.1.2 ==
  - Fixed minor bug on social hub 💯 
 
