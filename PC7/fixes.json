@@ -1,4 +1,6 @@
 {
   "fixHub": false,
-  "joinMatchWarning": true
+  "joinMatchWarning": true,
+  "genToken": true,
+  "mmPatch": true
 }
