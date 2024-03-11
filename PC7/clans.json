@@ -45,6 +45,6 @@
     "style": "background: linear-gradient(90deg, #FF66CC, #FF69B4); background-clip: text; -webkit-background-clip: text; color: transparent;"
   },
   "omen": {
-    "style": "background-color: #e7b52f; background-clip: text; -webkit-background-clip: text; color: transparent;"
+    "style": "background-color: #FCD150; background-clip: text; -webkit-background-clip: text; color: transparent;"
   }
 }
