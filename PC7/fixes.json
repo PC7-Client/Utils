@@ -1,7 +1,7 @@
 {
   "fixHub": false,
-  "joinMatchWarning": true,
-  "serverBrowserWarning": true,
-  "genToken": true,
-  "mmPatch": true
+  "joinMatchWarning": false,
+  "serverBrowserWarning": false,
+  "genToken": false,
+  "mmPatch": false
 }
