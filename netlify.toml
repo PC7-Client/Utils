@@ -99,6 +99,12 @@
   to = "settings/:file"
   force = true
   status = 200  
+
+[[redirects]]
+  from = "/misc/:file"
+  to = "misc/:file"
+  force = true
+  status = 200 
   
 [[redirects]]
   from = "/*"
