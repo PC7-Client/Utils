@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+	<Ad id="poki-housead">
+		<InLine>
+			<AdSystem>Poki</AdSystem>
+			<AdTitle>Poki</AdTitle>
+			<Impression id="poki-house"></Impression>
+			<Creatives>
+				<Creative id="a27fc841-41f9-4a29-a060-c66b72c7a432" sequence="1">
+					<Linear>
+						<Duration>00:00:01</Duration>
+						<MediaFiles>
+							<MediaFile delivery="progressive" width="640" height="360" type="video/mp4" bitrate="500" scalable="true" maintainAspectRatio="true">
+								<![CDATA[https://v.poki.com/db365193-e7c5-4c8a-b71a-661ccd0c4949/advertisement.h264_low.mp4]]>
+							</MediaFile>
+							<MediaFile delivery="progressive" width="854" height="480" type="video/mp4" bitrate="700" scalable="true" maintainAspectRatio="true">
+								<![CDATA[https://v.poki.com/db365193-e7c5-4c8a-b71a-661ccd0c4949/advertisement.h264_medium.mp4]]>
+							</MediaFile>
+							<MediaFile delivery="progressive" width="1280" height="720" type="video/mp4" bitrate="1500" scalable="true" maintainAspectRatio="true">
+								<![CDATA[https://v.poki.com/db365193-e7c5-4c8a-b71a-661ccd0c4949/advertisement.h264_high.mp4]]>
+							</MediaFile>
+							<MediaFile delivery="progressive" width="640" height="360" type="video/mp4" bitrate="500" scalable="true" maintainAspectRatio="true" codec="H.264">
+								<![CDATA[https://v.poki.com/db365193-e7c5-4c8a-b71a-661ccd0c4949/advertisement.h264_low.mp4]]>
+							</MediaFile>
+							<MediaFile delivery="progressive" width="854" height="480" type="video/mp4" bitrate="700" scalable="true" maintainAspectRatio="true" codec="H.264">
+								<![CDATA[https://v.poki.com/db365193-e7c5-4c8a-b71a-661ccd0c4949/advertisement.h264_medium.mp4]]>
+							</MediaFile>
+							<MediaFile delivery="progressive" width="1280" height="720" type="video/mp4" bitrate="1500" scalable="true" maintainAspectRatio="true" codec="H.264">
+								<![CDATA[https://v.poki.com/db365193-e7c5-4c8a-b71a-661ccd0c4949/advertisement.h264_high.mp4]]>
+							</MediaFile>
+						</MediaFiles>
+						<VideoClicks>
+							<ClickThrough>
+								<![CDATA[https://poki.com/en/g/beecoins-inc]]>
+							</ClickThrough>
+							</VideoClicks>
+					</Linear>
+				</Creative>
+			</Creatives>
+		</InLine>
+	</Ad>
+</VAST>
