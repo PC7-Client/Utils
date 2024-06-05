@@ -32,7 +32,7 @@
   "gore": { 
     "style": "background: -webkit-linear-gradient(#9258c6, #000000); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" 
   },
-  "one": {
+  "holy": {
     "style": "background-color: #000001; background-clip: text; -webkit-background-clip: text; color: transparent;"
   },
   "46.c": {
