@@ -2,6 +2,9 @@
   "ㄕ": {
     "style": "background: -webkit-linear-gradient(0.08turn, #000000, #555555); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
+   "⛦": {
+    "style": "background: -webkit-linear-gradient(0.08turn, #000000, #555555); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+  },
   "28": {
     "style": "background: -webkit-linear-gradient(0.08turn, #ba70ff, #6018a3); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
