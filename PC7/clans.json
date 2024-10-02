@@ -47,6 +47,9 @@
   "psvm": {
     "style": "background: linear-gradient(90deg, #FF66CC, #FF69B4); background-clip: text; -webkit-background-clip: text; color: transparent;"
   },
+  "-2Ez": {
+    "style": "background: linear-gradient(90deg, #00FFFF, #800080); background-clip: text; -webkit-background-clip: text; color: transparent;"
+},
   "omen": {
     "style": "background-color: #FCD150; background-clip: text; -webkit-background-clip: text; color: transparent;"
   }
