@@ -3,7 +3,7 @@
     "style": "background: -webkit-linear-gradient(0.08turn, #000000, #555555); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
    "nV": {
-  "style": "background: -webkit-linear-gradient(0.08turn, #7841c4); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+  "style": "background-color: #7841c4; background-clip: text; -webkit-background-clip: text; color: transparent;"
   },
    "⛦": {
   "style": "background: -webkit-linear-gradient(0.08turn, #8B0000, #FF4500); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
