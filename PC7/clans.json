@@ -8,6 +8,9 @@
   "KSM": {
   "style": "background: -webkit-linear-gradient(0.08turn, #ff3f9c, #636363); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
+  "M3OW": {
+  "style": "background-color: #f60094; background-clip: text; -webkit-background-clip: text; color: transparent;"
+  },
    "⛦": {
   "style": "background: -webkit-linear-gradient(0.08turn, #8B0000, #FF4500); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
