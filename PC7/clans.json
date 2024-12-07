@@ -12,7 +12,7 @@
   "style": "background-color: #f60094; background-clip: text; -webkit-background-clip: text; color: transparent;"
   },
   "NULL": {
-  "style": "background-color: #E74C3C; background-clip: text; -webkit-background-clip: text; color: transparent;"
+  "style": "bbackground: -webkit-linear-gradient(0.08turn, #284889, #239CBA); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
    "⛦": {
   "style": "background: -webkit-linear-gradient(0.08turn, #8B0000, #FF4500); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
