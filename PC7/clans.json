@@ -5,6 +5,9 @@
    "nV": {
   "style": "background-color: #7841c4; background-clip: text; -webkit-background-clip: text; color: transparent;"
   },
+   "thad": {
+  "style": "background-color: #ff9e5d; background-clip: text; -webkit-background-clip: text; color: transparent;"
+  },
   "KSM": {
   "style": "background: -webkit-linear-gradient(0.08turn, #ff3f9c, #636363); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
   },
