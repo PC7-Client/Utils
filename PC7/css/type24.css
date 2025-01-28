@@ -1,0 +1,302 @@
+:root {
+--div-grey: transparent !important;
+--div-shadow: transparent !important;
+--div-black: rgba(0, 0, 0, .3);
+}
+
+@font-face {
+    font-family: gamefont;
+    src: url("https://dl.dropboxusercontent.com/s/fi/kkb8llljhbfgmayhsd1th/FFFFORWA.TTF?rlkey=2zclz3bjxrs1fx9hb0dyxy896&st=ahwaf28c&dl=0");
+}
+
+* {
+    text-shadow: none !important;
+    box-shadow: none !important;
+    border: transparent !important;
+}
+
+#returnHolder,
+.endTablePfp,
+.flag-icon,
+#homeStoreAd,
+.headerBarRight,
+#streamContainer,
+#termsInfo,
+#matchInfo.topLeftOld,
+.setSugBox2,
+.menuItem .menuItemTitle,
+.bigMFeatHold,
+.carousel,
+#bottomLeftTeamName,
+#roundsDisplay,
+#bubbleContainer,
+#chatSwitchHolder,
+#policeButton,
+.weapStreakHolder,
+#timerIcon,
+#gameNameHolder {
+    display: none !important;
+}
+
+#bottomLeftTeamType {
+    font-size: 0px;
+}
+
+#bottomLeftTeamType:after {
+    font-size: 16px !important;
+    content: "health" !important;
+}
+
+#chatList {
+        background-color: transparent;
+}
+
+#chatList::-webkit-scrollbar {
+   display:none;
+}
+
+#chatInput {
+  background-color: transparent;
+    border: none;
+}
+
+#chatInputHolder {
+  background-color: transparent;
+}
+
+#streamContainer,#PC7WaterMark2,.terms,#termsInfo {
+  display: none !important;
+}
+
+#bottomLeftClassImg, #menuMiniProfilePic, #profilePicM  {
+    content: url(https://i.pinimg.com/736x/b8/89/49/b88949b615a691f7ea1bd557cd002279.jpg)
+}
+
+#bottomLeftHealthBar {
+  bottom: 20px;
+}
+
+.nHealthBarSeg {
+    background-color: transparent;
+    width: -webkit-fill-available;
+    margin-right: -4px;
+}
+
+.nHealthBarSeg:first-child .nHpBSeg {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.nHealthBarSeg:last-child .nHpBSeg {
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.nHpBSeg {
+    width: 100%;
+    border-radius: 0px
+}
+
+#bottomLeftHealth {
+  margin-top: 14px;
+}
+
+#bottomLeftChallIcon {
+  visibility: hidden;
+}
+
+/*
+
+.weapIcon {
+    transform: scale(1)
+}
+
+.weapIcon[src*="melee"],
+.weapIcon[src*="weapons/icon_0"] {
+    margin-top: 20px;
+}
+
+.weapItem {
+    background-color: transparent
+}
+
+.weapKey {
+    display: none
+}
+
+.weapItem[style*="0.5"] {
+    display: none;
+} */
+
+.button, .button:hover {
+  border: none !important;
+}
+
+#instructions {
+    font-size: 0px;
+    animation: none
+}
+
+.instructionsTabs, .instructionsTab {
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0px 0px 4px 4px;
+  border-top: none !important;
+  color: white !important;
+  border-top: none !important;
+}
+
+#uiBase.onMenu {
+    backdrop-filter: blur(3px);
+}
+
+/* test */
+
+#killFeed {
+position: fixed;
+bottom: -250px !important;
+left:-2070px !important;
+background-color: rgba(0, 0, 0, 0);
+color:transparent !important;
+filter: none !important;
+}
+
+#centerLeaderDisplay {
+    top: 10px;
+    left:unset;
+    right: 10px;
+    transform: unset;
+    display:block !important;
+    width: 580px;
+}
+
+.centerLeaderContainer {
+    text-align: left;
+    color: #fff;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .3) !important;
+}
+
+.centerLeaderContainerInner {
+    background-color: transparent !important;
+}
+
+#newLeaderDisplay {
+    top: 50px;
+    left:unset;
+    right: 20px;
+    transform: unset;
+    display:block !important;
+}
+
+.newLeaderContainer,.newLeaderTeam {
+    background-color:transparent !important;
+}
+
+td>.newLeaderItem {
+    max-width: 300px;
+    min-width: 250px
+}
+
+#leaderContainer {
+  display: none;
+}
+
+/* ammo */
+
+#weapHolder {
+    display: block !important;
+    z-index: 10;
+    bottom: 30px
+}
+
+#ammoHolder {
+    display: block !important;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 200px;
+    border-radius: 4px;
+    transition-timing-function: linear;
+}
+
+#ammoVal {
+    font-size: 52px;
+    bottom: 5%;
+    vertical-align: text-top;
+}
+
+#ammoMax,
+#ammoIcon {
+    display: none
+}
+
+.weapSkin {
+    background-color: transparent;
+    position: fixed;
+    bottom: 25px;
+    left: unset;
+    right: 25px;
+    font-size: 12px;
+    text-shadow: 1px 1px 0px #1c1c1c, -1px 1px 0px #1c1c1c, -1px -1px 0px #1c1c1c, 1px -1px 0px #1c1c1c, 1px -1px 0px #1c1c1c;
+}
+
+.weapItem {
+    background-color: transparent
+}
+
+.weapKey {
+    display: none
+}
+
+.weapItem[style*="0.5"] {
+    display: none;
+}
+
+.weapIcon {
+    margin-right: 40px !important;
+    transform: scale(1.4)
+}
+
+.weapIcon[src*="melee"],
+.weapIcon[src*="weapons/icon_0"] {
+    margin-top: 20px;
+    margin-right: 35px !important;
+}
+
+.weapIcon[src*="melee/icon_44"],
+.weapIcon[src*="melee/icon_18"] {
+    margin-top: 0px;
+    margin-right: 35px !important;
+}
+
+.weapIcon[src*="weapons/icon_21"] {
+    margin-top: 10px !important
+}
+
+.weapIcon[src*="weapons/icon_10"] {
+    margin-bottom: 5px !important
+}
+
+.weapIcon[src*="weapons/icon_28"],
+.weapIcon[src*="weapons/icon_26"],
+.weapIcon[src*="weapons/icon_25"],
+.weapIcon[src*="weapons/icon_16"],
+.weapIcon[src*="weapons/icon_23"] {
+    margin-top: 0px !important
+}
+
+/* MENU */
+
+.menBtnIcn {
+  color: white !important;
+}
+
+#signedInHeaderBar {
+  filter: grayscale(1);
+}
+
+.topRightCounters {
+  display: none !important;
+}

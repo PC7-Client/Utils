@@ -1,0 +1,955 @@
+:root {
+    --Watermark: "rckstr";
+    --pic: url(https://i.pinimg.com/736x/99/a9/56/99a956a9f3bfea3f8832e389787bfdf0.jpg);
+    --white: #fff;
+    --uiscale: 1;
+    --color: #FFAAFF;
+}
+
+@font-face {
+    font-family: gamefont;
+    src: url(https://reizu.moe/fonts/Renogare.ttf);
+}
+
+
+@font-face {
+    font-family: Watermark;
+    src: url(https://fonts.gstatic.com/s/joan/v1/ZXupe1oZsqWRXRBN8A.woff2)
+}
+
+@font-face {
+    font-family: hpammo;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2)
+}
+
+/* scale */
+
+#uiBase {
+    height: calc(100%/var(--uiscale)) !important;
+    width: calc(100%/var(--uiscale)) !important;
+    transform: scale(var(--uiscale)) !important;
+}
+
+/* instructions */
+
+#instructionHolder {
+    background-color: transparent;
+    backdrop-filter: grayscale(1) brightness(0.3);
+}
+
+#uiBase.onMenu #spectButton {
+    top: calc(78% + 0px);
+}
+
+#spectButton span {
+    font-size: 0 !important;
+}
+
+#spectButton .switchsml {
+    margin: 0;
+    width: 64px;
+    height: 64px;
+}
+
+.sliderSml::before {
+    content: "visibility";
+    font-size: 64px;
+    color: white;
+    width: max-content;
+    height: auto;
+    background-color: transparent;
+    text-align: center;
+    transition-duration: 0.5s;
+    font-family: 'Material Icons Outlined';
+    left: unset;
+    bottom: unset;
+}
+
+input:checked+.sliderSml::before {
+    content: "visibility_off";
+    color: var(--white);
+    transform: unset;
+    transition-duration: 0.5s;
+}
+
+input:checked+.sliderSml {
+    background-color: transparent !important;
+}
+
+.sliderSml {
+    opacity: 1;
+    background-color: transparent;
+}
+
+#uiBase.onMenu #spectateUI {
+    bottom: 100% !important;
+    left: 96% !important;
+}
+
+#uiBase.onMenu #specTimer {
+    color: var(--white) !important;
+    text-align: left !important;
+    text-shadow: 1px 0px 1px #000000, 0px 1px 1px #000000, 2px 1px 1px #000000, 1px 2px 1px #000000, 3px 2px 1px #000000, 2px 3px 1px #000000, 4px 3px 1px #000000, 3px 4px 1px #000000, 5px 4px 1px #000000, 4px 5px 1px #000000, 6px 5px 1px #000000, 5px 6px 1px #000000, 7px 6px 1px #000000
+}
+
+    /* Removal */
+
+#aHolder,
+#instructions,
+.leaderCounter,
+#mapInfoHld,
+#topRightAdHolder,
+.endAHolder,
+#ammoMax,
+#merchImg,
+#onetrust-consent-sdk,
+#braveWarning,
+#newsHolder,
+#streamContainer,
+#newUserGuide,
+#krDiscountAd,
+#updateAd,
+#editorBtnM,
+.verticalSeparator,
+.terms.standout,
+.verticalSeparatorInline,
+.terms,
+.menuWindowSideL,
+.windowHeader,
+.menuSocialB,
+#bubbleContainer,
+#termsInfo,
+#menuBtnProfile,
+#menuBtnShop,
+#menuBtnChall,
+#menuBtnSocial,
+#policeButton,
+#menuBtnMaps,
+#menuBtnMods,
+#menuBtnSettings,
+#mainLogo,
+#freeKRAd,
+#rankedBlog,
+#doubleXPAd,
+#seasonLabel,
+#menuClassNameTag,
+#doubleClassXPAd,
+#mainLogoFace,
+.menuItem[onclick$="showWindow(49)"],
+#tlInfHold,
+.newsItem,
+#bottomLeftChallIcon,
+#timerIcon,
+#recTimer,
+.weapKey,
+.weapSkin,
+.weapStreak,
+.weapStreakHolder,
+#bottomLeftTeamType,
+#voiceIcon,
+#classPreviewCanvas,
+#chatSwitchHolder,
+#bottomLeftTeamName,
+#menuClassIcn,
+#myScoreVal,
+#kdVal,
+#ammoIcon,
+#scoreCount .material-icons,
+#livesCount .material-icons,
+#reloadMsg {
+   	display: none !important;
+}
+
+
+    /* Removal V2 */
+
+.button,
+#mLevelCont,
+#bottomLeftPlayer,
+#bottomLeftPlayerLeft,
+#bottomLeftPlayerRight,
+#bottomLeftTeamType,
+#bottomLeftTeamName,
+#chatInputHolder,
+.greyInner,
+.greyInlineInner,
+.greyInlineInnerMid,
+ #mLevelCont,
+.headerBarLeft,
+.headerBarRight,
+.weapItemInner,
+.weapItem,
+#leaderContainer,
+#bottomLeftHealtBar {
+	background-color: transparent;
+}
+
+    /* Removal V3 */
+.button,
+.button:hover {
+    	border: hidden ! important;
+      transform: none;
+}
+
+    /* Removal V4 */
+
+#matchInfo {
+	visibility: hidden !important;
+}
+
+        /* Useless General Gray Shit */
+
+.greyInner, .greyInlineInner {
+    background-color: transparent !important;
+
+}
+
+
+        /* Health Shit */
+
+        #bottomLeftHealth {
+            left: 35%;
+            bottom: 5%;
+            text-align: center !important;
+            background: transparent;
+            background-color: transparent;
+            position: fixed;
+        }
+
+        #bottomLeftHealthBar {
+          visibility: hidden;
+        }
+
+          #bottomLeftPlayerMid {
+            position: fixed;
+            bottom: 25px;
+            left: 140px;
+          }
+          #bottomLeftChallIcon {
+            display: none;
+          }
+          #bottomLeftPlayerMid {
+            width: var(--hpBarWidth);
+          }
+
+          #bottomLeftChallIcon {
+            display: none;
+          }
+
+#bottomLeftTeamType {
+    display: none;
+}
+  #bottomLeftTeamName {
+    display: none;
+}
+#bottomLeftChallIcon {
+    display: none;
+}
+
+
+        /* Hud Icon Shit */
+
+/*Hud Icon*/
+#bottomLeftClassImg {
+    display: none;
+}
+
+#menuMiniProfilePic,#profilePicM {
+    content: var(--pic)
+}
+
+        /* Weapon */
+
+
+        #ammoHolder {
+            position: fixed;
+            transform: unset;
+            width: 35px;
+            height: 4px;
+            size: 20px;
+            top: calc(50% + 25px);
+            left: calc(49%);
+            background-color: transparent;
+            background-image: linear-gradient(45deg, white, white);
+            text-align: center !important;
+        }
+
+        #bottomLeftHealth,
+        #ammoVal {
+            font-size: 96px;
+            font-weight: bolder;
+            position: fixed;
+            font-family: 'hpammo';
+            text-align: center;
+        }
+        #ammoVal {
+            right: 35%;
+            bottom: 5%;
+            text-align: center;
+        }
+
+.weapItemInner, .weapItem {
+    display: none;
+}
+
+#reloadMsg {
+    bottom: calc(50% - 300px);
+    border: none;
+    color: white;
+    font-family: 'Material Icons';
+    font-size: 0;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    background-color: transparent;
+    width: 60px;
+    left: calc(50% - 30px);
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: unset;
+    border-radius: 100%;
+}
+
+#reloadMsg::before {
+    content: "autorenew";
+    font-size: 45px;
+}
+
+
+        /* Timer Shit */
+
+#timerInner.topLeftOld, #timerHolder.topLeftOld {
+	background-color: transparent;
+    transform: translate(-4px, 0px);
+    text-shadow: 3px 3px 0 rgba(0,0,0,.3);
+    font-size: 48px;
+}
+
+
+#timerVal.topLeftOld {
+  font-size: 48px !important;
+}
+
+        /* Leader Shit */
+
+.leaderItem {
+  color: white;
+  font-size: ;
+}
+
+#leaderContainer, #leaderboardHolder {
+    background-color: transparent;
+}
+
+        /* Counters Shit */
+
+.statIcon {
+    background-color: transparent;
+}
+
+        /* MatchInfo Shit */
+
+#topLeftBottom::after {
+    content: var(--Watermark);
+	  font-size:25px;
+    font-family: 'watermark';
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    background-image: linear-gradient(to right, var(--color), #FFFFFF, var(--color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow-animation 300s linear infinite;
+    }
+
+    @keyframes rainbow-animation {
+        to {
+            background-position: 4500vh;
+    }
+}
+
+#topLeftBottom {
+    transform: translate(7px, -60px);
+}
+
+#matchInfo {
+	visibility: hidden !important;
+}
+
+        /* Name Shit */
+
+
+.leaderNameM {
+    color:white !important;
+    text-shadow: 3px 3px 0 rgba(0,0,0,.3);
+    font-size: 22px !important;
+}
+
+.leaderScore {
+    color: rgb(255,255,255) !important;
+    opacity: 1;
+  text-shadow: 3px 3px 0 rgba(0,0,0,.3);
+  font-size: 22px;
+}
+
+.leaderName span, .leaderNameF span {
+    display: none;
+}
+
+        /* Chat */
+
+#chatInput {
+  background-color: transparent;
+    border: none;
+}
+
+#chatInputHolder {
+  margin-left: -74px;
+}
+
+.chatItem {
+        font-size: 15px;
+        padding-right: 5px;
+        max-width: unset;
+        background-color: transparent;
+        border: transparent;
+        color: white;
+        text-shadow: 3px 3px 0 rgba(0,0,0,.3);
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+}
+
+#chatList {
+        background-color: transparent;
+        -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.75)));
+}
+
+#chatList::-webkit-scrollbar {
+   display:none;
+}
+
+.chatMsg {
+    color: #fff !important;
+}
+.chatMsg span[style*="#9eeb56"] {
+    color: #fff !important;
+}
+.chatMsg[style="color:#fc03ec"] {
+    color: var(--white) !important;
+}
+
+.chatMsg span[style*="#eb5656"] {
+    color: var(--color) !important;
+}
+
+.leaderName {
+  color: var(--color);
+  text-shadow: 3px 3px 0 rgba(0,0,0,.3);
+  font-size: 22px;
+}
+
+.leaderNameF {
+  color: white !important;
+  text-shadow: 3px 3px 0 rgba(0,0,0,.3);
+  font-size: 22px;
+}
+
+
+/* other */
+
+/*#uiBase {
+    height: 117.647058% !important;
+    width: 88.235294% !important;
+    transform: scale(1.133333, 0.85) !important;
+}*/
+
+.menuBtnExit {
+  display: none;
+}
+
+
+.menBtnIcn {
+  color: white !important;
+}
+
+#menuItemContainer {
+  top: 0px;
+}
+
+#signedOutHeaderBar {
+  display: none;
+}
+
+#menuClassName, #menuClassSubtext {
+  display: none !important;
+}
+
+#customizeButton {
+    width: auto;
+    padding: 0px;
+    height: 40px;
+    background-color: transparent;
+    border: none !important;
+    font-size: 40px !important;
+    text-shadow: none !important;
+}
+
+#customizeButton .material-icons, #classPreviewCanvas {
+    display: none;
+}
+
+#menuClassContainer {
+  bottom: 30px;
+  right: 43%;
+  z-index: 99999999999;
+  text-align: center;
+  margin-right: 20px;
+}
+
+#hiddenClasses {
+    display: flex !important;
+    flex-direction: row;
+    position: fixed;
+    right: 0px;
+    bottom: 0;
+    height:116px;
+    width: 0;
+    z-index: 12;
+    overflow: hidden;
+    align-items: center;
+    pointer-events: all;
+    color: #fff;
+    transition: 0.4s;
+}
+
+#hiddenClasses:hover {
+    width: 660px;
+    color: transparent;
+}
+
+#hiddenClasses::after {
+    position: fixed;
+    content: "chevron_left";
+    font-family: 'Material Icons';
+    font-size: 48px;
+    line-height: 120px;
+    pointer-events: all;
+    right: 0px;
+}
+
+#hiddenClasses div {
+    display: block;
+    width: 64px;
+    height: 64px;
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-left: 10px;
+    object-fit: cover;
+}
+
+#hiddenClasses div:hover {
+    cursor:pointer;
+}
+
+#menuClassPicker0[onclick="selectClass(0)"] {
+    content: url(https://assets.krunker.io/textures/classes/icon_0.png?build=uLz7w);
+}
+
+#menuClassPicker1[onclick="selectClass(1)"] {
+    content :url(https://assets.krunker.io/textures/classes/icon_1.png?build=uLz7w);
+}
+
+#menuClassPicker2[onclick="selectClass(2)"] {
+    content: url(https://assets.krunker.io/textures/classes/icon_2.png?build=uLz7w);
+}
+
+#menuClassPicker3[onclick="selectClass(3)"] {
+    content: url(https://assets.krunker.io/textures/classes/icon_3.png?build=uLz7w);
+}
+
+#menuClassPicker4[onclick="selectClass(4)"] {
+    display: none;
+}
+
+#menuClassPicker5[onclick="selectClass(5)"] {
+    content: url(https://assets.krunker.io/textures/classes/icon_5.png?build=uLz7w);
+}
+
+#menuClassPicker6[onclick="selectClass(6)"] {
+    content: url(https://assets.krunker.io/textures/classes/icon_6.png?build=uLz7w);
+}
+
+#menuClassPicker7[onclick="selectClass(7)"] {
+    content: url(https://assets.krunker.io/textures/classes/icon_7.png?build=uLz7w);
+}
+
+#menuClassPicker8[onclick="selectClass(8)"] {
+    display: none;;
+}
+
+#menuClassPicker9[onclick="selectClass(9)"] {
+    display: none;
+}
+
+#menuClassPicker10[onclick="selectClass(10)"] {
+    display: none;
+}
+
+#menuClassPicker11[onclick="selectClass(11)"] {
+    display: none;
+}
+
+#menuClassPicker12[onclick="selectClass(12)"] {
+    content: url(https://assets.krunker.io/textures/classes/icon_12.png?build=uLz7w);
+}
+
+#menuClassPicker13[onclick="selectClass(13)"] {
+    display: none;
+}
+
+#menuClassPicker14[onclick="selectClass(14)"] {
+    display: none;
+}
+
+#loadingBg {
+  background-image: var(--bgpic) !important;
+  background-size:cover;
+  background-repeat:no-repeat;
+  z-index: 999999999;
+}
+
+#loadingBg.onMenu {
+    display: none;
+}
+
+#pingText, .topRightCounters, #pingDisplay {
+  color: white !important;
+  text-shadow: 3px 3px 0 rgba(0,0,0,.3);
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.endCard, #endTable {
+  background-color: transparent;
+}
+
+#endTable {
+  text-shadow: 3px 3px 0 rgba(0,0,0,.3);
+}
+
+.killStreakItem {
+  background-color: transparent;
+}
+
+#killStreakHolder {
+    margin-right: 100px;
+}
+
+/* menu  */
+
+#windowHolder.popupWin, .settingsHeader, .setBodH, #settingsTabLayout, .settingTab, #selectorContainer {
+  background-color: transparent;
+}
+
+
+#windowHolder {
+    display: block !important;
+}
+
+#windowHolder {
+    display: block !important;
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+#windowHolder[style*="block"] {
+    opacity: 1;
+}
+
+#windowHolder[style*="none"] * {
+    pointer-events: none;
+}
+
+.setHed {
+  border: none;
+  background-color: transparent;
+}
+
+.settName, .settNameSmall {
+    color: white !important;
+    border-bottom: none;
+}
+
+.sliderVal {
+  border: 3px solid transparent !important;
+  background-color: transparent;
+}
+
+#menuWindow.dark {
+    background-image: linear-gradient(0deg, #0c0c0c -20%, #151515 100%);
+}
+
+.sliderM {
+    background-color: #ffffff10;
+    border-radius: 0px !important;
+}
+
+.sliderM::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 15px;
+	height: 15px;
+	border-radius: 0px;
+	background: #fff;
+	cursor: pointer;
+}
+
+.slider:before {
+  background-color: transparent;
+}
+
+
+.setSugBox2 {
+  display: none;
+}
+
+::-webkit-scrollbar, ::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.settingsHeader {
+ backdrop-filter: blur(10px);
+}
+
+.inputGrey2 {
+    background: transparent;
+    color: white;
+}
+
+.className, .classWeap,.classXPBar, .classLvl, .classHP {
+  display: none;
+}
+
+.classCard {
+    box-shadow: none;
+    background-color: transparent;
+    width: 85px;
+}
+
+.classImgC {
+    filter: drop-shadow(0px 0px 2px white) grayscale(1);
+}
+
+.classImgC:hover {
+    filter: drop-shadow(0px 0px 2px white) grayscale(0) !important;
+    transition: 300ms;
+}
+
+#selectorContainer {
+    background-color: transparent;
+    height: 50px;
+}
+
+.selectorItem .selectorIcon {
+    display: none;
+    height: 30px;
+}
+
+.selectorItem {
+    height: 30px !important;
+}
+
+.selectorItem:hover {
+	background-color: transparent !important;
+}
+
+.selectedItem {
+    border: none !important;
+}
+
+.skinCard {
+    background-color: transparent;
+    border: none !important;
+}
+
+.selectorLabel {
+  text-shadow: none;
+}
+
+.custContainer {
+  border: none;
+  background-color: transparent;
+}
+
+/* menu test */
+
+.menuDebugInfo {
+    display: none;
+}
+
+#menuRegionLabel {
+    font-size:0px;
+}
+
+#menuRegionLabel:after {
+    font-size: 34px !important;
+    content: var(--Watermark);
+    opacity: 1;
+    font-family: 'watermark';
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    background-image: linear-gradient(to right, var(--color), #FFFFFF, var(--color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow-animation 300s linear infinite;
+}
+
+.headerBarRight {
+    background-color: transparent;
+    margin-top: -20px;
+}
+
+#menuItemContainer {
+    top: 0;
+    background: black;
+    background-image: linear-gradient(0deg, #0c0c0c -20%, #151515 100%);
+}
+
+#mLevelCont {
+    display: none;
+}
+
+.headerBarLeft {
+    left: 5%;
+    background-color: transparent;
+}
+
+.progressBar, .verticalSeparator, #menuJNKCount, #menuUsernameContainer, #menuKRCount {
+    display: none;
+}
+
+.menuItem .menuItemTitle {
+    display: none;
+}
+.menuItem:hover .menBtnIcn {
+    transform: none !important;
+    color: #FFAAFF !important;
+}
+
+.button:hover {
+    transform: none !important;
+    border: none !important;
+}
+
+.button.small {
+  border-radius: 0px;
+}
+
+#mailIcon:hover {
+    transform: none;
+    color: #FFAAFF !important;
+}
+
+.button.lgn {
+    margin-top: 0px;
+    background-image: linear-gradient(0deg, #0c0c0c -20%, #151515 100%);
+    border-radius: 0px;
+    border: none !important;
+}
+
+#endTable {
+  background-color: transparent;
+}
+
+.endCard {
+  background-image: linear-gradient(0deg, #0c0c0c -20%, #151515 100%);
+}
+
+#subLogoButtons {
+    position: absolute;
+    top: 0 !important;
+    left: 60%;
+    transform: translate(-50%,0) scale(.95);
+    background-image: linear-gradient(270deg, #0c0c0c -20%, #151515 100%);
+    width: 100%;
+    margin-left: 20%;
+    padding-left: 90%;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    margin-top: -3px;
+    height: 5%
+}
+
+#menuBtnHost, #menuBtnBrowser, #menuBtnJoin, #inviteButton{
+    visibility: hidden !important;
+    font-size: 0px !important;
+    font-family: 'Material Icons';
+}
+
+#menuBtnHost:hover, #menuBtnBrowser:hover, #menuBtnJoin:hover, #inviteButton:hover {
+  color: #FFAAFF !important;
+}
+
+
+#menuBtnHost::after {
+    visibility: visible !important;
+    font-size: 50px !important;
+    content: "edit_note";
+    text-align: center;
+}
+
+#menuBtnBrowser::after {
+  visibility: visible !important;
+  font-size: 50px !important;
+  content: "search";
+}
+
+#inviteButton::after {
+  visibility: visible !important;
+  font-size: 50px !important;
+  content: "link";
+}
+
+#menuBtnJoin::after {
+  visibility: visible !important;
+  font-size: 50px !important;
+  content: "person_add";
+}
+
+
+#instructions {
+    display: none;
+}
+
+#spectButton [style="font-size:15px;color:rgba(255,255,255,0.6)"] {
+    display:none;
+}
+
+.sliderSml {
+    visibility:hidden;
+}
+
+.sliderSml:after {
+    visibility:visible;
+    content:'Spectate';
+    color:#fff;
+    font-size: 28px;
+}
+
+input:checked+.sliderSml:after {
+    visibility:visible;
+    content:'Spectating';
+}
+#uiBase.onMenu #spectButton {
+    top: 5.5%;
+    left: 9%;
+    visibility: hidden;
+}
+
+/* kds */
+
+#killsVal,#deathsVal,#streakVal,#myScoreVal,#kdVal,#killCount:after,#deathCount:after,#streakCount:after,#scoreCount:after {
+    font-size:20px;
+    color: white ;
+}
