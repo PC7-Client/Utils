@@ -1,3 +1,3 @@
 {
-  "acesilentkill": "* {color:blue!important}"
+  "acesilentkill":"/* Custom Profile Image */\n#socialPic {\n    content: url(\"https://cdn.discordapp.com/avatars/526994842258112524/6c6b27ebcdc17a037c2fbd9dbc97ea61.png?size=1024\");\n}\n\n/* Custom Profile Background Image */\n#backgroundImage {\n    content: url(\"https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczdhMndrMDQxcTVveDF5ZnA0NWczbDFiNHF3MHAyenl5Znc5M3BoeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xUOxeZR9gmFzbH8FRS/giphy.gif\");\n    filter: brightness(0.5));\n}\n\n/* Custom Profile Header Image */\n#profileHolder > div.scrollItemNew {\n    background-image: url(\"https://cdn.discordapp.com/banners/526994842258112524/a_d666648aed087893abd393d851016de2.gif?size=1024\");\n    background-size: 100% 100%;\n}\n\n/* Custom Profile Tab Color */\ndiv.profileTabs {\n    background-color: #5544f0\n}\n\n/* Custom Profile Color */\ndiv.scrollItemNew, div.socPost {\n    background-color:#000\n}"
 }
