@@ -53,6 +53,12 @@
   status = 200  
 
 [[redirects]]
+  from = "/profiles.json"
+  to = "profiles.json"
+  force = true
+  status = 200  
+
+[[redirects]]
   from = "/fakeNames.json"
   to = "sink.json"
   force = true
