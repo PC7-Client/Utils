@@ -1,4 +1,10 @@
 [[redirects]]
+  from = "/media/lucy.mp4"
+  to = "media/lucy.mp4"
+  force = true
+  status = 200
+  
+[[redirects]]
   from = "/badges.json"
   to = "badges.json"
   force = true
