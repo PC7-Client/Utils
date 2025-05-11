@@ -1,6 +1,4 @@
-:root {
-    --Watermark: "itserror430";
-}
+
 /* Css based off of groot css by 7soff ty man*/
 /* Removal */
 
@@ -271,6 +269,11 @@ font-size: 45px !important;
 text-shadow: -1px -1px 0 #202020,1px -1px 0 #202020,-1px 1px 0 #202020,1px 1px 0 #202020
 }
 
+
+@keyframes shine {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 300% 50%; }
+}
 
 
 
