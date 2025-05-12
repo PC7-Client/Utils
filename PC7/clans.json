@@ -5,6 +5,9 @@
    "nV": {
   "style": "background-color: #7841c4; background-clip: text; -webkit-background-clip: text; color: transparent;"
   },
+  "GLDN": { 
+  "style": "background: linear-gradient(90deg, #f8d347, #d4af37, #000000, #d4af37); background-size: 300% 100%; background-clip: text; -webkit-background-clip: text; color: transparent; animation: shine 4s linear infinite;"
+},
    "thad": {
   "style": "background-color: #ff9e5d; background-clip: text; -webkit-background-clip: text; color: transparent;"
   },
