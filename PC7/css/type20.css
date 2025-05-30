@@ -9,7 +9,7 @@
     --bgpic: url(https://cdn.discordapp.com/attachments/865988103977828412/1127335752099971092/anime-male.gif);
 }
 
-@keyframes xvashine {Add commentMore actions
+@keyframes xvashine {
   0% { background-position: 0% 50%; }
   100% { background-position: 300% 50%; }
 }
