@@ -9,7 +9,7 @@
   "style": "background: -webkit-linear-gradient(0.08turn, #ffffff, #000000); -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: shine 4s linear infinite;"
 },
   "GLDN": { 
-  "style": "background: linear-gradient(90deg, #f8d347, #ffffff, #d4af37, #ffffff); background-size: 300% 100%; background-clip: text; -webkit-background-clip: text; color: transparent; animation: shine 4s linear infinite;"
+  "style": "background: linear-gradient(90deg, #f8d347, #ffffff, #d4af37, #ffffff); background-size: 300% 100%; background-clip: text; -webkit-background-clip: text; color: transparent;"
 },
    "thad": {
   "style": "background-color: #ff9e5d; background-clip: text; -webkit-background-clip: text; color: transparent;"
