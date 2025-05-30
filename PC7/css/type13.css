@@ -270,7 +270,7 @@ text-shadow: -1px -1px 0 #202020,1px -1px 0 #202020,-1px 1px 0 #202020,1px 1px 0
 }
 
 
-@keyframes xvashine { 
+@keyframes shine { 
   0% { background-position: 0% 50%; transform: translateY(0px) translateZ(0); }
   25% { background-position: 100% 50%; transform: translateY(-1px) translateZ(0); }
   50% { background-position: 200% 50%; transform: translateY(0px) translateZ(0); }
