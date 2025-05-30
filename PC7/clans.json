@@ -6,7 +6,7 @@
   "style": "background-color: #7841c4; background-clip: text; -webkit-background-clip: text; color: transparent;"
   },
   "XVA": {
-  "style": "background: linear-gradient(90deg, #000000, #ffffff, #333333, #ffffff); background-size: 300% 100%; background-clip: text; -webkit-background-clip: text; color: transparent; animation: shine 4s linear infinite;"
+  "style": "background: linear-gradient(90deg, #000000, #ffffff, #333333, #ffffff); background-size: 300% 100%; background-clip: text; -webkit-background-clip: text; color: transparent; animation: shine 3s infinite ease-in-out"
 },
   "GLDN": { 
   "style": "background: linear-gradient(90deg, #f8d347, #ffffff, #d4af37, #ffffff); background-size: 300% 100%; background-clip: text; -webkit-background-clip: text; color: transparent;"
