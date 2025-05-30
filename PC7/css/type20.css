@@ -8,3 +8,8 @@
     --pic: url(https://cdn.discordapp.com/attachments/865988103977828412/1122834732795838556/5477eac537ae12a07db1ebb4ce76d5a7.jpg);
     --bgpic: url(https://cdn.discordapp.com/attachments/865988103977828412/1127335752099971092/anime-male.gif);
 }
+
+@keyframes xvashine {Add commentMore actions
+  0% { background-position: 0% 50%; }
+  100% { background-position: 300% 50%; }
+}
