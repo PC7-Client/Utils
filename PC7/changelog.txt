@@ -13,6 +13,51 @@
  - Here is some info on how to enable WebGL https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
  - If you have connection issues at school or work, Try using browserfps.com
 
+ == UPDATE V9.6.2 ==
+ - TC Code Logic update
+ - Fix Death Animation lag
+ - Option to hide bunnies
+ - Few more performance updates
+
+ == UPDATE V9.6.1 ==
+ - Hopefully final fix
+
+ == UPDATE V9.6.0 ==
+ - Hopefully finally fixed everything
+
+ == UPDATE V9.5.9 ==
+ - Updated all twitch linking code, should work now.
+ - Updated client settings
+ - Bug fixes
+
+ == UPDATE V9.5.8 ==
+ - TC Code (Won't affect you if you aren't a beta tester)
+
+ == UPDATE V9.5.7 ==
+ - Fixed Alt Manager
+ - Custom Fog
+ - Profile CSS's
+
+ == UPDATE V9.5.6 ==
+ - 3 New CSS's [Default Edit], [KPD Public], [Rckstr]
+
+ == UPDATE V9.5.5 ==
+ - Small windows changes
+
+ == UPDATE V9.5.4 ==
+ - Testing new features
+
+ == UPDATE V9.5.3 ==
+ - Fixed auto-updater (Faster speeds) - THIS WILL TAKE EFFECT FROM THE NEXT UPDATE due to you need to update for the auto-updater fix to take effect
+ - Discontinued Linux, sorry arch fans :(
+
+ == UPDATE V9.5.1 ==
+ - Small bugfixes with sky color feature
+
+ == UPDATE V9.5.0 ==
+ - Added Sky Color, Sky Image, Sky Video
+ - Removed Vulcan Renderer
+
  == UPDATE V8.5.0 ==
  - Disabled two broken CSS options
  - Fixed some bugs
